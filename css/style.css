@@ -1,8 +1,6 @@
 .clearBoth { clear: both; }
 
 
-
-
 .mainDiv { margin: 0 auto; width: 1270px; } 
 
 /*********** HEADER ***************/
@@ -24,6 +22,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
+    background-color: blueviolet;
  }
 
  .headerIconList { margin: 0; float: left; width: 100px; }
