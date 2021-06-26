@@ -1,35 +1,140 @@
-.clearBoth { clear: both; }
 
+.clearBoth {
+    clear: both;
+}
 
-
-
-.mainDiv { margin: 0 auto; width: 1270px; } 
+.mainDiv {
+    margin: 0 auto;
+    width: 1270px;
+}
 
 /*********** HEADER ***************/
-.mainDiv .header { margin: 0; height: 120px; width: 100%; } 
-.mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
+.mainDiv .header {
+    margin: 0;
+    height: 120px;
+    width: 100%;
+}
 
-.secLogo { 
-    background: url('../images/secLogo.png') no-repeat; 
-    padding-left: 58px; padding-top: 12px; height: 46px; 
-    font-family: 'Quicksand', sans-serif; color: #1D24AA;
+.mainDiv .header .headerTop {
+    margin: 0;
+    height: 64px;
+    width: 100%;
+}
+
+.mainDiv .header .headerTop .headerTopLeft {
+    margin: 0;
+    width: 200px;
+    float: left;
+}
+
+.mainDiv .header .headerTop .headerTopCenter {
+    margin: 0;
+    width: 150px;
+    float: left;
+}
+
+.mainDiv .header .headerTop .headerTopRight {
+    margin: 20px 0 0 0;
+    width: 150px;
+    float: right;
+}
+
+.mainDiv .header .headerBottom {
+    margin: 0;
+    height: 56px;
+    background: #1D24AA;
+    width: 100%;
+}
+
+.secLogo {
+    background: url('../images/secLogo.png') no-repeat;
+    padding-left: 58px;
+    padding-top: 12px;
+    height: 46px;
+    font-family: 'Quicksand', sans-serif;
+    color: #1D24AA;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
- }
+}
 
- .headerIconList { margin: 0; float: left; width: 100px; }
- .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
- 
+.headerIconList {
+    margin: 0;
+    float: left;
+    width: 100px;
+}
+
+.headerIconList .likeIcon a {
+    float: left;
+    background: url("../images/likeIcon.png");
+    width: 24px;
+    height: 22px;
+    text-indent: -9999px;
+}
+
+.headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover {
+    opacity: 0.5;
+}
+
+.headerIconList .notificationIcon a {
+    float: left;
+    background: url("../images/NotificationIcon.png");
+    width: 21px;
+    height: 24px;
+    text-indent: -9999px;
+    margin: 0 0 0 15px;
+}
+
+.headerIconList .basketIcon a {
+    float: left;
+    background: url("../images/BasketIcon.png");
+    width: 20px;
+    height: 22px;
+    text-indent: -9999px;
+    margin: 0 0 0 15px;
+}
+
+.headerManagement {
+    margin: 0;
+    float: right;
+}
 
 
-.mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
-.mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
+.mainDiv .content {
+    margin: 0;
+    min-height: 600px;
+    width: 100%;
+}
+
+.mainDiv .footer {
+    margin: 0;
+    height: 600px;
+    width: 100%;
+}
+
+
+.mainDiv .header .headerTop .headerTopCenter {
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 40%;
+    height: 40px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+}
+
+.search {
+    float: right;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 2px 54px 2px 5px;
+    width: 70%;
+    border: 0;
+}
+
+.search:hover {
+
+}
+
+.mainDiv.header.headerTop.headerTopCenter img {
+
+}
