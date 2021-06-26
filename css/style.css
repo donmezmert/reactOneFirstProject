@@ -4,10 +4,13 @@
 }
 
 .mainDiv {
-    margin: 0 auto;
+    margin: 0;
     width: 1270px;
-}
 
+}
+body{
+    margin: 0;
+}
 /*********** HEADER ***************/
 .mainDiv .header {
     margin: 0;
@@ -16,7 +19,8 @@
 }
 
 .mainDiv .header .headerTop {
-    margin: 0;
+    margin-top: 20px;
+    margin-left:20px;
     height: 64px;
     width: 100%;
 }
@@ -44,6 +48,7 @@
     height: 56px;
     background: #1D24AA;
     width: 100%;
+
 }
 
 .secLogo {
@@ -122,19 +127,66 @@
     border-radius: 5px;
 }
 
+
 .search {
     float: right;
     box-sizing: border-box;
     padding: 10px;
     margin: 2px 54px 2px 5px;
     width: 70%;
-    border: 0;
-}
-
-.search:hover {
+    border: none;
+outline: none;
 
 }
 
-.mainDiv.header.headerTop.headerTopCenter img {
 
+.headerTopCenter img {
+    opacity: 0.5 !important;
+    margin: 5px 15px;
+
+}
+
+/* Site Navigation */
+.site-nav {
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 80%;
+    text-align: center;
+}
+
+.site-nav ul {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.site-nav li {
+    width: 12.0%;
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    margin-top: 7px;
+
+}
+
+.site-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+
+}
+
+.site-nav a:hover {
+    border-radius: 5px;
+    background-color: #2E36DC;;
+}
+
+.site-nav li:nth-child(8){
+width: 10%;
+}
+
+ .site-nav li:nth-child(7){
+   width: 13%;
 }
