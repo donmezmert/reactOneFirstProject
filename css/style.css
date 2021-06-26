@@ -6,7 +6,11 @@
 .mainDiv { margin: 0 auto; width: 1270px; } 
 
 /*********** HEADER ***************/
-.mainDiv .header { margin: 0; height: 120px; width: 100%; } 
+.mainDiv .header { 
+    margin: 0; 
+    height: 120px; 
+    width: 100%;
+} 
 .mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
 .mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
 .mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
