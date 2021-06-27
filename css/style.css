@@ -9,11 +9,21 @@
     height: 120px; 
     width: 100%;
 } 
-.mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
+
+.mainDiv .header .headerTop { 
+    margin: 0; 
+    height: 64px; 
+    width: 100%;
+}
+
+/***Top Left****/
+.mainDiv .header .headerTop .headerTopLeft { 
+    margin: 0; 
+    width: 200px; 
+    float: left; 
+    height: 40px;
+    margin-left: 76px;
+}
 
 .secLogo { 
     background: url('../images/secLogo.png') no-repeat; 
@@ -24,14 +34,162 @@
     line-height: 18px;
  }
 
- .headerIconList { margin: 0; float: left; width: 100px; }
- .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
+ /***Top Center****/
+.mainDiv .header .headerTop .headerTopCenter { 
+    margin: 0; 
+    width: 150px; 
+    float: left; 
+}
+
+
+.search{
+    width: 440px;
+    height: 40px;
+    top: 12px;
+    align-items: center;
+    border: 1px solid #ededed;
+    left: 390px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left: 200px;
+   position:absolute;
+   display: flex;
+   
+}
+
+.search .searchIcon{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    background: url('../images/searchIcon.png');
+}
+
+.searchTxt{
+   float: right;
+    height: 21px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+/*****Top Right****/
+.mainDiv .header .headerTop .headerTopRight { 
+    margin: 20px 0 0 0; 
+    width: 300px; 
+    float: right; 
+    height: 20px;
+}
+
+.headerTop .headerManagement{
+    margin: 0 20px 0 -35px ;
+    float: left;
+}
+
+.userIcon{
+    margin-left: 80px;
+    margin-top: -33px;
+    border-radius: 20px;
+    color:#000;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    background-color: #F1F0F5;
+    text-align: center;
+    line-height: 33px;
+    height: 38px;
+    width: 40px;
+
+}
+
+.headerManagement .store{
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.headerManagement .userName{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+ .headerIconList { 
+     margin: 0 0 20px 0; 
+     float: left; 
+     width: 150px; 
+    }
+
+ .headerIconList .likeIcon a { 
+     float: left; 
+     background: url("../images/likeIcon.png"); 
+     width: 24px; 
+     height: 22px; 
+     text-indent: -9999px; 
+    }
+
+ .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { 
+     opacity: 0.5; }
+
+ .headerIconList .notificationIcon a { 
+     float: left; 
+     background: url("../images/NotificationIcon.png"); 
+     width: 21px; 
+     height: 24px; 
+     text-indent: -9999px; 
+     margin:0 0 0 15px; 
+    }
+
+ .headerIconList .basketIcon a {  
+     float: left; background: url("../images/BasketIcon.png"); 
+     width: 20px; 
+     height: 22px; 
+     text-indent: -9999px; 
+     margin:0 0 0 15px; 
+    }
+
+/***Nav bar****/
+ .mainDiv .header .headerBottom {
+    margin: 0; 
+    height: 56px; 
+    background: #1D24AA; 
+    width: 100%;
+}
+
+.headerBottom  ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    margin: 0 auto;
+    margin-right: 35px;
+}
+
+   
+.headerBottom ul li a{
+       color: #f5f5f5;
+       text-decoration: none;
+       font-family: 'Quicksand', sans-serif;
+       line-height: 21px;
+       align-items: center;
+       font-size: 16px;
+       margin-top: 7px;
+      display: flex;
+}
+
+ .headerBottom ul li a:hover{
+     background-color: #2E36DC;
+     border-radius: 5px;
+ }
  
+ /**Content**/
+.mainDiv .content { 
+    margin: 0; 
+    min-height: 600px; 
+    width: 100%;  
+} 
 
-
-.mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
-.mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
+.mainDiv .footer { 
+    margin: 0; 
+    height: 600px; 
+    width: 100%; 
+} 
