@@ -16,7 +16,7 @@
     box-sizing: border-box;
     padding: 0; }
 .mainDiv .header .headerTop .headerTopRight { margin: 0 0 0 50px; width: 430px; height: 50px; float: left;}
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
+.mainDiv .header .headerBottom { margin-right: auto; margin-left: auto; height: 56px; background: #1D24AA; width: 100%; }
 
 .secLogo { 
     background: url('../images/secLogo.png') no-repeat; 
@@ -90,6 +90,62 @@
     top: 0;
     right: 0;
 }
+
+.headerBottom ul{
+    list-style:none;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.headerBottom li{
+    float: left;
+    height: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-right: 35px;
+}
+
+.headerBottom li:hover{
+    opacity: 0.5;
+}
+
+.headerBottom li:nth-child(1){
+    margin-left: -10px;
+    background:url("../images/IslemlerIcon.png") no-repeat left;
+}
+
+.headerBottom li:nth-child(2){
+    background:url("../images/UrunFiyat.png")  no-repeat left;
+}
+.headerBottom li:nth-child(3){
+    background: url("../images/StokSayim.png") no-repeat left;
+}
+.headerBottom li:nth-child(4){
+    background: url("../images/Iadeler.png") no-repeat left;
+}
+.headerBottom li:nth-child(5){
+    background: url("../images/Duyurular.png") no-repeat left;
+}
+.headerBottom li:nth-child(6){
+    background: url("../images/Aktiviteler.png") no-repeat left;
+}
+.headerBottom li:nth-child(7){
+    background: url("../images/DestekAnket.png") no-repeat left;
+}
+.headerBottom li:nth-child(8){
+    background: url("../images/Raporlar.png") no-repeat left;
+    margin: 0;
+}
+.headerBottom li a{
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif; color: #F5F5F5;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 
