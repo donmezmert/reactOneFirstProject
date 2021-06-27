@@ -3,32 +3,55 @@
 
 
 
-.mainDiv { margin: 0 auto; width: 1270px; } 
+.mainDiv { margin: 0 auto; width: 1440px; } 
 
 /*********** HEADER ***************/
 .mainDiv .header { margin: 0; height: 120px; width: 100%; } 
 .mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
 .mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
+.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 440px; float: left; }
+.mainDiv .header .headerTop .headerTopRight { margin: 14px 0 0 0; width: 258px; float: right; }
 .mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
 
 .secLogo { 
-    background: url('../images/secLogo.png') no-repeat; 
-    padding-left: 58px; padding-top: 12px; height: 46px; 
+    background: url('../images/secLogo.png') no-repeat;
+    margin-top: 9px; 
+    padding-left: 58px; padding-top: 13px; height: 46px; 
     font-family: 'Quicksand', sans-serif; color: #1D24AA;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
  }
+ .headerSearch { margin: 12px 500px 12px 145px; width: 440px; }
+ .searchIcon a { margin: 12px 0 12px 12px; float: left; background: url("../images/searchIcon1.png"); width: 16px; height: 16px; text-indent: -9999px; }
+ .headerSearchBar { 
+    margin: 9.5px 0 9.5px 22px; 
+    float: right;
+    font-family: 'Quicksand', sans-serif; color: #2A2A2A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+ }
 
- .headerIconList { margin: 0; float: left; width: 100px; }
+ .headerIconList { margin-top: 8px; float: left; width: 150px; }
  .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
+ .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover, .searchIcon a: hover; { opacity: 0.5; }
+ .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 36px; }
+ .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 38px; }
  
+ .headerManagement { margin: 0; float: right; display: flex; flex: 1; flex-direction: column; }
+ .headerManagement .headerName {
+    font-family: 'Quicksand', sans-serif; color: #2A2A2A;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px; 
+ }
+  .headerManagement .headerBranch { 
+    font-family: 'Quicksand', sans-serif; color: #666666;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px; 
+ }
 
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
