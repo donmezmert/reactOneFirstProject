@@ -1,35 +1,282 @@
-.clearBoth { clear: both; }
+.clearBoth {
+    clear: both;
+}
 
-
-
-
-.mainDiv { margin: 0 auto; width: 1270px; } 
+.mainDiv {
+    margin: 0;
+}
 
 /*********** HEADER ***************/
-.mainDiv .header { margin: 0; height: 120px; width: 100%; } 
-.mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
 
-.secLogo { 
-    background: url('../images/secLogo.png') no-repeat; 
-    padding-left: 58px; padding-top: 12px; height: 46px; 
-    font-family: 'Quicksand', sans-serif; color: #1D24AA;
+.mainDiv .header {
+    margin: 0;
+    height: 120px;
+    width: 100%;
+}
+
+.mainDiv .header .headerTop {
+    margin: 0;
+    height: 64px;
+    width: 100%;
+}
+
+.mainDiv .header .headerTop .headerTopLeft {
+    margin-left: 150px;
+    width: 180px;
+    float: left;
+}
+
+.mainDiv .header .headerTop .headerTopCenter {
+    margin: auto;
+    padding: 0 150px;
+    padding-left: 130px;
+    margin-top: 12px;
+    width: 400px;
+    height: 100%;
+    float: left;
+}
+
+input[type="search"]{
+    width: 100%;
+    border: 1px solid lightgray;
+    height: 40px;
+    text-align: left;
+    padding-left: 10%;
+    font-family: 'Quicksand', sans-serif;
+    background: url("../images/SearchIcon.png") no-repeat;
+    background-position: 5px;
+}
+
+.mainDiv .header .headerTop .headerTopRight {
+    margin: 20px 0 0 0;
+    margin-right: 80px;
+    width: 400px;
+    float: right;
+}
+
+.mainDiv .header .headerBottom {
+    margin: 0;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    background: #1D24AA;
+    width: 100%;
+}
+
+.mainDiv .header .headerBottom a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 94%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.headerProducts{
+    margin-left: 50px;
+}
+.secLogo {
+    background: url('../images/secLogo.png') no-repeat;
+    padding-left: 58px;
+    margin-top: 5px;
+    padding-top: 15px;
+    height: 46px;
+    font-family: 'Quicksand', sans-serif;
+    color: #1D24AA;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
- }
+}
 
- .headerIconList { margin: 0; float: left; width: 100px; }
- .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
- 
+.headerIconList {
+    margin: 0;
+    float: left;
+    width: 150px;
+}
+
+.headerIconList .likeIcon a {
+    float: left;
+    background: url("../images/likeIcon.png");
+    width: 24px;
+    height: 22px;
+    text-indent: -9999px;
+}
+
+.headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon .searchBar a:hover {
+    opacity: 0.5;
+}
+
+.headerIconList .notificationIcon a {
+    float: left;
+    background: url("../images/NotificationIcon.png");
+    width: 21px;
+    height: 24px;
+    text-indent: -9999px;
+    margin: 0 0 0 20px;
+}
+
+.headerIconList .basketIcon a {
+    float: left;
+    background: url("../images/BasketIcon.png");
+    width: 20px;
+    height: 22px;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    margin: 0 0 0 20px;
+}
 
 
-.mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
-.mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
+.headerManagement {
+    margin-top: -10px;
+    margin-left: 40px;
+    float: left;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    line-height: 0.4;
+}
+
+.headerManagement .infoTexts{
+    float: left;
+}
+
+.headerManagement .infoTexts .personName{
+    font-weight: bold;
+}
+
+.headerPersonIcon{
+    text-indent: -9999px;
+    margin-top: -8px;
+    margin-right: -10px;
+    float: left;
+    background: url(../images/PersonIcon.png) no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+/* Header Bottom Actions*/
+
+.headerBottomContainer{
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headerOperations{
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    text-align: right;
+    background: url(../images/headerBottomImages/headerOperations.png) no-repeat;
+    background-position: center left 10px;
+    width: 8%;
+    height: 40px;
+}
+
+.headerProducts{
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    margin-left: -1%;
+    justify-content: flex-end;
+    padding-right: 10px;
+    text-align: right;
+    background: url(../images/headerBottomImages/headerProducts.png) no-repeat;
+    background-position: center left 10px;
+    width: 10%;
+    height: 40px;
+}
+
+.headerStocks{
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    text-align: right;
+    background: url(../images/headerBottomImages/headerStock.png) no-repeat;
+    background-position: center left 10px;
+    width: 11%;
+    height: 40px;
+}
+
+.headerRefunds{
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    text-align: right;
+    background: url(../images/headerBottomImages/headerRefund.png) no-repeat;
+    background-position: center left 10px;
+    width: 7%;
+    height: 40px;
+}
+
+.headerAnnouncements{
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    text-align: right;
+    background: url(../images/headerBottomImages/headerAnnouncements.png) no-repeat;
+    background-position: center left 10px;
+    width: 9%;
+    height: 40px;
+}
+
+.headerActivities{
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    text-align: right;
+    background: url(../images/headerBottomImages/headerActivities.png) no-repeat;
+    background-position: center left 10px;
+    width: 9%;
+    height: 40px;
+}
+
+.headerSupport, .headerReports{
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    text-align: right;
+    background: url(../images/headerBottomImages/headerSupportAndReports.png) no-repeat;
+    background-position: center left 10px;
+    width: 12%;
+    height: 40px;
+}
+
+.headerReports{
+    width: 8%;
+}
+
+.headerOperations:hover, .headerProducts:hover, .headerStocks:hover, 
+.headerRefunds:hover, .headerAnnouncements:hover, .headerActivities:hover,
+.headerSupport:hover, .headerReports:hover {
+    background-color:#2E36DC;
+    border-radius: 6px;
+}
+
+.mainDiv .content {
+    margin: 0;
+    min-height: 600px;
+    width: 100%;
+}
+
+.mainDiv .footer {
+    margin: 0;
+    height: 600px;
+    width: 100%;
+}
