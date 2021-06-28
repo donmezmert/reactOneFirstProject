@@ -173,7 +173,8 @@
        align-items: center;
        font-size: 16px;
        margin-top: 7px;
-      display: flex;
+       display: flex;
+       padding-right: 6px !important;
 }
 
  .headerBottom ul li a:hover{
@@ -187,6 +188,155 @@
     min-height: 600px; 
     width: 100%;  
 } 
+
+.leftSide{
+    float: left;
+    width: 720px;
+    height: 400px;
+    background-color: #EFFBFA;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 75px;
+    position: absolute;
+}
+
+.leftSide .ulkerIcon{
+    width: 49.39px;
+    height: 16px;
+    background: url("../images/image\ 24.png");
+    margin-left:33px;
+    margin-top: 65px;
+    mix-blend-mode: darken;
+    position: relative;
+}
+
+.leftSide .text .ulker{
+    float: left;
+}
+
+.leftSide .text .ulker h2{
+    float: left;
+    width: 396px;
+    height: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    color: #202020;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.leftSide .ulker p{
+   float: left;
+   width: 326px;
+   height: 46px;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 18px;
+   line-height: 22px;
+   color: #666666;
+   margin-left: 30px;
+   margin-top: 45px;
+   font-weight: lighter;
+}
+
+.leftSide p span{
+    font-weight: 500;
+}
+
+.leftSide h2 span{
+    font-weight: bold;
+}
+
+.discover{
+    width: 200px;
+    height: 48px;
+}
+
+.leftSide .discoverTxt{
+   /* border-radius: 5px 0 0 5px;
+    border-right: none;
+    margin-top: 15px;
+    margin-left: 60px;
+    padding: 15px;
+    padding-right: 5px;
+   /* padding-right: 40px;*/
+    float: left;
+    border: 1px solid #1D24AA;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 10px;
+    width: 99px;
+    height: 15px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.1px;
+    color: #1D24AA;
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.discoverTxt img{
+    margin-left: 110px;
+    margin-bottom: 60px;
+}
+
+  /*.leftSide .discover .arrow{
+      float: right;
+      width: 20px;
+      height: 15px;
+      background: url("../images/Group.png") no-repeat;
+      border: 1px solid #1D24AA;
+      border-radius:0 5px 5px 0;
+      border-left: none;
+      padding-top: 5px;
+      margin-right: 530px;
+      margin-top: 5px;
+  }
+  */
+
+.campaign{ 
+    width: 280px;
+    height: 10px;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    line-height: 15px;
+    color: #858585;
+    margin-left: 33px;
+    margin-top: 270px;
+    position: absolute;
+}
+
+.bigCircle{
+    width: 309px;
+    height: 309px;
+    background: url("../images/Frame\ 54.png");
+    margin-left: 394px;
+   /* margin-top: 0px;*/
+    position:absolute;
+}
+
+.bigCircle .ulkerPackageImg{
+    width: 129px;
+    height: 200px;
+    background: url("../images/ulkerPaket.png");
+    margin-left: 93px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.topContent .rightSide{
+    float: right;
+    width: 350px;
+    height: 400px;
+    background-color: #EFFBFA;
+    border-radius: 5px;
+    margin-right: 75px;
+    margin-top: 20px;
+}
 
 .mainDiv .footer { 
     margin: 0; 
