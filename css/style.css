@@ -9,9 +9,9 @@
 .mainDiv .header { margin: 0; height: 120px; width: 100%; } 
 .mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
 .mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
+.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 620px; float: left;}
 .mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
+.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; justify-content: center; align-items: center;}
 
 .secLogo { 
     background: url('../images/secLogo.png') no-repeat; 
@@ -22,6 +22,38 @@
     line-height: 18px;
  }
 
+.search-bar {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 50px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+}
+
+.mainDiv .header .headerTop .headerTopCenter .magnifier-icon {
+    position: absolute;
+    background: url("../images/magnifierIcon.png");
+    margin-left: 100px;
+    margin-top: 16px;
+    width: 18px;
+    height: 18px;
+    float: left;
+    text-indent: -9999px;
+}
+
  .headerIconList { margin: 0; float: left; width: 100px; }
  .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
  .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
@@ -29,7 +61,76 @@
  .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
  .headerManagement { margin: 0; float: right; }
  
+.bottomIconList {
+    margin: 0;
+    width: 100%;
+    float: left;
+    height: 21px;
+    text-align: justify;
+}
 
+.bottomIconList .processIcon,
+.bottomIconList .productIcon,
+.bottomIconList .stockIcon,
+.bottomIconList .returnIcon,
+.bottomIconList .announcementIcon,
+.bottomIconList .activityIcon,
+.bottomIconList .supportIcon,
+.bottomIconList .reportsIcon {
+    float: left;
+    margin-right: 25px;
+    margin-left: 8px;
+    padding-top: 12px;
+    padding-left: 14px;
+    padding-right: 10px;
+    width: auto;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 8px;
+    box-sizing: border-box;
+}
+
+.bottomIconList .reportsIcon {margin-right: -20px;}
+
+.bottomIconList .processIcon a,
+.bottomIconList .productIcon a,
+.bottomIconList .stockIcon a,
+.bottomIconList .returnIcon a,
+.bottomIconList .announcementIcon a,
+.bottomIconList .activityIcon a,
+.bottomIconList .supportIcon a,
+.bottomIconList .reportsIcon a {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #EEEFFC;
+} 
+
+.bottomIconList .processIcon:hover,
+.bottomIconList .productIcon:hover,
+.bottomIconList .stockIcon:hover,
+.bottomIconList .returnIcon:hover,
+.bottomIconList .announcementIcon:hover,
+.bottomIconList .activityIcon:hover,
+.bottomIconList .supportIcon:hover,
+.bottomIconList .reportsIcon:hover {
+    background-color: #2E36DC;
+    
+} 
+
+.bottomIconList .processIcon img,
+.bottomIconList .productIcon img,
+.bottomIconList .stockIcon img,
+.bottomIconList .returnIcon img,
+.bottomIconList .announcementIcon img,
+.bottomIconList .activityIcon img,
+.bottomIconList .supportIcon img,
+.bottomIconList .reportsIcon img {
+    margin-right: 5px;
+} 
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
 .mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
