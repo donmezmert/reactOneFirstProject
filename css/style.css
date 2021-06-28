@@ -254,13 +254,6 @@
 }
 
 .leftSide .discoverTxt{
-   /* border-radius: 5px 0 0 5px;
-    border-right: none;
-    margin-top: 15px;
-    margin-left: 60px;
-    padding: 15px;
-    padding-right: 5px;
-   /* padding-right: 40px;*/
     float: left;
     border: 1px solid #1D24AA;
     border-radius: 5px;
@@ -283,20 +276,6 @@
     margin-left: 110px;
     margin-bottom: 60px;
 }
-
-  /*.leftSide .discover .arrow{
-      float: right;
-      width: 20px;
-      height: 15px;
-      background: url("../images/Group.png") no-repeat;
-      border: 1px solid #1D24AA;
-      border-radius:0 5px 5px 0;
-      border-left: none;
-      padding-top: 5px;
-      margin-right: 530px;
-      margin-top: 5px;
-  }
-  */
 
 .campaign{ 
     width: 280px;
