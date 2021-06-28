@@ -1,57 +1,88 @@
 .clearBoth { clear: both; }
 
+html {
+   scroll-behavior: smooth;
+}
 
-
-
-.mainDiv { margin: 0 auto; width: 1440px; } 
+.mainDiv { margin: 0 auto; width: 1270px; } 
 
 /*********** HEADER ***************/
 .mainDiv .header { margin: 0; height: 120px; width: 100%; } 
 .mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
+.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; padding-left: 130px;}
 .mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 440px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 14px 0 0 0; width: 258px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
+.mainDiv .header .headerTop .headerTopRight { margin: 14px 0 0 0; width: 500px; float: right; }
+.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; 
+                              display: flex; flex: 1; flex-direction: row; justify-content: center; align-items: center;}
 
 .secLogo { 
     background: url('../images/secLogo.png') no-repeat;
-    margin-top: 9px; 
+    margin-top: 9px;
     padding-left: 58px; padding-top: 13px; height: 46px; 
     font-family: 'Quicksand', sans-serif; color: #1D24AA;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
  }
- .headerSearch { margin: 12px 500px 12px 145px; width: 440px; }
- .searchIcon a { margin: 12px 0 12px 12px; float: left; background: url("../images/searchIcon1.png"); width: 16px; height: 16px; text-indent: -9999px; }
+ .headerSearch { margin-top: 12px; width: 100%; }
+ .searchIcon a { margin: 11px 10px 11px 100px; float: left; background: url("../images/searchIcon1.png"); width: 18px; height: 18px; text-indent: -9999px; }
+ .searchIcon a:hover { opacity: 0.5; }
  .headerSearchBar { 
-    margin: 9.5px 0 9.5px 22px; 
+    margin: 9.5px 0 9.5px 0; 
     float: right;
     font-family: 'Quicksand', sans-serif; color: #2A2A2A;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
+    text-align: left;
  }
 
- .headerIconList { margin-top: 8px; float: left; width: 150px; }
+ .headerIconList { margin-top: 8px; float: left; width: 150px; padding-left: 100px;}
  .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover, .searchIcon a: hover; { opacity: 0.5; }
+ .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
  .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 36px; }
  .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 38px; }
  
- .headerManagement { margin: 0; float: right; display: flex; flex: 1; flex-direction: column; }
+ .headerManagement { margin: 0; float: left; display: flex; flex: 1; flex-direction: column; margin-left: 27px; }
  .headerManagement .headerName {
-    font-family: 'Quicksand', sans-serif; color: #2A2A2A;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px; 
+   font-family: 'Quicksand', sans-serif; color: #2A2A2A;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 18px; 
  }
   .headerManagement .headerBranch { 
-    font-family: 'Quicksand', sans-serif; color: #666666;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 18px; 
+   font-family: 'Quicksand', sans-serif; color: #666666;
+   font-weight: 400;
+   font-size: 11px;
+   line-height: 18px; 
  }
+  .headerNameShort {
+   margin: 9px 120px 23px 20px;
+   float: right;
+   font-family: 'Quicksand', sans-serif; color: #141414;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px; 
+}
+.headerBottom .headerButton a {
+   font-family: 'Quicksand', sans-serif; color: #F5F5F5;
+   text-align: center;
+   font-weight: 200;
+   font-size: 16px;
+   line-height: 21px;
+   margin: 9.5px 0 9.5px 0;
+   padding: 4px 28px 4px 28px;
+   text-decoration: none;
+   transition: all 0.2s ease;
+}
+.headerBottom .headerButton a:hover {
+   display: block;
+   background-color: #2E36DC;
+   border-radius: 5px;
+   width: auto;
+   padding-top: 9.5px;
+   padding-bottom: 9.5px;
+}
 
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
