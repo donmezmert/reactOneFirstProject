@@ -1,17 +1,14 @@
 .clearBoth { clear: both; }
 
-
-
-
 .mainDiv { margin: 0 auto; width: 1270px; } 
 
 /*********** HEADER ***************/
 .mainDiv .header { margin: 0; height: 120px; width: 100%; } 
 .mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
+.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 150px; float: left; }
+.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 200px; float: left; }
+.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 280px; float: right; }
+.mainDiv .header .headerBottom { margin-top: 0; height: 56px; background: #1D24AA; width: 100%; }
 
 .secLogo { 
     background: url('../images/secLogo.png') no-repeat; 
@@ -22,14 +19,135 @@
     line-height: 18px;
  }
 
- .headerIconList { margin: 0; float: left; width: 100px; }
+/* Header top center -- Search area */
+/*
+.searchArea {
+    position: relative;
+    width: 440px;
+    height: 40px;
+    left: 100%;
+    top: 12px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+*/
+
+.searchBar {
+    position: relative;
+    width: 440px;
+    height: 40px;
+    left: 250px;
+    top: 12px;
+
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    background-color: white;
+    background-image: url('../images/hTopSearch.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* Header top right icons*/
+ .headerIconList { margin: 0 0 0 -10px; float: left; width: 100px; }
  .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
  .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
  .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
  .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
  .headerManagement { margin: 0; float: right; }
  
+/* Header top right user area */
+.userInformationPanel{
+    position: relative;
+    float: left;
+    margin: -29px 0 0 110px;
+    width: 145px;
+}
 
+.userName{
+    font-family: 'Quicksand', sans-serif;
+    color: #2A2A2A;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.storeName{
+    color: #666666;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+}
+
+.userAvatar{
+    position: absolute;
+    top: -7px;
+    right: -15px;
+    float: right;
+    color:#2A2A2A;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    background-color: #F1F0F5;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 24px;
+    line-height: 45px;
+}
+
+/* Header bottom */
+.headerBottomList {
+    margin-left: -50px;
+    text-indent: -9999px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.bottomHeaderImg {
+    text-indent: -9999px;
+    float: left;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.headerBottomItem {
+    margin-bottom: 10px;
+    text-indent: -9999px;
+    float: left;
+}
+
+.headerBottomItem a{
+    text-indent: -9999px;
+    color: #f5f5f5;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 21px;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 10px;
+    display: flex;
+    padding: 6px;
+}
+
+.headerBottomItem:hover{
+    background-color: #2E36DC;
+    border-radius: 5px;
+}
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
-.mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
+.mainDiv .footer { margin: 0; height: 600px; width: 100%; }
