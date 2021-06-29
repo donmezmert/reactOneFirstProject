@@ -8,14 +8,14 @@
 /*********** HEADER ***************/
 .mainDiv .header { margin: 0; height: 120px; width: 100%; } 
 .mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 620px; float: left;}
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
+.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 300px; float: left; }
+.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 650px; float: left;}
+.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 320px; float: right; }
 .mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; justify-content: center; align-items: center;}
 
 .secLogo { 
     background: url('../images/secLogo.png') no-repeat; 
-    padding-left: 58px; padding-top: 12px; height: 46px; 
+    padding-left: 58px; padding-top: 15px; height: 46px; 
     font-family: 'Quicksand', sans-serif; color: #1D24AA;
     font-weight: 600;
     font-size: 18px;
@@ -23,14 +23,11 @@
  }
 
 .search-bar {
-    width: 100%;
+    width: 80%;
     background: #FFFFFF;
     border: 1px solid #EDEDED;
     border-radius: 5px;
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin: 6px 90px;
     height: 40px;
     box-sizing: border-box;
     padding-left: 50px;
@@ -54,12 +51,18 @@
     text-indent: -9999px;
 }
 
- .headerIconList { margin: 0; float: left; width: 100px; }
+ .headerIconList { margin: 0; float: left; width: 50%; }
  .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
  .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
  .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
  .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
+ .headerManagement { margin-top: -10px; float: right; width: 50%; }
+
+ .headerIconList .likeIcon a, 
+ .headerIconList .notificationIcon a, 
+ .headerIconList .basketIcon a {
+    margin-right: 17px;
+ }
  
 .bottomIconList {
     margin: 0;
@@ -67,6 +70,45 @@
     float: left;
     height: 21px;
     text-align: justify;
+}
+
+.mainDiv .header .headerTop .headerTopRight .headerManagement .leftComponent {
+    float: left;
+    width: 48%;
+    height: 36px;
+}
+
+.mainDiv .header .headerTop .headerTopRight .headerManagement .leftComponent .username {
+    float: left;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;  
+}
+
+.mainDiv .header .headerTop .headerTopRight .headerManagement .leftComponent .location {
+    float: left;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px; 
+}
+
+.mainDiv .header .headerTop .headerTopRight .headerManagement .abbreviation {
+    float: left;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+
+    background: #F1F0F5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
 }
 
 .bottomIconList .processIcon,
@@ -78,7 +120,7 @@
 .bottomIconList .supportIcon,
 .bottomIconList .reportsIcon {
     float: left;
-    margin-right: 25px;
+    margin-right: 23px;
     margin-left: 8px;
     padding-top: 12px;
     padding-left: 14px;
@@ -107,6 +149,7 @@
     font-size: 16px;
     line-height: 21px;
     color: #EEEFFC;
+    vertical-align: top;
 } 
 
 .bottomIconList .processIcon:hover,
@@ -118,7 +161,6 @@
 .bottomIconList .supportIcon:hover,
 .bottomIconList .reportsIcon:hover {
     background-color: #2E36DC;
-    
 } 
 
 .bottomIconList .processIcon img,
