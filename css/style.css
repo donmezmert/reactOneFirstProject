@@ -25,7 +25,7 @@ html {
     line-height: 18px;
  }
  .headerSearch { margin-top: 12px; width: 100%; }
- .searchIcon a { margin: 11px 10px 11px 100px; float: left; background: url("../images/searchIcon1.png"); width: 18px; height: 18px; text-indent: -9999px; }
+ .searchIcon a { margin: 11px 10px 11px 100px; float: left; background: url("../images/searchIcon.png"); width: 18px; height: 18px; text-indent: -9999px; }
  .searchIcon a:hover { opacity: 0.5; }
  .headerSearchBar { 
     margin: 9.5px 0 9.5px 0; 
