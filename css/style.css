@@ -75,7 +75,8 @@
 .mainDiv .header .headerTop .headerTopRight .headerManagement .leftComponent {
     float: left;
     width: 48%;
-    height: 36px;
+    height: 40px;
+    padding-top: 4px;
 }
 
 .mainDiv .header .headerTop .headerTopRight .headerManagement .leftComponent .username {
@@ -85,6 +86,7 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 18px;  
+    
 }
 
 .mainDiv .header .headerTop .headerTopRight .headerManagement .leftComponent .location {
@@ -94,6 +96,7 @@
     font-weight: normal;
     font-size: 11px;
     line-height: 18px; 
+    color: #666666;
 }
 
 .mainDiv .header .headerTop .headerTopRight .headerManagement .abbreviation {
@@ -172,7 +175,9 @@
 .bottomIconList .supportIcon img,
 .bottomIconList .reportsIcon img {
     margin-right: 5px;
-} 
+    width: 18px;
+    height: auto;
+}
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
 .mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
