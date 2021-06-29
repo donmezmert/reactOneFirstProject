@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
     <link href="css/style.css" type="text/css"  rel="stylesheet"/>
+    <link href="css/reset.css" type="text/css"  rel="stylesheet"/>>
 
   </head>  
 	<body>
@@ -20,9 +21,12 @@
             <div class="header">
                 <div class="headerTop">
                    <div class="headerTopLeft">
-                       <div class="secLogo">Sec Market</div>
+                       <div class="secLogo">Seç Market</div>
                    </div>
-                   <div class="headerTopCenter">center</div>
+                   <div class="headerTopCenter">
+                       <img id="magnifierIcon" src="images/magnifierIcon.png">
+                       <input type="text" id="searchArea" placeholder="Ürün Adı, Barkod veya Kategori Arayabilirsiniz...">
+                   </div>
                    <div class="headerTopRight">
                        <div class="headerIconList">
                            <div class="likeIcon"><a href="#">Like Icon</a></div>
@@ -30,12 +34,71 @@
                            <div class="basketIcon"><a href="#">Basket Icon</a></div>
                            <div class="clearBoth"></div>
                        </div>
-                       <div class="headerManagement"></div>
+                       <div class="headerManagement">
+                        <div id="userLogo"><span id="userShort">YE</span></div>
+                           <div id="userName">
+                            <div id="name">Yiğit Ekin</div>
+                            <div id="location">Seç Ataşehir</div>
+                           </div>
+                       </div>
                        <div class="clearBoth"></div>
                    </div>
                    <div class="clearBoth"></div>
                 </div>
-                <div class="headerBottom">Header Bottom</div>
+                <div class="headerBottom">
+                    <nav>
+                        <ul>
+                            <li>
+                            <div class="navButton">
+                                <img class="navImg"src="images/islemlerIcon.png" id="islemlerImg"> 
+                                <a class="navText">İşlemler</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="navButton">
+                                <img class="navImg" src="images/analyticsIcon.png" id="urunFiyatImg"> 
+                                <a class="navText">Ürün & Fiyat</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="navButton">
+                                <img class="navImg" class="longTextImage" src="images/stocks.png" id="stokSayımImg"> 
+                                <a class="navText">Stok & Sayım</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="navButton">
+                                <img class="navImg" src="images/islemlerIcon.png" id="IadeImg"> 
+                                <a class="navText">İadeler</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="navButton">
+                                <img class="navImg"src="images/duyurular.png" id="duyurularImg"> 
+                                <a class="navText">Duyurular</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="navButton">
+                                <img class="navImg" src="images/activityIcon.png" id="aktivitelerImg"> 
+                                <a class="navText">Aktiviteler</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="navButton">
+                                <img class="navImg" class="longTextImage" src="images/analyticsIcon.png" id="destekAnketImg"> 
+                                <a class="navText">Destek & Anket</a>
+                            </div>
+                        </li>
+
+                            <div class="navButton">
+                                <img class="navImg" src="images/analyticsIcon.png" id="raporlarImg"> 
+                                <a class="navText">Raporlar</a>
+                            </div>
+                        </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
             <div class="content">
                 Content

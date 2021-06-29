@@ -5,12 +5,12 @@
 
 .mainDiv { margin: 0 auto; width: 1270px; } 
 
-/*********** HEADER ***************/
-.mainDiv .header { margin: 0; height: 120px; width: 100%; } 
+/**** HEADER ******/
+.mainDiv .header { margin: 0; height: 120px; width: 100%; margin-top: 20px;} 
 .mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
+.mainDiv .header .headerTop .headerTopLeft { padding: 6px 0 0px 0; margin: 0; width:350px; float: left; }
+.mainDiv .header .headerTop .headerTopCenter { margin: 10px 40px;; width: 500px; float: left;}
+.mainDiv .header .headerTop .headerTopRight { margin: 15px 0 0 0; width: 295px; float: right;  height: 40px;}
 .mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
 
 .secLogo { 
@@ -22,14 +22,210 @@
     line-height: 18px;
  }
 
- .headerIconList { margin: 0; float: left; width: 100px; }
+ .headerIconList { margin: 0; float: left; width: 300px; }
  .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
  .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
+ .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin: 0 15px; }
+ .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin: 0 15px; }
  .headerManagement { margin: 0; float: right; }
  
 
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
-.mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
+.mainDiv .footer { margin: 0; height: 600px; width: 100%; }
+.headerTopCenter {
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#magnifierIcon{
+    height: 16px;
+    width: auto;
+    margin-left: 5px;
+}
+
+#searchArea{
+    padding: 5px;
+    width: 90%;
+    height: auto;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+
+.headerTopCenter:hover {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .6); 
+}
+
+.headerIconList {
+    width: 135px;
+}
+.headerIconList .likeIcon a {
+    margin-right: 20px;
+}
+
+.headerIconList .basketIcon a {
+    margin-right: 5px;
+}
+
+.notificationIcon {
+    margin-right: 20px;
+}
+.headerIconList{
+    float: left;
+}
+
+.navText {
+    position: absolute;
+    left: 20%;
+    color: white;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    float: right;
+    width: 90%;
+    padding-top: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    margin-left: 0;
+    padding-right: 15px;
+}
+
+.navButton {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    width: 12.5%;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    height: 55px;
+}
+
+.navImg {
+    width: 35px;
+    height: 35px;
+    float: left;
+    left: 10%;
+    position: absolute;
+    margin: 0;
+    bottom: 20%;
+}
+
+.navButton:hover {
+    background: #2E36DC;
+}
+
+.headerManagement {
+    float: right;
+    margin-left: 20px;
+    box-sizing: border-box;
+    width: 140px;
+}
+
+#userName {
+    float: right;
+}
+#userName #name {
+    color: #2A2A2A;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+ }
+
+ #userName #location {
+    font-family: Quicksand;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #666666;
+ }
+
+ #userLogo {
+    background-color: #F1F0F5;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: right;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 10px;
+ }
+
+ #islemlerImg{
+     position: absolute;
+left: 18%;
+ }
+
+ #urunFiyatImg{
+     width: 25px;
+     height: 25px;
+     bottom: 33%;
+    position: absolute;
+left: 9%;
+ }
+
+ #stokSayımImg{
+    position: absolute;
+left: 5%;
+ }
+
+ #IadeImg{
+    position: absolute;
+left: 20%;
+ }
+
+ #duyurularImg{
+    width: 25px;
+    height: 25px;
+    bottom: 33%;
+    position: absolute;
+left: 18%;
+ }
+
+ #aktivitelerImg{
+    width: 25px;
+    height: 25px;
+    bottom: 33%;
+    position: absolute;
+left: 18%;
+ }
+
+ #destekAnketImg{
+    width: 25px;
+    height: 25px;
+    bottom: 33%;
+    position: absolute;
+left: 5%;
+ }
+
+ #raporlarImg{
+    width: 25px;
+    height: 25px;
+    bottom: 33%;
+    position: absolute;
+left: 18%;
+ }
+
