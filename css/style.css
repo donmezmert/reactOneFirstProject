@@ -25,17 +25,26 @@ html {
     line-height: 18px;
  }
  .headerSearch { margin-top: 12px; width: 100%; }
- .searchIcon a { margin: 11px 10px 11px 100px; float: left; background: url("../images/searchIcon.png"); width: 18px; height: 18px; text-indent: -9999px; }
+ .searchIcon a { margin: 11px 10px 11px 80px; float: left; background: url("../images/searchIcon.png"); width: 18px; height: 18px; text-indent: -9999px; }
  .searchIcon a:hover { opacity: 0.5; }
  .headerSearchBar { 
     margin: 9.5px 0 9.5px 0; 
     float: right;
-    font-family: 'Quicksand', sans-serif; color: #2A2A2A;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    text-align: left;
  }
+ .headerSearchBar textarea {
+   display: block;
+   font-family: 'Quicksand', sans-serif; color: #2A2A2A;
+   width: 320px;
+   height: 21px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   background-color: #FFFFFF;
+   padding: 0 0 0 10px;
+   outline: none;
+   border: none;
+   resize: none;
+}
 
  .headerIconList { margin-top: 8px; float: left; width: 150px; padding-left: 100px;}
  .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
