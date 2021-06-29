@@ -2,16 +2,79 @@
 
 
 
-
 .mainDiv { margin: 0 auto; width: 1270px; } 
 
 /*********** HEADER ***************/
 .mainDiv .header { margin: 0; height: 120px; width: 100%; } 
 .mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
 .mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
+.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 440px; margin-left: 200px; float:left; }
+.mainDiv .header .headerTop .headerTopRight { margin: 9.5px 0 0 0; width: 350px; float: right; }
+.mainDiv .header .headerBottom { margin-left:-320px; height: 56px; background: #1D24AA; width: 1906px;}
+
+
+/**********HEADER CENTER (SEARCH BAR) *********/
+.mainDiv .header .headerTop .headerTopCenter form input {
+    margin: 12px 0 0 0; height: 40px; width: 440px; background: #793737; border: 1px solid #EDEDED; box-sizing: border-box; 
+    border-radius: 5px; background: url(../images/searchIcon.png) left center no-repeat; background-size: 30px 30px; padding-left:50px;
+}
+
+/*********HEADER NAV MENU***********/
+
+.headerBottom .processesLink { padding-top: 9.5px; padding-bottom: 9.5px; width: 58px; height: 21px; float:left; margin-left: -25px;}
+.processesIcon { width:19px; float:left; padding-top:9.5px; margin-left: 9.5px; }
+.headerBottom .processes {
+    width: 109px;
+    height: 40px;
+    background-color:#2E36DC;
+    float:left;
+    list-style: none;
+    text-align:center;
+    margin-top: 8px;
+    display: block;
+    margin-right: 38px;
+    margin-left: 335px;
+}
+
+.headerBottom .header-nav { padding-top: 4px; }
+.headerBottom .header-nav li { padding-right: 38px; float:left; list-style: none; display:block; }
+.headerBottom .header-nav .productPrice { background: url(../images/productPriceIcon.png) left center no-repeat; background-size: 15.34px 15.35px; }
+.headerBottom .header-nav .stockCount { background: url(../images/stockCountIcon.png) left center no-repeat; background-size: 15.34px 15.35px; }
+.headerBottom .header-nav .returns { background: url(../images/shoppingBasketIcon.png) left center no-repeat; background-size: 15.34px 15.35px; }
+.headerBottom .header-nav .announces {background: url(../images/announcesIcon.png) left center no-repeat; background-size: 25px 25px;}
+.headerBottom .header-nav .activities { background: url(../images/settingsSliderIcon.png) left center no-repeat; background-size: 15.34px 15.35px; }
+.headerBottom .header-nav .support { background: url(../images/chartIcon.png) left center no-repeat; background-size: 15.34px 15.35px; }
+.headerBottom .header-nav .reports { background: url(../images/chartIcon.png) left center no-repeat; background-size: 15.34px 15.35px; }
+
+.headerBottom .header-nav li a, .processes a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding-left: 38px;
+}
+
+/*********HEADER TOP RIGHT***********/
+
+.header .headerTop .headerTopRight .userName { color: #2A2A2A; width: 65px; height: 18px; font-family: Quicksand; font-style: normal; font-weight: bold; font-size: 14px; line-height: 18px; float: left; margin: 6px 0 0 0;}
+.header .headerTop .headerTopRight .place { font-family: Quicksand; font-style: normal; font-weight: normal; font-size: 11px; line-height: 18px; }
+.header .headerTop .headerTopRight .namePlace { width: 65px; height: 40px; float: left; }
+.header .headerTop .headerTopRight .profile { width:40px; height: 40px; float:left; margin: 5px 0 0 20px; position:relative; }
+.header .headerTop .headerTopRight .profile img { display:block; }
+.header .headerTop .headerTopRight .profile .userNameShort { position:absolute; font-family: Quicksand; font-style: normal; font-weight: 500; font-size: 14px; line-height: 18px; bottom: -2px; left:11px;}
+
+.headerIconList { margin: 11px 0 0 45px; float: left; width: 150px; }
+.headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
+.headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
+.headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 30px; }
+.headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 40px; height: 40px; text-indent: -9999px; margin:-8px 0 0 19px; }
+.headerManagement { margin: 0; float: right; }
+ 
 
 .secLogo { 
     background: url('../images/secLogo.png') no-repeat; 
@@ -21,15 +84,6 @@
     font-size: 18px;
     line-height: 18px;
  }
-
- .headerIconList { margin: 0; float: left; width: 100px; }
- .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
- 
-
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
 .mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
