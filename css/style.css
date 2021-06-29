@@ -1,8 +1,5 @@
 .clearBoth { clear: both; }
 
-
-
-
 .mainDiv { margin: 0 auto; width: 1270px; } 
 
 /**** HEADER ******/
@@ -29,8 +26,6 @@
  .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin: 0 15px; }
  .headerManagement { margin: 0; float: right; }
  
-
-
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
 .mainDiv .footer { margin: 0; height: 600px; width: 100%; }
 .headerTopCenter {
@@ -65,7 +60,7 @@
 .headerIconList {
     width: 135px;
 }
-.headerIconList .likeIcon a {
+.headerIconList .likeIcon a, .notificationIcon {
     margin-right: 20px;
 }
 
@@ -73,9 +68,6 @@
     margin-right: 5px;
 }
 
-.notificationIcon {
-    margin-right: 20px;
-}
 .headerIconList{
     float: left;
 }
@@ -102,9 +94,7 @@
 .navButton {
     position: relative;
     float: left;
-    box-sizing: border-box;
     width: 12.5%;
-    background-color: rgba(0, 0, 0, 0);
     text-align: center;
     height: 55px;
 }
@@ -126,7 +116,6 @@
 .headerManagement {
     float: right;
     margin-left: 20px;
-    box-sizing: border-box;
     width: 140px;
 }
 
@@ -197,15 +186,7 @@ left: 5%;
 left: 20%;
  }
 
- #duyurularImg{
-    width: 25px;
-    height: 25px;
-    bottom: 33%;
-    position: absolute;
-left: 18%;
- }
-
- #aktivitelerImg{
+ #aktivitelerImg, #raporlarImg,  #duyurularImg{
     width: 25px;
     height: 25px;
     bottom: 33%;
@@ -218,14 +199,5 @@ left: 18%;
     height: 25px;
     bottom: 33%;
     position: absolute;
-left: 5%;
+    left: 5%;
  }
-
- #raporlarImg{
-    width: 25px;
-    height: 25px;
-    bottom: 33%;
-    position: absolute;
-left: 18%;
- }
-
