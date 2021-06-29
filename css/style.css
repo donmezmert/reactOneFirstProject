@@ -41,10 +41,9 @@
 }
 
 #searchArea{
-    padding: 5px;
+    padding: 7px 3px;
     width: 90%;
-    height: auto;
-    margin-top: 5px;
+    margin-top: 3px;
     box-sizing: border-box;
     font-family: Quicksand;
     font-size: 14px;
