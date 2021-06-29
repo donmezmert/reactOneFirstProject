@@ -52,7 +52,7 @@ html {
  .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 36px; }
  .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 38px; }
  
- .headerManagement { margin: 0; float: left; display: flex; flex: 1; flex-direction: column; margin-left: 27px; }
+ .headerManagement { margin: 0; float: left; margin-left: 27px; }
  .headerManagement .headerName {
    font-family: 'Quicksand', sans-serif; color: #2A2A2A;
    font-weight: 700;
@@ -73,14 +73,16 @@ html {
    font-size: 14px;
    line-height: 18px; 
 }
+
 .headerBottom .headerButton a {
+   float: right;
    font-family: 'Quicksand', sans-serif; color: #F5F5F5;
    text-align: center;
    font-weight: 200;
    font-size: 16px;
    line-height: 21px;
-   margin: 9.5px 0 9.5px 0;
-   padding: 4px 28px 4px 28px;
+   margin: 9.5px 5px 9.5px 5px;
+   padding: 4px 11.5px 4px 3.5px;
    text-decoration: none;
    transition: all 0.2s ease;
 }
@@ -89,10 +91,20 @@ html {
    background-color: #2E36DC;
    border-radius: 5px;
    width: auto;
-   padding-top: 9.5px;
-   padding-bottom: 9.5px;
+}
+.headerBottom .buttonText {
+   float: right;
+   padding-top: 5px;
+   padding-left: 4px;
 }
 
+.headerButton .dashboardIcon { float: left; background: url("../images/dashboardIcon.png"); width: 32px; height: 32px; text-indent: -9999px; }
+.headerButton .productIcon { float: left; background: url("../images/productIcon.png"); width: 32px; height: 32px; text-indent: -9999px; }
+.headerButton .shopIcon { float: left; background: url("../images/shopIcon.png"); width: 32px; height: 32px; text-indent: -9999px; }
+.headerButton .shoppingBasketIcon { float: left; background: url("../images/shoppingBasket.png"); width: 32px; height: 32px; text-indent: -9999px; }
+.headerButton .autoShoppingIcon { float: left; background: url("../images/autoShoppingIcon.png"); width: 32px; height: 32px; text-indent: -9999px; }
+.headerButton .sliderIcon { float: left; background: url("../images/sliderIcon.png"); width: 32px; height: 32px; text-indent: -9999px; }
+.headerButton .chartsIcon { float: left; background: url("../images/chartsIcon.png"); width: 32px; height: 32px; text-indent: -9999px; }
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
 .mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
