@@ -6,12 +6,49 @@
 .mainDiv { margin: 0 auto; width: 1270px; } 
 
 /*********** HEADER ***************/
-.mainDiv .header { margin: 0; height: 120px; width: 100%; } 
-.mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
+.mainDiv .header { 
+    margin: 0; 
+    height: 120px; 
+    width: 100%; 
+} 
+
+.mainDiv .header .headerTop { 
+    margin: 0; 
+    height: 64px; 
+    width: 100%;
+}
+
+.mainDiv .header .headerTop .headerTopLeft { 
+    margin-left: 150px; 
+    width: 180px; 
+    float: left; 
+}
+
+.mainDiv .header .headerTop .headerTopCenter { 
+    margin: auto; 
+    width: 400px;
+    height: 100%; 
+    float: left;
+    padding: 0 150px;
+    padding-left: 130px;
+    margin-top: 12px;
+
+}
+
+.mainDiv .header .headerTop .headerTopRight { 
+    margin: 20px 0 0 0;
+    margin-right: 80px; 
+    width: 400px; 
+    float: right; 
+}
+
+.mainDiv .header .headerBottom { 
+    margin: 0; 
+    height: 56px;
+    float: left; 
+    background: #1D24AA; 
+    width: 100%; 
+}
 
 .secLogo { 
     background: url('../images/secLogo.png') no-repeat; 
@@ -20,14 +57,64 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
- }
+}
 
- .headerIconList { margin: 0; float: left; width: 100px; }
- .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
+ .headerIconList { 
+     margin: 0; 
+     float: left; 
+     width: 100px; 
+}
+
+ .headerIconList .likeIcon a { 
+     float: left; 
+     background: url("../images/likeIcon.png"); 
+     width: 24px; 
+     height: 22px; 
+     text-indent: -9999px; 
+}
+
+ .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { 
+     opacity: 0.5; 
+}
  .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
  .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
  .headerManagement { margin: 0; float: right; }
+ 
+ .personIcon {
+     margin-top: -8px;
+     margin-right: -10px;
+     float: left;
+     background: url("../images/PersonIcon.png") no-repeat;
+     text-indent: -9999px;
+     width: 40px;
+     height: 40px;
+ }
+
+ input [type = "search"] {
+    width: 100%;
+    background: url("../images/SearchIcon.png") no-repeat;
+    border: 1px solid lightgray;
+    height: 40px;
+    text-align: left;
+    padding-left: 10%;
+    font-family: 'Quicksand', sans-serif;
+    background-position: 5px; 
+}
+
+ .personname {
+     font-weight: bold;
+}
+
+ .headerBottom .navigationMenu ul {
+    list-style: none;
+    float: left;
+}
+
+
+ .headerBottom ul a {
+     text-decoration: none;
+     
+ }
  
 
 
