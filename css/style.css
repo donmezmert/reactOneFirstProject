@@ -7,28 +7,101 @@
 
 /*********** HEADER ***************/
 .mainDiv .header { margin: 0; height: 120px; width: 100%; } 
-.mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
+.mainDiv .header .headerTop {height: 64px; width: 90%; align-self: center; }
+.mainDiv .header .headerTop .headerTopLeft { margin: 12px 0 0 5%; width: 17%; float: left; }
+.mainDiv .header .headerTop .headerTopCenter { margin: 5px 0px 0 0; width: 460px; float: left; }
+.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 280px; float: right; }
 .mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
 
+
 .secLogo { 
-    background: url('../images/secLogo.png') no-repeat; 
+    background: url('../images/headerTop/secLogo.png') no-repeat; 
     padding-left: 58px; padding-top: 12px; height: 46px; 
     font-family: 'Quicksand', sans-serif; color: #1D24AA;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
- }
+}
 
- .headerIconList { margin: 0; float: left; width: 100px; }
- .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
- 
+.headerTopCenter input[name=searchButton] {
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+.headerTopCenter input[name=searchBar] {
+    text-indent: 40px;
+    width: 400px;
+    height: 40px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif; color: #000;
+    font-size: 14px;
+    /*background-image: url(../images/headerTop/searchIcon.png);
+    background-repeat: no-repeat;
+    */
+}
+
+.headerTopCenter input[name=userIcon]{
+    background-color: #F1F0F5;
+    border-radius: 20%;
+}
+
+.headerIconList { margin: 0; float: left; width: 120px; }
+.headerIconList .likeIcon a { float: left; background: url("../images/headerTop/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
+.headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
+.headerIconList .notificationIcon a { float: left; background: url("../images/headerTop/notificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
+.headerIconList .basketIcon a { float: left; background: url("../images/headerTop/basketIcon.png"); width: 40px; height: 40px; text-indent: -9999px; margin:-9px 0 0 11px; display: inline-block;  } /* issue: changing the margin is a solution only when we don't change the background img. If the background changes the margin must change as well. */
+.headerManagement { 
+    float: right; 
+    font-family: 'Quicksand', sans-serif; color: #000;
+}
+
+.headerManagement .col-left {
+    float: left;
+    padding-right: 20px;
+}
+
+.headerManagement .col-right {
+    float: right;
+    position: relative;
+    margin-top: -5px;
+    padding: 10px;
+    background-color: #F1F0F5;
+    border-radius: 100%;
+    color: #141414;
+    
+}
+
+.headerManagement .userName {
+    font-weight: bold;
+    font-size: 17px;
+    color: #666666;
+}
+
+.headerManagement .branchName {
+    font-size: 12px;
+    color: #2A2A2A;
+}
+
+
+.headerBottom ul li {
+    float: left;
+    width: 11%;
+    list-style: none;
+    height: 56px;
+    padding: 0;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+.headerBottom ul li a {
+    
+    font-family: 'Quicksand', sans-serif;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
 
 
 .mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
