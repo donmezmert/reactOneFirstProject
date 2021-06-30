@@ -1,35 +1,238 @@
-.clearBoth { clear: both; }
+.clearBoth {
+    clear: both;
+}
 
+.mainDiv {
+    margin: 0 auto;
+    width: 1270px;
+}
 
-
-
-.mainDiv { margin: 0 auto; width: 1270px; } 
 
 /*********** HEADER ***************/
-.mainDiv .header { margin: 0; height: 120px; width: 100%; } 
-.mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
 
-.secLogo { 
-    background: url('../images/secLogo.png') no-repeat; 
-    padding-left: 58px; padding-top: 12px; height: 46px; 
-    font-family: 'Quicksand', sans-serif; color: #1D24AA;
+.mainDiv .header {
+    margin: 0;
+    height: 120px;
+    width: 100%;
+}
+
+.mainDiv .header .headerTop {
+    margin: 0;
+    height: 64px;
+    width: 100%;
+}
+
+.mainDiv .header .headerTop .headerTopLeft {
+    margin: 0;
+    width: 200px;
+    float: left;
+}
+
+.mainDiv .header .headerTop .headerTopCenter {
+    margin: 0;
+    width: 440px;
+    margin-left: 200px;
+    float: left;
+}
+
+.mainDiv .header .headerTop .headerTopRight {
+    margin: 9.5px 0 0 0;
+    width: 350px;
+    float: right;
+}
+
+.photoplace {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    background-color: #F1F0F5;
+    position: absolute;
+    top: 10px;
+    right: 3px;
+    float: right;
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 24px;
+    line-height: 45px;
+    color: #2A2A2A;
+    font-weight: 700;
+}
+
+.header .headerTop .headerTopRight .name {
+    font-family: 'Quicksand', sans-serif;
+    color: #2A2A2A;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.header .headerTop .headerTopRight .where {
+    color: #666666;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+}
+
+.header .headerTop .headerTopRight .namearea {
+    width: 100px;
+    height: 30px;
+    float: left;
+}
+
+.mainDiv .header .headerBottom {
+    margin-left: -320px;
+    height: 56px;
+    background: #1D24AA;
+    width: 1906px;
+}
+
+.headerBottom .navstart {
+    background-color: #1D24AA;
+    float: left;
+    list-style: none;
+    text-align: center;
+    display: block;
+    margin-right: 38px;
+    margin-left: 280px;
+    width: 10px;
+    height: 40px;
+}
+
+.headerBottom .navigationbar {
+    padding-top: 4px;
+    left: 3px;
+}
+
+.headerBottom .navigationbar li {
+    padding-right: 38px;
+    float: left;
+    list-style: none;
+    display: block;
+}
+
+.headerBottom .navigationbar .proces {
+    background: url(../images/processesIcon.png) left center no-repeat;
+    background-size: 15px 15px;
+}
+
+.headerBottom .navigationbar .product {
+    background: url(../images/productPriceIcon.png) left center no-repeat;
+    background-size: 15px 15px;
+}
+
+.headerBottom .navigationbar .stocks {
+    background: url(../images/stockCountIcon.png) left center no-repeat;
+    background-size: 15px 15px;
+}
+
+.headerBottom .navigationbar .giveback {
+    background: url(../images/shoppingBasketIcon.png) left center no-repeat;
+    background-size: 15px 15px;
+}
+
+.headerBottom .navigationbar .anno {
+    background: url(../images/announcesIcon.png) left center no-repeat;
+    background-size: 25px 25px;
+}
+
+.headerBottom .navigationbar .acti {
+    background: url(../images/settingsSliderIcon.png) left center no-repeat;
+    background-size: 15px 15px;
+}
+
+.headerBottom .navigationbar .survey {
+    background: url(../images/chartIcon.png) left center no-repeat;
+    background-size: 15px 15px;
+}
+
+.headerBottom .navigationbar li a,
+.processes a {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 38px;
+    position: relative;
+}
+
+.headerIconList {
+    margin: 11px 0 0 45px;
+    float: left;
+    width: 150px;
+}
+
+.headerIconList .likeIcon a {
+    float: left;
+    background: url("../images/likeIcon.png");
+    width: 24px;
+    height: 22px;
+    text-indent: -9999px;
+}
+
+.headerIconList .likeIcon a:hover,
+.headerIconList .notificationIcon a:hover,
+.headerIconList .basketIcon a:hover,
+.headerIconList .notificationIcon a {
+    float: left;
+    background: url("../images/NotificationIcon.png");
+    width: 21px;
+    height: 24px;
+    text-indent: -9999px;
+    margin: 0 0 0 30px;
+}
+
+.headerIconList .basketIcon a {
+    float: left;
+    background: url("../images/Basket.png");
+    width: 20px;
+    height: 22px;
+    text-indent: -9999px;
+    margin: 0px 0 4px 20px;
+}
+
+.headerManagement {
+    margin: 0;
+    float: right;
+}
+
+.secLogo {
+    background: url('../images/secLogo.png') no-repeat;
+    padding-left: 58px;
+    padding-top: 12px;
+    height: 46px;
+    font-family: 'Quicksand', sans-serif;
+    color: #1D24AA;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
- }
+}
 
- .headerIconList { margin: 0; float: left; width: 100px; }
- .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
- 
+.mainDiv .content {
+    margin: 0;
+    min-height: 600px;
+    width: 100%;
+}
 
+.mainDiv .footer {
+    margin: 0;
+    height: 600px;
+    width: 100%;
+}
 
-.mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
-.mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
+.search {
+    margin: 12px 0 0 0;
+    height: 40px;
+    width: 440px;
+    background: #793737;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: url(../images/searchIcon.png) left center no-repeat;
+    background-size: 30px 30px;
+    padding-left: 50px;
+}
