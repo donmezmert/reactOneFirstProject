@@ -212,3 +212,78 @@ header .navbar-nav {
     border-radius: 5px;
     color: #F5F5F5;
 }
+
+
+/*********** END HEADER ***************/
+
+.content { margin:0; min-height: 500px; }
+
+/*********** FOOTER ***************/
+
+footer { 
+    margin: 0;  
+    background: url("../images/footerBg.png") repeat-x;
+    width: 100%;
+    height: 608px; 
+}
+
+footer .container { width: 1096px; }
+footer .footerTop { width: 100%; height: 75px; }
+footer .footerTop .footerNotification { 
+    background: url("../images/icon/hands.png") no-repeat;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px; 
+    padding-left: 60px;
+    color: #fff;
+    height: 45px;
+    padding-top: 5px;
+    margin-top: 12px;
+}
+
+footer .footerTop .footerButtonMain { 
+    width: 189px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 13px;
+    padding: 12px 25px;
+}
+
+footer .footerTop .footerButtonMain .footerButton {
+    font-size: 14px;
+    color: #1D24AA;
+    background: url("../images/icon/bi_arrow-right.png") no-repeat right;
+    margin: 0;
+}
+
+span.bold { font-weight: bold; }
+.displayFlex { display: flex; }
+
+footer .footerContent { margin: 0; height: 477px; padding-top: 50px; }
+footer .footerContent .fCategory { margin: 0; font-family: 'Quicksand', sans-serif; font-size: 14px; }
+footer .footerContent .fCategory .fCatTitle { 
+    margin: 0;    
+    text-transform: uppercase;
+    color: #1D24AA; 
+}
+
+footer .footerContent .fCategory .fCatList { margin: 10px 0 0 0; }
+footer .footerContent .fCategory .fCatList ul { list-style: none; display: block; padding-left:0px; }
+footer .footerContent .fCategory .fCatList ul li a { color: #454545; padding-bottom: 7px; display: block; }
+footer .footerContent .fCategory .fCatList ul li a:hover { color: #1D24AA; text-decoration: underline;}
+
+footer .footerBottom { width: 100%; height: 60px; }
+footer .footerBottom .footerLogo { background: url("../images/secLogoFooter.png") no-repeat; width: 34px; height: 34px; text-indent: -9999px; display: block; margin-top: 7px; }
+footer .footerBottom .footerCopyright { 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #000000; 
+    margin-top: 14px;
+    text-align: right;
+}
+
+span.blue { color: #1D24AA; }
+
+/*********** END FOOTER ***************/
