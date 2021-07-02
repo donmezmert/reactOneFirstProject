@@ -250,6 +250,9 @@ footer .footerTop .footerButtonMain {
     margin-top: 13px;
     padding: 12px 25px;
 }
+footer .footerTop .footerButtonMain:hover { 
+    opacity: 0.9;
+}
 
 footer .footerTop .footerButtonMain .footerButton {
     font-size: 14px;
