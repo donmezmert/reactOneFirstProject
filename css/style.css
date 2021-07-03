@@ -210,9 +210,108 @@ header .navbar-nav {
 /*********** END HEADER ***************/
 
 .content {
-    margin: 0;
+    margin: 0 auto;
     min-height: 500px;
+    width: 100%;
 }
+
+.content .container {
+    width: 1096px;
+}
+
+/********BTSM Products Part ********/
+
+
+.contentBtsm .btsmTop .btsmTitle {
+    float: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contentBtsm .btsmTop .btsmSeeAll {
+    float: right;
+    color: black;
+}
+
+.contentBtsm .btsmTop .btsmSeeAll:hover {
+    opacity: 0.7;
+}
+
+.contentBtsm .col {
+    max-width: 216px;
+}
+
+.content .btsmProduct {
+    margin-bottom: 5px;
+    width: 206.4px;
+    height: 274px;
+    border: 1px solid #EAECEA;
+    box-sizing: border-box;
+}
+
+.content .btsmProduct:hover, .content .btsmProductText:hover, .content .btsmProductPrice:hover {
+    opacity: 0.8;
+}
+
+.content .btsmProductText {
+    font-size: 12px;
+    color: black;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.content .btsmProductPrice {
+    font-size: 11px;
+    display: inline-block;
+    font-weight: bolder;
+    color: #1D24AA;
+    margin-bottom:60px
+}
+
+.contentBtsm .duracell {
+    background: url(../images/btsmproducts/duracell.png) no-repeat;
+    background-position: center;
+}
+
+.contentBtsm .avocado {
+    background: url(../images/btsmproducts/avocado.png) no-repeat;
+    background-position: center;
+}
+
+.contentBtsm .tea {
+    background: url(../images/btsmproducts/tea.png) no-repeat;
+    background-position: center;
+}
+
+.contentBtsm .garbage {
+    background: url(../images/btsmproducts/garbage.png) no-repeat;
+    background-position: center;
+}
+
+.btsmProduct .newProductContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10px 0 0;
+}
+
+.btsmProduct .newProduct {
+    width: 57px;
+    height: 23px;
+    background-color: #1D24AA;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.contentBtsm .chargeCable {
+    background: url(../images/btsmproducts/chargecable.png) no-repeat;
+    background-position: center;
+}
+
+/********End BTSM Products Part************/
 
 /*********** FOOTER ***************/
 
@@ -263,9 +362,9 @@ footer .footerTop .footerButtonMain .footerButton {
     margin: 0;
 }
 
-footer .footerTop .footerButtonMain:hover{
+footer .footerTop .footerButtonMain:hover {
     background-color: #F1F0F5;
-} 
+}
 
 span.bold {
     font-weight: bold;
@@ -314,7 +413,7 @@ footer .footerContent .fCategory .fCatList ul li a:hover {
     text-decoration: underline;
 }
 
-.increasedMargin li{
+.increasedMargin li {
     margin-bottom: 12px;
 }
 
