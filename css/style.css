@@ -10,6 +10,49 @@ body, html {
     font-family: 'Quicksand', sans-serif;
 }
 
+/* New product, Discount, Low Price and Remaining Products*/
+.newProductContainer, .discountContainer, .lowPriceContainer, .remainingProductsContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 8px 10px 0 0;
+}
+
+.newProductContainer .newProduct,
+.discountContainer .discount,
+.lowPriceContainer .lowPrice,
+.remainingProductsContainer .remainingProducts {
+    width: 57px;
+    height: 23px;
+    background-color: #1D24AA;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.discountContainer .discount{
+    width: 66px;
+}
+
+.remainingProductsContainer .remainingProducts{
+    width: 86px;
+}
+
+.lowPriceContainer .lowPrice{
+    width: 117px;
+    background-color: #EFFBFA;
+    color: #2EC4B6;
+}
+
+.remainingProductsContainer .remainingProducts{
+    background-color: #FDEEED;
+    color: #E12219;
+}
+
+/* End New product, Discount, Low Price and Remaining Products*/
+
 /*********** HEADER ***************/
 
 header {
@@ -219,29 +262,110 @@ header .navbar-nav {
     width: 1096px;
 }
 
-/********BTSM Products Part ********/
+/************Special Discounts Part********/
 
+.content .contentSpecial {
+    margin-bottom: 60px;
+}
 
-.contentBtsm .btsmTop .btsmTitle {
+.content .contentSpecial .col {
+    width: 344px;
+    max-width: 344px;
+    height: 169px;
+}
+
+.content .contentSpecial .kacirilmayacakFirsatlar {
+    background: url(../images/contentSpecial/perwoll.png) no-repeat;
+    background-size: 130px;
+    background-position: center right;
+    background-color: #FFFED6;
+    border-radius: 5px;
+    position: relative;
+}
+
+.content .contentSpecial .kacirilmayacakFirsatlar .kacirilmayacakFirsatlarText {
+    max-width: 214px;
+    margin-top: 12px;
+    margin-left: 16px;
+    font-size: 26px;
+}
+
+.content .contentSpecial .puruzsuzCuma {
+    background: url(../images/contentSpecial/food.png) no-repeat;
+    background-size: 200px 109px;
+    background-position: bottom 6px right;
+    position: relative;
+    border-radius: 5px;
+    background-color: #FDEEED;
+}
+
+.content .contentSpecial .puruzsuzCuma .puruzsuzCumaText {
+    max-width: 114px;
+    margin-top: 12px;
+    margin-left: 16px;
+    font-size: 26px;
+}
+
+.content .contentSpecial .pandemiyeOzelUrunler {
+    background: url(../images/contentSpecial/pandemic.png) no-repeat;
+    background-size: 190px 108px;
+    background-position: bottom 6px right;
+    background-color: #EEEFFC;
+    border-radius: 5px;
+    position: relative;
+}
+
+.content .contentSpecial .pandemiyeOzelUrunler .pandemiyeOzelUrunlerText {
+    max-width: 209px;
+    margin-top: 12px;
+    margin-left: 16px;
+    font-size: 26px;
+}
+
+.content .contentSpecial .kacirilmayacakFirsatlar .kacirilmayacakFirsatlarSeeAll, .content .contentSpecial .puruzsuzCuma .puruzsuzCumaSeeAll, .content .contentSpecial .pandemiyeOzelUrunler .pandemiyeOzelUrunlerSeeAll {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #1D24AA;
+    bottom: 0;
+}
+
+.content .contentSpecial .kacirilmayacakFirsatlar .kacirilmayacakFirsatlarSeeAll:hover, .content .contentSpecial .puruzsuzCuma .puruzsuzCumaSeeAll:hover, .content .contentSpecial .pandemiyeOzelUrunler .pandemiyeOzelUrunlerSeeAll:hover {
+    opacity: 0.7;
+}
+
+/**********END Special Discounts Part*******/
+
+/********BTSM and Discount Products Part ********/
+
+.contentBtsm .btsmTop .btsmTitle,
+.contentDiscount .discountTop .discountTitle {
     float: left;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.contentBtsm .btsmTop .btsmSeeAll {
+.contentBtsm .btsmTop .btsmSeeAll,
+.contentDiscount .discountTop .discountSeeAll {
     float: right;
     color: black;
+    margin-right: -20px;
 }
 
-.contentBtsm .btsmTop .btsmSeeAll:hover {
+.contentBtsm .btsmTop .btsmSeeAll:hover,
+.contentDiscount .discountTop .discountSeeAll:hover {
     opacity: 0.7;
 }
 
-.contentBtsm .col {
+.contentBtsm .col,
+.contentDiscount .col .row .col {
     max-width: 216px;
 }
 
-.content .btsmProduct {
+.content .btsmProduct,
+.content .discountProduct{
     margin-bottom: 5px;
     width: 206.4px;
     height: 274px;
@@ -249,25 +373,82 @@ header .navbar-nav {
     box-sizing: border-box;
 }
 
-.content .btsmProduct:hover, .content .btsmProductText:hover, .content .btsmProductPrice:hover {
+.content .btsmProduct:hover, .content .btsmProductText:hover, .content .btsmProductPrice:hover,
+.content .discountProduct:hover, .content .discountProductText:hover, .content .discountProductPrice:hover {
     opacity: 0.8;
 }
 
-.content .btsmProductText {
-    font-size: 12px;
+.content .btsmProductText,
+.content .discountProductText {
+    font-size: 14px;
+    width: 206.4px;
     color: black;
     display: inline-block;
     margin-bottom: 3px;
 }
 
-.content .btsmProductPrice {
-    font-size: 11px;
+.content .btsmProductPrice,
+.content .discountProductPrice {
+    font-size: 12px;
     display: inline-block;
     font-weight: bolder;
     color: #1D24AA;
-    margin-bottom:60px
+    margin-bottom: 50px;
 }
 
+/*****Backgrounds of discount contents*****/
+.contentDiscount .biscuit{
+    background: url(../images/contentDiscount/biscuit.png) no-repeat;
+    background-position: center;
+}
+
+.contentDiscount .cola{
+    background: url(../images/contentDiscount/cola.png) no-repeat;
+    background-position: center;
+}
+
+.contentDiscount .tadim{
+    background: url(../images/contentDiscount/tadim.png) no-repeat;
+    background-size: 143px;
+    background-position: center;
+}
+
+.contentDiscount .grapefruit{
+    background: url(../images/contentDiscount/grapefruit.png) no-repeat;
+    background-position: center;
+}
+
+.contentDiscount .yogurt{
+    background: url(../images/contentDiscount/yogurt.png) no-repeat;
+    background-position: center;
+}
+
+.contentDiscount .chicken{
+    background: url(../images/contentDiscount/chicken.png) no-repeat;
+    background-position: center;
+}
+
+.contentDiscount .coffee{
+    background: url(../images/contentDiscount/coffee.png) no-repeat;
+    background-position: center;
+}
+
+.contentDiscount .perwoll{
+    background: url(../images/contentDiscount/perwoll.png) no-repeat;
+    background-position: center;
+}
+
+.contentDiscount .chocolate{
+    background: url(../images/contentDiscount/chocolate.png) no-repeat;
+    background-position: center;
+}
+
+.contentDiscount .mixer{
+    background: url(../images/contentDiscount/mixer.png) no-repeat;
+    background-position: center;
+}
+
+/*****End Backgrounds of discount contents*****/
 .contentBtsm .duracell {
     background: url(../images/btsmproducts/duracell.png) no-repeat;
     background-position: center;
@@ -286,24 +467,6 @@ header .navbar-nav {
 .contentBtsm .garbage {
     background: url(../images/btsmproducts/garbage.png) no-repeat;
     background-position: center;
-}
-
-.btsmProduct .newProductContainer {
-    display: flex;
-    justify-content: flex-end;
-    margin: 10px 10px 0 0;
-}
-
-.btsmProduct .newProduct {
-    width: 57px;
-    height: 23px;
-    background-color: #1D24AA;
-    border-radius: 5px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
 }
 
 .contentBtsm .chargeCable {
