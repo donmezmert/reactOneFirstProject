@@ -52,7 +52,7 @@ header .container {
 }
 
 button.search {
-    background: url("../images/search.png") no-repeat center;
+    background: url("../images/magnifierIcon.png") no-repeat center;
     text-indent: -9999px;
     height: 40px;
     width: 40px;
@@ -164,40 +164,43 @@ header .nav-link {
     color: #F5F5F5;
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
+    background-size: contain;
 }
 
 header .nav-link .transactions {
-    background: url('../images/icon/menu/layout-dashboard.png') no-repeat 0 2px;
+    background: url('../images/processIcon.png') no-repeat 0 0px;
     padding-left: 30px !important;
 }
 
 header .nav-link .productAndPrice {
-    background: url('../images/icon/menu/analytics-pie-1.png') no-repeat 0 2px;
+    background: url('../images/analyticsIcon.png') no-repeat 0 0px;
     padding-left: 30px !important;
+    background-size: 20px;
 }
 
 header .nav-link .shop {
-    background: url('../images/icon/menu/shop.png') no-repeat 0 2px;
+    background: url('../images/stocks-icon.png ') no-repeat 0 0px;
     padding-left: 30px !important;
 }
 
 header .nav-link .refunds {
-    background: url('../images/icon/menu/shopping-basket-1.png') no-repeat 0 2px;
+    background: url('../images/shoppingIcon.png') no-repeat 0 0px;
     padding-left: 30px !important;
 }
 
 header .nav-link .announcements {
-    background: url('../images/icon/menu/auto-shopping-basket-1.png') no-repeat 0 2px;
+    background: url('../images/duyurular.png') no-repeat 0 0px;
     padding-left: 30px !important;
+    background-size: 20px;
 }
 
 header .nav-link .activites {
-    background: url('../images/icon/menu/settings-slider.png') no-repeat 0 2px;
+    background: url('../images/activityIcon.png') no-repeat 0 0px;
     padding-left: 30px !important;
 }
 
 header .nav-link .supportAndReport {
-    background: url('../images/icon/menu/poll-box.png') no-repeat 0 2px;
+    background: url('../images/graphicsIcon.png') no-repeat 0 0px;
     padding-left: 30px !important;
 }
 
