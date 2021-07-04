@@ -226,9 +226,9 @@ header .navbar-nav {
 
 footer {
     margin: 0;
-    background: url("../images/footerBg.png") repeat-x;
+    background: url("../images/footer-bg.png") repeat-x;
     width: 100%;
-    height: 608px;
+    height: 735px;
 }
 
 footer .container {
@@ -241,12 +241,13 @@ footer .footerTop {
 }
 
 footer .footerTop .footerNotification {
-    background: url("../images/icon/hands.png") no-repeat;
+    background: url("../images/hands.png") no-repeat;
+    background-position: 0% 50%;
     font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    padding-left: 60px;
+    padding-left: 30px;
     color: #fff;
     height: 45px;
     padding-top: 5px;
@@ -265,8 +266,11 @@ footer .footerTop .footerButtonMain {
 footer .footerTop .footerButtonMain .footerButton {
     font-size: 14px;
     color: #1D24AA;
-    background: url("../images/icon/bi_arrow-right.png") no-repeat right;
+    background: url("../images/arrow.jpg") no-repeat right;
     margin: 0;
+    background-position: right;
+    background-size: 15px;
+    display: block;
 }
 
 span.bold {
@@ -279,7 +283,7 @@ span.bold {
 
 footer .footerContent {
     margin: 0;
-    height: 477px;
+    height: 600px;
     padding-top: 50px;
 }
 
@@ -307,8 +311,19 @@ footer .footerContent .fCategory .fCatList ul {
 
 footer .footerContent .fCategory .fCatList ul li a {
     color: #454545;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
     padding-bottom: 7px;
     display: block;
+}
+
+#extra-space li {
+    margin-bottom: 20px;
 }
 
 footer .footerContent .fCategory .fCatList ul li a:hover {
@@ -319,6 +334,7 @@ footer .footerContent .fCategory .fCatList ul li a:hover {
 footer .footerBottom {
     width: 100%;
     height: 60px;
+    padding-top: 5px;
 }
 
 footer .footerBottom .footerLogo {
