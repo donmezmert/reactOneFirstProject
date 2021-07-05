@@ -222,15 +222,18 @@ header .navbar-nav {
 
 footer { 
     margin: 0;  
-    background: url("../images/footerBg.png") repeat-x;
+    /*background: url("../images/footerBg.png") repeat-x;*/
     width: 100%;
     height: 608px; 
 }
 
+.footerTopBackground {
+    background: #1D24AA;
+}
 footer .container { width: 1096px; }
 footer .footerTop { width: 100%; height: 75px; }
 footer .footerTop .footerNotification { 
-    background: url("../images/icon/hands.png") no-repeat;
+    background: url("../images/footerTop/wavingHand.svg") 0 no-repeat;
     font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -261,7 +264,7 @@ footer .footerTop .footerButtonMain .footerButton {
 span.bold { font-weight: bold; }
 .displayFlex { display: flex; }
 
-footer .footerContent { margin: 0; height: 477px; padding-top: 50px; }
+footer .footerContent { margin: 0; height: 520px; padding-top: 50px; }
 footer .footerContent .fCategory { margin: 0; font-family: 'Quicksand', sans-serif; font-size: 14px; }
 footer .footerContent .fCategory .fCatTitle { 
     margin: 0;    
@@ -274,6 +277,9 @@ footer .footerContent .fCategory .fCatList ul { list-style: none; display: block
 footer .footerContent .fCategory .fCatList ul li a { color: #454545; padding-bottom: 7px; display: block; }
 footer .footerContent .fCategory .fCatList ul li a:hover { color: #1D24AA; text-decoration: underline;}
 
+footer .footerBottomBackground {
+    background: #EFFBFA;
+}
 footer .footerBottom { width: 100%; height: 60px; }
 footer .footerBottom .footerLogo { background: url("../images/secLogoFooter.png") no-repeat; width: 34px; height: 34px; text-indent: -9999px; display: block; margin-top: 7px; }
 footer .footerBottom .footerCopyright { 
