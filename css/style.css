@@ -282,11 +282,10 @@ span.bold {
 
 footer .footerContent {
     height: 456px;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 footer .footerContent .fCategory {
-    background-color: black;
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
 }
@@ -319,15 +318,22 @@ footer .footerContent .fCategory .fCatList ul li a:hover {
     text-decoration: underline;
 }
 
+footer .footerBottom .container {
+    width: 1096px;
+}
+
 footer .footerBottom {
     width: 100%;
+    margin: auto;
     height: 60px;
+    padding-top: 20px;
+    background-color: #fff;
 }
 
 footer .footerBottom .footerLogo {
     background: url("../images/secLogoFooter.png") no-repeat;
     width: 34px;
-    height: 34px;
+    height: 37px;
     text-indent: -9999px;
     display: block;
     margin-top: 7px;
