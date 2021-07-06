@@ -258,13 +258,17 @@ footer .footerTop .footerButtonMain .footerButton {
     margin: 0;
 }
 
+footer .footerTop .footerButtonMain:hover {
+    opacity: 0.5;
+}
+
 span.bold { font-weight: bold; }
 .displayFlex { display: flex; }
 
 footer .footerContent { margin: 0; height: 477px; padding-top: 50px; }
 footer .footerContent .fCategory { margin: 0; font-family: 'Quicksand', sans-serif; font-size: 14px; }
 footer .footerContent .fCategory .fCatTitle { 
-    margin: -24px 0 0 0; /* Probably is not the correct way to do it, however, if not done this way list's length exceeds the background. */
+    margin: -27px 0 0 0; /* Probably is not the correct way to do it, however, if not done this way list's length exceeds the background. */
     text-transform: uppercase;
     color: #1D24AA; 
 }
