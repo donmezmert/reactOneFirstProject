@@ -249,19 +249,27 @@ footer .footerTop .footerButtonMain {
     border-radius: 5px;
     margin-top: 13px;
     padding: 12px 25px;
+    
 }
+
 
 footer .footerTop .footerButtonMain .footerButton {
     font-size: 14px;
     color: #1D24AA;
     background: url("../images/icon/bi_arrow-right.png") no-repeat right;
     margin: 0;
+    display: block;
 }
+
+footer .footerTop .footerButtonMain .footerButton:hover {
+    color:#797cb1;
+}
+
 
 span.bold { font-weight: bold; }
 .displayFlex { display: flex; }
 
-footer .footerContent { margin: 0; height: 477px; padding-top: 50px; }
+footer .footerContent { margin: 0; height: 476px; padding-top: 35px;}
 footer .footerContent .fCategory { margin: 0; font-family: 'Quicksand', sans-serif; font-size: 14px; }
 footer .footerContent .fCategory .fCatTitle { 
     margin: 0;    
@@ -269,8 +277,8 @@ footer .footerContent .fCategory .fCatTitle {
     color: #1D24AA; 
 }
 
-footer .footerContent .fCategory .fCatList { margin: 10px 0 0 0; }
-footer .footerContent .fCategory .fCatList ul { list-style: none; display: block; padding-left:0px; }
+footer .footerContent .fCategory .fCatList { margin: 10px 0 0 0;}
+footer .footerContent .fCategory .fCatList ul { list-style: none; display: block; padding-left:0px;}
 footer .footerContent .fCategory .fCatList ul li a { color: #454545; padding-bottom: 7px; display: block; }
 footer .footerContent .fCategory .fCatList ul li a:hover { color: #1D24AA; text-decoration: underline;}
 
@@ -283,6 +291,8 @@ footer .footerBottom .footerCopyright {
     margin-top: 14px;
     text-align: right;
 }
+
+
 
 span.blue { color: #1D24AA; }
 
