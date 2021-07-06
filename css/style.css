@@ -290,6 +290,7 @@ footer .footerContent .fCategory {
 
 footer .footerContent .fCategory .fCatTitle {
     margin: 0;
+    margin-bottom:15px;
     text-transform: uppercase;
     color: #1D24AA;
 }
@@ -391,10 +392,86 @@ span.blue {
     color: #858585;
 }
 
-.content-top .col-3{
-    background: #EFFBFA;
-;
+.content-top .col-3 {
+    background: #EFFBFA;;
 }
+
 .content-top-right {
 
+}
+
+
+.fCatList {
+    width: 213px;
+    height: 234px;
+    left: 0px;
+    top: 31px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 186% */
+
+
+    color: #454545;
+
+}
+
+
+/*
+products
+ */
+
+.products h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.products a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #889688;
+}
+
+.products a:hover {
+    color: #a0aaa0;
+}
+
+.tumunu-gor {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-decoration-line: underline;
+
+    color: #0A0B0A !important;
+    margin-top: 5px;
+}
+
+.tumunu-gor:hover {
+    color: grey !important;
+}
+
+.products img {
+    margin: auto;
+    height: auto;
+    width: 45px;
+    border-radius: 0px;
+
+
+}
+
+.product-images {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
 }
