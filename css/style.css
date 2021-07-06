@@ -264,7 +264,7 @@ span.bold { font-weight: bold; }
 footer .footerContent { margin: 0; height: 477px; padding-top: 50px; }
 footer .footerContent .fCategory { margin: 0; font-family: 'Quicksand', sans-serif; font-size: 14px; }
 footer .footerContent .fCategory .fCatTitle { 
-    margin: 0;    
+    margin: -24px 0 0 0; /* Probably is not the correct way to do it, however, if not done this way list's length exceeds the background. */
     text-transform: uppercase;
     color: #1D24AA; 
 }
@@ -274,7 +274,7 @@ footer .footerContent .fCategory .fCatList ul { list-style: none; display: block
 footer .footerContent .fCategory .fCatList ul li a { color: #454545; padding-bottom: 7px; display: block; }
 footer .footerContent .fCategory .fCatList ul li a:hover { color: #1D24AA; text-decoration: underline;}
 
-footer .footerBottom { width: 100%; height: 60px; }
+footer .footerBottom { width: 100%; height: 60px; margin-top: 0px}
 footer .footerBottom .footerLogo { background: url("../images/secLogoFooter.png") no-repeat; width: 34px; height: 34px; text-indent: -9999px; display: block; margin-top: 7px; }
 footer .footerBottom .footerCopyright { 
     font-family: 'Quicksand', sans-serif;
@@ -285,5 +285,9 @@ footer .footerBottom .footerCopyright {
 }
 
 span.blue { color: #1D24AA; }
+
+footer .marginedList ul li {
+    margin-bottom: 13px
+}
 
 /*********** END FOOTER ***************/
