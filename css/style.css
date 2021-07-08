@@ -227,7 +227,7 @@ header .navbar-nav {
 }
 
 #content1 .row{
-    height: 100s%;
+    height: 100%;
 }
 
 #content1 .col-7{
@@ -353,6 +353,46 @@ header .navbar-nav {
     font-weight: 400;
 }
 
+/********CONTENT AREA 2********/
+
+#content2 {
+    width: 1096px;
+}
+
+#content2 .row{
+    height: 100%;
+}
+
+#content2 .category .col-8{
+    padding: 10px 0 0 30px;
+}
+
+#content2 .category h4{
+    color: #0A0B0A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#content2 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+#content2 .category .seeAll{
+    margin-top: 10px;
+    color: #141414;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#content2 .category li a{
+    color: #889688;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 
 
