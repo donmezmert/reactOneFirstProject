@@ -1,4 +1,12 @@
+<<<<<<< Updated upstream
 .clearBoth { clear: both; }
+=======
+
+
+.clearBoth {
+    clear: both;
+}
+>>>>>>> Stashed changes
 
 
 
@@ -20,7 +28,384 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
+<<<<<<< Updated upstream
  }
+=======
+    margin-top: 10px;
+    display: block;
+}
+
+.search {
+    margin: 5px 0 0 0;
+}
+
+button.search {
+    background: url("../images/search.png") no-repeat center;
+    text-indent: -9999px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    position: relative;
+    z-index: 1000;
+}
+
+input.search {
+    padding-left: 50px;
+    margin-left: -50px;
+    width: 90%;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 14px;
+    color: #2A2A2A;
+}
+
+input.search:focus {
+    border-color: #1D24AA;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+input.search:hover {
+    border-color: #ccc;
+}
+
+.headerIcon {
+    float: left;
+    text-indent: -9999px;
+    margin: 20px 0 0 30px;
+}
+
+.likeIcon a {
+    background: url("../images/likeIcon.png");
+    width: 24px;
+    height: 22px;
+    display: block;
+}
+
+.notificationIcon a {
+    background: url("../images/NotificationIcon.png");
+    width: 21px;
+    height: 24px;
+    display: block;
+}
+
+.basketIcon a {
+    background: url("../images/BasketIcon.png");
+    width: 20px;
+    height: 22px;
+    display: block;
+}
+
+.basketIcon a .basketCount {
+    text-indent: 0px;
+    background: #1D24AA;
+    border-radius: 20px;
+    height: 19px;
+    width: 19px;
+    position: absolute;
+    margin: -33px 0 0 14px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.likeIcon a:hover,
+.notificationIcon a:hover,
+.basketIcon a:hover {
+    opacity: 0.5;
+}
+
+.userManagement {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.userManagement .shortName {
+    background: #F1F0F5;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.userManagement .userInfo {
+    font-size: 14px;
+    color: #2A2A2A;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.userManagement .userInfo span {
+    font-weight: normal;
+}
+
+header .nav-link {
+    color: #F5F5F5;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header .nav-link .transactions {
+    background: url('../images/icon/menu/layout-dashboard.png') no-repeat 0 2px;
+    padding-left: 30px !important;
+}
+
+header .nav-link .productAndPrice {
+    background: url('../images/icon/menu/analytics-pie-1.png') no-repeat 0 2px;
+    padding-left: 30px !important;
+}
+
+header .nav-link .shop {
+    background: url('../images/icon/menu/shop.png') no-repeat 0 2px;
+    padding-left: 30px !important;
+}
+
+header .nav-link .refunds {
+    background: url('../images/icon/menu/shopping-basket-1.png') no-repeat 0 2px;
+    padding-left: 30px !important;
+}
+
+header .nav-link .announcements {
+    background: url('../images/icon/menu/auto-shopping-basket-1.png') no-repeat 0 2px;
+    padding-left: 30px !important;
+}
+
+header .nav-link .activites {
+    background: url('../images/icon/menu/settings-slider.png') no-repeat 0 2px;
+    padding-left: 30px !important;
+}
+
+header .nav-link .supportAndReport {
+    background: url('../images/icon/menu/poll-box.png') no-repeat 0 2px;
+    padding-left: 30px !important;
+}
+
+header .navbar-nav {
+    flex: 1;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.active {
+    background: #2E36DC;
+    border-radius: 5px;
+    color: #F5F5F5;
+}
+
+
+/*********** END HEADER ***************/
+
+/*********** CONTENT AREA ***************/
+
+.content { margin:0; min-height: 500px; }
+
+#content1 {
+    width: 1096px;
+}
+
+#content1 .row{
+    height: 100s%;
+}
+
+#content1 .col-7{
+    background: #EFFBFA ;
+    border-radius: 5px;
+}
+
+#productCarousel .carousel-item{
+    height: 350px;
+}
+
+#productCarousel .carousel-indicators {
+    left: -420px;
+    bottom: -30px;
+}
+
+#productCarousel .carousel-indicators .active{
+
+    background: #1D24AA;
+    height: 10px;
+    width: 30px;
+    border-radius: 10px;
+    
+}
+#productCarousel .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #FFF;
+}
+
+#productCarousel .carouselImage{
+    background: #FFF;
+    border-radius: 100%;
+    height: 220px;
+    width: 220px;
+    margin: auto;
+}
+#productCarousel .carouselImage img{
+    height: 140px;
+    width: 150px;
+    margin: auto;
+}
+
+#productCarousel .carouselButtonMain { 
+    width: 189px;
+    height: 45px;
+    background: transparent;
+    border-radius: 5px;
+    margin-top: 13px;
+    padding: 12px 25px;
+    border: 1px solid #1D24AA;
+}
+
+#productCarousel .carouselButtonMain .carouselButton {
+    font-size: 14px;
+    color: #1D24AA;
+    background: url("../images/icon/bi_arrow-right.png") no-repeat right;
+    margin: 0;
+}
+
+#productCarousel .note{
+    font-size: 12px;
+    color: #858585;
+}
+
+.content .announcements{
+    background: #EFFBFA;
+    border-radius: 5px;
+    height: 398px;
+    border-left: 30px solid #fff;
+}
+
+.content .announcements .title{
+    display: flex;
+}
+
+.content .announcements .title img{
+    width: 34px;
+    height: 34px;
+    order: 1;
+}
+
+.content .announcements .title h4{
+    order: 2;
+    margin-left: 5px;
+    margin-top: 1.5px;
+}
+
+.content .announcements .title a{
+    order: 3;
+    margin-left: auto;
+    margin-top: 7px;
+    color: #141414;
+    font-size: 12px;
+}
+
+.content .announcements .announcementBody{
+    overflow: auto;
+    height: 320px;
+}
+
+.simplebar-scrollbar::before {
+    background-color: #1D24AA !important;
+    opacity: 1 !important;
+}
+
+.content .announcements .announcementBody .announcementDate{
+    color: #1D24AA;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.content .announcements .announcementBody .announcementTitle{
+    color:#2A2A2A;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content .announcements .announcementBody .announcementText{
+    color: #858585;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+/*********** END CONTENT AREA ***************/
+
+/*********** FOOTER ***************/
+
+footer { 
+    margin: 0;  
+    background: url("../images/footerBg.png") repeat-x;
+    width: 100%;
+    height: 608px; 
+}
+
+footer .container { width: 1096px; }
+footer .footerTop { width: 100%; height: 75px; }
+footer .footerTop .footerNotification { 
+    background: url("../images/icon/hands.png") no-repeat;
+    background-size: 32px;
+    background-position-y : 5px;
+    background-position-x : 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px; 
+    padding-left: 60px;
+    color: #fff;
+    height: 45px;
+    padding-top: 5px;
+    margin-top: 12px;
+}
+
+footer .footerTop .footerButtonMain { 
+    width: 189px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 13px;
+    padding: 12px 25px;
+}
+footer .footerTop .footerButtonMain:hover { 
+    opacity: 0.9;
+}
+
+footer .footerTop .footerButtonMain .footerButton {
+    font-size: 14px;
+    color: #1D24AA;
+    background: url("../images/icon/bi_arrow-right.png") no-repeat right;
+    margin: 0;
+}
+
+span.bold { font-weight: bold; }
+.displayFlex { display: flex; }
+
+footer .footerContent { margin: 0; height: 477px; padding-top: 20px; }
+footer .footerContent .fCategory { margin: 0; font-family: 'Quicksand', sans-serif; font-size: 13px; }
+footer .footerContent .fCategory .fCatTitle { 
+    margin: 0;    
+    text-transform: uppercase;
+    color: #1D24AA; 
+}
+
+footer .footerContent .fCategory .fCatList { margin: 10px 0 0 0; }
+footer .footerContent .fCategory .fCatList ul { list-style: none; display: block; padding-left:0px; }
+footer .footerContent .fCategory .fCatList ul li a { color: #454545; padding-bottom: 7px; display: block; }
+footer .footerContent .fCategory .fCatList ul li a:hover { color: #1D24AA; text-decoration: underline;}
+>>>>>>> Stashed changes
 
  .headerIconList { margin: 0; float: left; width: 100px; }
  .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
