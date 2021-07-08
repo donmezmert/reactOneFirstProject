@@ -1,36 +1,50 @@
-<<<<<<< Updated upstream
-.clearBoth { clear: both; }
-=======
 
 
 .clearBoth {
     clear: both;
 }
->>>>>>> Stashed changes
 
+a {
+    text-decoration: none;
+}
 
+body,
+html {
+    font-family: 'Quicksand', sans-serif;
+}
 
-
-.mainDiv { margin: 0 auto; width: 1270px; } 
 
 /*********** HEADER ***************/
-.mainDiv .header { margin: 0; height: 120px; width: 100%; } 
-.mainDiv .header .headerTop { margin: 0; height: 64px; width: 100%;}
-.mainDiv .header .headerTop .headerTopLeft { margin: 0; width: 200px; float: left; }
-.mainDiv .header .headerTop .headerTopCenter { margin: 0; width: 150px; float: left; }
-.mainDiv .header .headerTop .headerTopRight { margin: 20px 0 0 0; width: 150px; float: right; }
-.mainDiv .header .headerBottom { margin: 0; height: 56px; background: #1D24AA; width: 100%; }
 
-.secLogo { 
-    background: url('../images/secLogo.png') no-repeat; 
-    padding-left: 58px; padding-top: 12px; height: 46px; 
-    font-family: 'Quicksand', sans-serif; color: #1D24AA;
+header {
+    margin: 0;
+    background: url("../images/headerBg.png") repeat-x;
+    width: 100%;
+    height: 120px;
+}
+
+header .container {
+    width: 1096px;
+}
+
+.headerTop {
+    height: 64px;
+}
+
+.headerBottom {
+    height: 54px;
+}
+
+.secLogo a {
+    background: url('../images/secLogo.png') no-repeat;
+    padding-left: 58px;
+    padding-top: 14px;
+    height: 46px;
+    font-family: 'Quicksand', sans-serif;
+    color: #1D24AA;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
-<<<<<<< Updated upstream
- }
-=======
     margin-top: 10px;
     display: block;
 }
@@ -405,16 +419,17 @@ footer .footerContent .fCategory .fCatList { margin: 10px 0 0 0; }
 footer .footerContent .fCategory .fCatList ul { list-style: none; display: block; padding-left:0px; }
 footer .footerContent .fCategory .fCatList ul li a { color: #454545; padding-bottom: 7px; display: block; }
 footer .footerContent .fCategory .fCatList ul li a:hover { color: #1D24AA; text-decoration: underline;}
->>>>>>> Stashed changes
 
- .headerIconList { margin: 0; float: left; width: 100px; }
- .headerIconList .likeIcon a { float: left; background: url("../images/likeIcon.png"); width: 24px; height: 22px; text-indent: -9999px; }
- .headerIconList .likeIcon a:hover, .headerIconList .notificationIcon a:hover, .headerIconList .basketIcon a:hover { opacity: 0.5; }
- .headerIconList .notificationIcon a { float: left; background: url("../images/NotificationIcon.png"); width: 21px; height: 24px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerIconList .basketIcon a {  float: left; background: url("../images/BasketIcon.png"); width: 20px; height: 22px; text-indent: -9999px; margin:0 0 0 15px; }
- .headerManagement { margin: 0; float: right; }
- 
+footer .footerBottom { width: 100%; height: 60px; }
+footer .footerBottom .footerLogo { background: url("../images/secLogoFooter.png") no-repeat; width: 34px; height: 34px; text-indent: -9999px; display: block; margin-top: 7px; }
+footer .footerBottom .footerCopyright { 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #000000; 
+    margin-top: 14px;
+    text-align: right;
+}
 
+span.blue { color: #1D24AA; }
 
-.mainDiv .content { margin: 0; min-height: 600px; width: 100%;  } 
-.mainDiv .footer { margin: 0; height: 600px; width: 100%; } 
+/*********** END FOOTER ***************/
