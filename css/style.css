@@ -344,14 +344,29 @@ span.blue {
 
 /*********** END FOOTER ***************/
 
+ .content-top h1
+{
 
-.content-top h1 {
-    font-family: Quicksand;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 35px;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 28px;
+     line-height: 35px;
+
+     color: #202020;
 }
+
+
+ .content-top p{
+     font-style: normal;
+     font-weight: normal;
+     font-size: 18px;
+     line-height: 22px;
+
+     /* Black/50 */
+
+     color: #666666;
+ }
+
 
 .content-top-left {
     background: #EFFBFA;
@@ -365,12 +380,14 @@ span.blue {
 }
 
 .content-top-left .btn:hover {
-    background: #f7fafa;
+    background: #2E36DC;
+    color: white;
+
 }
 
 .image-1 {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: white;
     border-radius: 100%;
     display: flex;
@@ -378,7 +395,7 @@ span.blue {
 }
 
 .image-1 img {
-    height: 150px;
+    height: 200px;
     width: auto;
     margin: auto;
 }
@@ -474,4 +491,84 @@ products
     height: 80px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
+}
+
+/*
+special discount
+ */
+
+.special-discount .col{
+    margin: 10px;
+}
+.card{
+    border: none;
+
+}
+.card img{
+    padding: 20px;
+    border-radius: 0;
+    text-align: start;
+    border: 1px solid #EAECEA
+
+}
+.card .card-title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1D201D;
+}
+.card .card-subtitle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D24AA;
+
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/*
+end of special discount
+ */
+
+/*
+campaign
+ */
+
+.campaign h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+
+    /* B-Mockup/100 */
+
+    color: #0A0B0A;
+
+}
+.campaign .col{
+    border-radius: 18px;
+    padding: 20px;
+    margin: 20px;
+}
+.campaign .col:nth-child(1){
+    background: #FFFED6;
+
+
+
+}
+.campaign .col:nth-child(2){
+    background: #FDEEED;
+}
+
+.campaign .col:nth-child(3){
+    background: #EEEFFC;
+
 }
