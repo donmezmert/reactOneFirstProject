@@ -39,12 +39,23 @@ header .container {
     padding-top: 14px;
     height: 46px;
     font-family: 'Quicksand', sans-serif;
-    color: #1D24AA;
+    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
     margin-top: 10px;
     display: block;
+    color: #1D24AA;
+}
+
+.location {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666;
 }
 
 .search {
@@ -224,6 +235,162 @@ header .navbar-nav {
     min-height: 500px;
 }
 
+.jumbotron-area {
+    display: flex;
+    margin: 0px auto 111px auto;
+    width: 1096px;
+    justify-content: space-between;
+}
+
+.discover-content {
+    margin: 0;
+    flex-basis: 65%;
+    height: 400px;
+    background: #EFFBFA;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 17px;
+    padding-top: 94px;
+    box-sizing: border-box;
+}
+
+.jumbo-announcements {
+    flex-basis: 33%;
+    height: 400px;
+    background: #EFFBFA;
+    border-radius: 5px;
+    overflow: scroll;
+    padding-left: 16px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 13px;
+}
+
+.options,
+.chosen-for-you {
+    width: 1096px;
+    margin: 0px auto 50px auto;
+    padding: 0;
+}
+
+.options .col-3 {
+    padding-right: 0px;
+}
+
+.options-bottom-mg {
+    margin-bottom: 145px;
+}
+
+.options .col-3 ul {
+    height: 168px;
+    margin: 0px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.options .col-3 li {
+    padding-left: 70px;
+    list-style: none;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.options .col-3 li a {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #889688;
+}
+
+.options-lh-lg li {
+    line-height: 29px;
+}
+
+.options-title {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0A0B0A;
+}
+
+.options .col-3 li .see-all {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #0A0B0A;
+}
+
+.milk-img {
+    top: 0;
+    background: url("../images/strawberry-milk.png") no-repeat top left;
+}
+
+.kosla-img {
+    background: url("../images/kosla.png") no-repeat;
+}
+
+.pasta-img {
+    background: url("../images/pasta.png") no-repeat;
+}
+
+.baby-whipers-img {
+    background: url("../images/baby-whipers.png") no-repeat;
+}
+
+.gillette-img {
+    background: url("../images/gillette.png") no-repeat;
+}
+
+.meatball-img {
+    background: url("../images/meatball.png") no-repeat;
+}
+
+.pepsi-img {
+    background: url("../images/pepsi.png") no-repeat;
+}
+
+.greyfruit-img {
+    background: url("../images/greyfruit.png") no-repeat;
+}
+
+.chosen-for-you {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    display: flex;
+}
+
+.for-you-header {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    align-items: flex-start;
+}
+
+.see-all-alternative {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: flex-end;
+    color: #2a2a2a;
+    text-decoration-line: underline;
+    margin-left: auto;
+}
+
 
 /*********** FOOTER ***************/
 
@@ -314,7 +481,7 @@ footer .footerContent .fCategory .fCatList ul {
 
 footer .footerContent .fCategory .fCatList ul li a {
     color: #454545;
-    font-family: Quicksand;
+    font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
