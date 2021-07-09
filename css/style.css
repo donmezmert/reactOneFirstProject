@@ -394,6 +394,18 @@ header .navbar-nav {
     font-weight: 500;
 }
 
+/********CONTENT AREA 2********/
+
+#content3 img{
+    height: 244.5px;
+    width: 234px;
+}
+
+#content3 a{
+    color: #141414;
+    text-decoration: underline;
+    font-size: 14px;
+}
 
 
 /*********** END CONTENT AREA ***************/
