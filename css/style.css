@@ -394,7 +394,7 @@ header .navbar-nav {
     font-weight: 500;
 }
 
-/********CONTENT AREA 2********/
+/********CONTENT AREA 3********/
 
 #content3 img{
     height: 244.5px;
@@ -406,6 +406,88 @@ header .navbar-nav {
     text-decoration: underline;
     font-size: 14px;
 }
+
+/********CONTENT AREA 4********/
+
+#content4 a{
+    color: #141414;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+#content4 .discountItem .itemBody{
+    width: 200px;
+    height: 270px;
+    border: 1px solid #EAECEA;
+    box-sizing: border-box;
+}
+
+#content4 .discountItem .itemImage{
+    margin-top: 50px;
+    display: flex;
+}
+
+#content4 .discountItem .itemImage img{
+    margin: auto;
+}
+
+#content4 .itemRightTop{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+}
+
+#content4 .discountAmount{
+    color: #F4F5F4;
+    background-color: #1D24AA;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+#content4 .discountNotification{
+    color: #2EC4B6;
+    background-color: #EFFBFA;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+#content4 .discountLeft{
+    color: #E12219;
+    background-color: #FDEEED;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+#content4 .itemName{
+    color: #1D201D;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#content4 .itemPrice{
+    color:#1D24AA;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+
 
 
 /*********** END CONTENT AREA ***************/
