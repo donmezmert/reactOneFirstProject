@@ -409,35 +409,41 @@ header .navbar-nav {
 
 /********CONTENT AREA 4********/
 
-#content4 a{
+#content4 a,
+#content6 a{
     color: #141414;
     text-decoration: underline;
     font-size: 14px;
 }
 
-#content4 .discountItem .itemBody{
+#content4 .discountItem .itemBody,
+#content6 .discountItem .itemBody{
     width: 200px;
     height: 270px;
     border: 1px solid #EAECEA;
     box-sizing: border-box;
 }
 
-#content4 .discountItem .itemImage{
+#content4 .discountItem .itemImage,
+#content6 .discountItem .itemImage{
     margin-top: 50px;
     display: flex;
 }
 
-#content4 .discountItem .itemImage img{
+#content4 .discountItem .itemImage img,
+#content6 .discountItem .itemImage img{
     margin: auto;
 }
 
-#content4 .itemRightTop{
+#content4 .itemRightTop,
+#content6 .itemRightTop{
     display: flex;
     flex-direction: column;
     height: 20px;
 }
 
-#content4 .discountAmount{
+#content4 .discountAmount,
+#content6 .discountAmount{
     color: #F4F5F4;
     background-color: #1D24AA;
     font-size: 12px;
@@ -449,7 +455,8 @@ header .navbar-nav {
     margin-right: 7px;
 }
 
-#content4 .discountNotification{
+#content4 .discountNotification,
+#content6 .discountNotification{
     color: #2EC4B6;
     background-color: #EFFBFA;
     font-size: 12px;
@@ -461,7 +468,8 @@ header .navbar-nav {
     margin-right: 7px;
 }
 
-#content4 .discountLeft{
+#content4 .discountLeft,
+#content6 .discountLeft{
     color: #E12219;
     background-color: #FDEEED;
     font-size: 12px;
@@ -473,19 +481,63 @@ header .navbar-nav {
     margin-right: 7px;
 }
 
-#content4 .itemName{
+#content4 .itemName,
+#content6 .itemName{
     color: #1D201D;
     font-size: 14px;
     font-weight: 400;
 }
 
-#content4 .itemPrice{
+#content4 .itemPrice,
+#content6 .itemPrice{
     color:#1D24AA;
     font-size: 12px;
     font-weight: 600;
 }
 
+/********CONTENT AREA 4********/
+#content5{
+    height: 200px;
+}
 
+#content5 .campaign{
+    height: 169px;
+    width: 344px;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: 550;
+    color: #0A0B0A;
+    display: flex;
+    flex-direction: column;
+}
+
+#content5 #campaign1{
+    background-color: #FFFED6;
+    background-image: url("../images/icon/campaign/campaign1.png") ;
+    background-repeat: no-repeat;
+    background-position: 200px;
+}
+
+#content5 #campaign2{
+    background-color: #FDEEED;
+    background-image: url("../images/icon/campaign/campaign2.png") ;
+    background-repeat: no-repeat;
+    background-position: 130px 35px;
+}
+
+#content5 #campaign3{
+    background-color: #EEEFFC;
+    background-image: url("../images/icon/campaign/campaign3.png") ;
+    background-repeat: no-repeat;
+    background-position: 150px 45px;
+}
+
+#content5 .campaign a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1D24AA;
+    text-decoration: underline;
+}
 
 
 
@@ -526,9 +578,6 @@ footer .footerTop .footerButtonMain {
     border-radius: 5px;
     margin-top: 13px;
     padding: 12px 25px;
-}
-footer .footerTop .footerButtonMain:hover { 
-    opacity: 0.9;
 }
 
 footer .footerTop .footerButtonMain .footerButton {
