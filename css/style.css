@@ -290,7 +290,7 @@ footer .footerContent .fCategory {
 
 footer .footerContent .fCategory .fCatTitle {
     margin: 0;
-    margin-bottom:15px;
+    margin-bottom: 15px;
     text-transform: uppercase;
     color: #1D24AA;
 }
@@ -344,33 +344,32 @@ span.blue {
 
 /*********** END FOOTER ***************/
 
- .content-top h1
-{
+.content-top h1 {
 
-     font-style: normal;
-     font-weight: 500;
-     font-size: 28px;
-     line-height: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
 
-     color: #202020;
+    color: #202020;
 }
 
 
- .content-top p{
-     font-style: normal;
-     font-weight: normal;
-     font-size: 18px;
-     line-height: 22px;
+.content-top p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
 
-     /* Black/50 */
+    /* Black/50 */
 
-     color: #666666;
- }
+    color: #666666;
+}
 
 
 .content-top-left {
     background: #EFFBFA;
-
+    height: 350px;
 }
 
 .content-top-left .btn {
@@ -383,6 +382,17 @@ span.blue {
     background: #2E36DC;
     color: white;
 
+}
+
+
+.carousel .carousel-indicators .active {
+    background-color: #1D24AA;
+}
+
+.carousel .carousel-indicators button {
+    border-radius: 20%/50%;;
+    height: 10px;
+    width: 30px;
 }
 
 .image-1 {
@@ -413,10 +423,73 @@ span.blue {
     background: #EFFBFA;;
 }
 
-.content-top-right {
+/*
+custom scrollbar for announcements
+ */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #E7F5F4;
 
 }
 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFFFFF;
+    border-radius: 7px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+
+}
+
+.content-top-right {
+    height: 350px;
+
+
+}
+
+.content-top-right-announcements {
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.announcementDate {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Primary/100 */
+
+    color: #1D24AA;
+}
+
+.announcementTitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+
+    /* Black/80 */
+
+    color: #2A2A2A;
+}
+
+.announcementText {
+    font-size: 14px;
+    color: #858585;
+}
 
 .fCatList {
     width: 213px;
@@ -497,28 +570,33 @@ products
 special discount
  */
 
-.special-discount .col{
-    margin: 10px;
+.special-discount .col {
+    margin: 0px;
 }
-.card{
+
+.card {
     border: none;
 
 }
-.card img{
-    padding: 20px;
+
+.card img {
+    padding: 40px;
+    padding-top:60px;
     border-radius: 0;
     text-align: start;
     border: 1px solid #EAECEA
 
 }
-.card .card-title{
+
+.card .card-title {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     color: #1D201D;
 }
-.card .card-subtitle{
+
+.card .card-subtitle {
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -526,10 +604,48 @@ special discount
     color: #1D24AA;
 
 }
+
+.card .card-body{
+    padding-left: 0;
+}
+
 .card-img-top {
     width: 100%;
-    height: 15vw;
+    height:18vw;
     object-fit: cover;
+}
+
+.discount-alert {
+    font-weight: normal;
+    color: #F4F5F4;
+    width: 79px;
+    height: 19px;
+    left: 110px;
+    top: 7px;
+    background-color: #1D24AA;
+
+}
+.discount-product-alert{
+    font-weight: normal;
+    width: 120px;
+    height: 19px;
+    left: 70px;
+    top: 30px;
+    background: #EFFBFA;
+    color: #2EC4B6;
+
+}
+
+.last-alert {
+    font-weight: normal;
+    width: 79px;
+    height: 19px;
+    left: 110px;
+    top: 7px;
+    color: #E12219;
+    background-color: #FDEEED;;
+
+
 }
 
 /*
@@ -540,7 +656,7 @@ end of special discount
 campaign
  */
 
-.campaign h1{
+.campaign h1 {
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -553,22 +669,31 @@ campaign
     color: #0A0B0A;
 
 }
-.campaign .col{
+
+.campaign .col {
     border-radius: 18px;
     padding: 20px;
     margin: 20px;
+
 }
-.campaign .col:nth-child(1){
+
+.campaign .col:nth-child(1) {
     background: #FFFED6;
 
 
-
 }
-.campaign .col:nth-child(2){
+
+.campaign .col:nth-child(2) {
     background: #FDEEED;
 }
 
-.campaign .col:nth-child(3){
+.campaign .col:nth-child(3) {
     background: #EEEFFC;
 
 }
+
+.campaign img {
+    width: 160px;
+    height: auto;
+}
+
