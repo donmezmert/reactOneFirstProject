@@ -242,6 +242,13 @@ header .navbar-nav {
     justify-content: space-between;
 }
 
+.ülker-chocolatte-img {
+    background-image: url(../images/ülker-chocolatte\ 1.png);
+    background-position: 40px 0px;
+    background-repeat: no-repeat;
+    margin-top: 41px;
+}
+
 .discover-content {
     margin: 0;
     flex-basis: 65%;
@@ -250,8 +257,74 @@ header .navbar-nav {
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 17px;
-    padding-top: 94px;
     box-sizing: border-box;
+}
+
+.discover-content-area {
+    background-image: url(../images/ülker-logo.png);
+    background-position: 12px 50px;
+    background-repeat: no-repeat;
+    padding-top: 78px;
+}
+
+.discover-text {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.discover-button {
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    background-size: 30px;
+    color: #1D24AA;
+    border-color: #1D24AA;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.discover-header {
+    font-family: Quicksand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: Quicksand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.discover-footer {
+    font-family: Quicksand;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #858585;
+    margin-top: 10px;
 }
 
 .jumbo-announcements {
@@ -264,6 +337,59 @@ header .navbar-nav {
     padding-right: 20px;
     box-sizing: border-box;
     padding-top: 13px;
+}
+
+.announcements-header {
+    display: flex;
+    align-items: center;
+}
+
+.announcements-header-text {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 8px;
+}
+
+.announcement {
+    margin-top: 30px;
+    width: 350px;
+    height: auto;
+}
+
+.announcement-header {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A2A;
+}
+
+.announcement-date {
+    color: #1D24AA;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.announcement-text {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #858585;
+}
+
+.announcement-content {
+    margin: 25px 10px;
 }
 
 .options,
@@ -389,6 +515,15 @@ header .navbar-nav {
     color: #2a2a2a;
     text-decoration-line: underline;
     margin-left: auto;
+}
+
+.chosen-for-you-content {
+    width: 1270px;
+}
+
+.chosen-for-you-img {
+    width: 16%;
+    padding: 0;
 }
 
 
