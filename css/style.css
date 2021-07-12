@@ -284,6 +284,7 @@ header .navbar-nav {
 .content .container .contentTop .row .col2{
     max-width: 340px;
     width: 340px;
+    background: #EFFBFA;
     border-radius: 5px;
 }
 
