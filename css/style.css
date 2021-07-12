@@ -216,7 +216,150 @@ header .navbar-nav {
 
 /*********** END HEADER ***************/
 
-.content { margin:0; min-height: 500px; }
+/*********** CONTENT ***************/
+
+.content .container {
+    width: 1096px;
+}
+
+.content .container .middle .middleContentCategory .middleContentTitle {
+    font-size: 18px;
+    margin: 0;
+}
+
+.content .container .middle .middleContentCategory .middleContentList {
+    font-size: 14px;
+    margin: 10px 0 0 0; 
+}
+
+.content .container .middle .middleContentCategory .middleContentList ul {
+    list-style: none; 
+    display: block; 
+    padding-left:0px;
+}
+
+.content .container .middle .middleContentCategory .middleContentList ul li a {
+    color: #889688; 
+    padding-bottom: 7px; 
+    display: block;
+}
+
+.content .container .middle .middleContentCategory .middleContentList ul li a:hover {
+    color: #1D24AA; 
+    text-decoration: underline;
+}
+
+.content .container .middle .middleContentCategory .middleContentList .seeAll {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #0A0B0A; 
+    padding-bottom: 7px; 
+    display: block;
+}
+
+.middleImages {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-indent: -9999px;
+    border: white none;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Temizlik {
+    background: url("/images/content/middle/Temizlik.svg") no-repeat center;
+}
+
+.SebzeMeyve {
+    background: url("/images/content/middle/SebzeMeyve.svg") no-repeat center;
+}
+
+.Süt {
+    background: url("/images/content/middle/Süt.svg") no-repeat center;
+}
+
+.Gıda {
+    background: url("/images/content/middle/Gıda.svg") no-repeat center;
+}
+
+.İçecek {
+    background: url("/images/content/middle/İçecek.svg") no-repeat center;
+}
+
+.Et {
+    background: url("/images/content/middle/Et.svg") no-repeat center;
+}
+
+.Kağıt {
+    background: url("/images/content/middle/Kağıt.svg") no-repeat center;
+}
+
+.Bebek {
+    background: url("/images/content/middle/Bebek.svg") no-repeat center;
+}
+
+.sliderHeader {
+    margin-bottom: 42px;
+}
+
+.slider .OurPicks {
+    font-size: 28px;
+}
+
+.slider .seeAll {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #0A0B0A;
+    padding-top: 13px;  
+    display: block;
+}
+
+.slider .sliderBody {
+    width: 1440px;
+    margin: auto;
+}
+
+.slider .sliderBody .left1 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider .sliderBody .left2 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider .sliderBody .left3 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider .sliderBody .left4 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider .sliderBody .left5 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider .sliderBody .left6 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider .sliderBody .left7 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.slider .sliderBody .left8 {
+    margin-left: 0;
+    margin-right: 0;
+}
+/*********** END CONTENT ***************/
 
 /*********** FOOTER ***************/
 
