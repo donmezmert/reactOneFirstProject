@@ -262,6 +262,201 @@ header .navbar-nav {
     width: 1096px;
 }
 
+/**Content top **/
+
+.content .container .contentTop{
+    margin-top: 30px;
+}
+
+.content .container .contentTop .row{
+    max-height: 400px;
+    height: 400px;
+}
+
+
+.content .container .contentTop .row .col{
+    background: #EFFBFA;
+    max-width: 720px;
+    width: 720px;
+    border-radius: 5px;
+}
+
+.content .container .contentTop .row .col2{
+    max-width: 340px;
+    width: 340px;
+    border-radius: 5px;
+}
+
+.descriptionTitle{
+    margin-left:10px;
+    padding-left:40px;
+    background: url(../images/award.png) 34px no-repeat;
+    background-position: left;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+.descriptionSeeAll{
+    font-size: 80%;
+    color: #000000;
+}
+
+.descriptionSeeAll:hover{
+    opacity: 0.7;
+    color: #000000;
+}
+
+.announcementArea{
+    font-size: 80%;
+    height: 300px;
+    overflow: auto;
+}
+
+.announcementArea .announcementDate{
+    color: #1D24AA;
+    font-weight: 600;
+}
+
+.announcementArea .announcementTitle{
+    font-weight: bolder;
+}
+
+
+/**End Content Top**/
+
+/**Content Category**/
+
+.contentCategories .col-3{
+    width: 250px;
+    font-size: 80%;
+    display: block;
+}
+
+.contentCategories .col-3 ul{
+    list-style: none;
+}
+
+.contentCategories .col-3 ul li{
+    margin-bottom: 3.5px;
+}
+
+.contentCategories .col-3 ul li a{
+    margin-left: 70px;
+    color: #000000;
+    font-weight: 350;
+}
+
+.contentCategories .col-3 ul li .btn{
+    font-weight: bolder;
+    font-size: 100%;
+    margin-left: 60px;
+}
+
+.cCategory .cCategoryTitle{
+    margin-left: 100px;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+.contentCategories .vanish{
+    background: url(../images/contentCategories/vanish.png) 80px no-repeat;
+    background-position: top left;
+}
+
+.contentCategories .grapefruit{
+    background: url(../images/contentCategories/grapefruit.png) 80px no-repeat;
+    background-position: top left;
+}
+
+.contentCategories .milk{
+    background: url(../images/contentCategories/milk.png) 80px no-repeat;
+    background-position: top left;
+}
+
+.contentCategories .pasta{
+    background: url(../images/contentCategories/pasta.png) 80px no-repeat;
+    background-position: top left;
+}
+
+.contentCategories .cola{
+    background: url(../images/contentCategories/cola.png) 80px no-repeat;
+    background-position: top left;
+}
+
+.contentCategories .superfresh{
+    background: url(../images/contentCategories/superfresh.png) 80px no-repeat;
+    background-position: top left;
+}
+
+.contentCategories .gillette{
+    background: url(../images/contentCategories/gillette.png) 80px no-repeat;
+    background-position: top left;
+}
+
+.contentCategories .prima{
+    background: url(../images/contentCategories/prima.png) 80px no-repeat;
+    background-position: top left;
+}
+
+/**End Content Category**/
+
+/**Content Catalog Part**/
+
+.contentCatalog .catalogTop{
+    margin-top: 60px;
+}
+
+.contentCatalog .catalogAll{
+    width: 160px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.contentCatalog .catalogPicture1{
+    background: url(../images/catalogSample.png) no-repeat;
+    background-position: center;
+}
+
+.contentCatalog .catalogPicture2{
+    background: url(../images/catalogSample.png) no-repeat;
+    background-position: center;
+}
+
+.contentCatalog .catalogPicture3{
+    background: url(../images/catalogSample.png) no-repeat;
+    background-position: center;
+}
+
+.contentCatalog .catalogPicture4{
+    background: url(../images/catalogSample.png) no-repeat;
+    background-position: center;
+}
+
+.contentCatalog .catalogPicture5{
+    background: url(../images/catalogSample.png) no-repeat;
+    background-position: center;
+}
+
+.contentCatalog .catalogPicture6{
+    background: url(../images/catalogSample.png) no-repeat;
+    background-position: center;
+}
+
+.contentCatalog .catalogPicture{
+    width:160px;
+    height: 165px;
+    background-size: 115px 161px;
+    margin-bottom: 10px;
+}
+
+.contentCatalog .catalogText:hover,
+.contentCatalog .catalogPicture:hover{
+    opacity: 0.8;
+}
+
+/**End Content Catalog Part**/
+
 /************Special Discounts Part********/
 
 .content .contentSpecial {
@@ -341,17 +536,23 @@ header .navbar-nav {
 /********BTSM and Discount Products Part ********/
 
 .contentBtsm .btsmTop .btsmTitle,
-.contentDiscount .discountTop .discountTitle {
+.contentDiscount .discountTop .discountTitle,
+.contentCatalog .catalogTop .catalogTitle {
     float: left;
     font-size: 24px;
     margin-bottom: 10px;
 }
 
 .contentBtsm .btsmTop .btsmSeeAll,
-.contentDiscount .discountTop .discountSeeAll {
+.contentDiscount .discountTop .discountSeeAll,
+.contentCatalog .catalogTop .catalogSeeAll {
     float: right;
     color: black;
     margin-right: -20px;
+}
+
+.contentCatalog .catalogTop .catalogSeeAll{
+    margin-right: -10px;
 }
 
 .contentBtsm .btsmTop .btsmSeeAll:hover,
