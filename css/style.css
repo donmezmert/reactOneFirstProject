@@ -216,7 +216,283 @@ header .navbar-nav {
 
 /*********** END HEADER ***************/
 
-.content { margin:0; min-height: 500px; }
+/* CONTENT */
+
+.content { margin:0; min-height: 500px; width: 100%;}
+
+.content .container {
+    width: 1096px;
+
+}
+
+/*** PART 2 ***/
+.content .container .contentPart2{
+    margin-top: 10px;
+}
+
+.content .container .contentPart2 .cCategory{
+    margin-top: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.content .container .contentPart2 .cCategory .cCatTitle{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    /* B-Mockup/100 */
+    color: #0A0B0A;
+}
+
+.content .container .contentPart2 .cCategory .cCatList{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* B-Mockup/50 */
+    color: #889688;
+}
+
+.content .container .contentPart2 .cCategory .seeAll{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-decoration-line: underline;
+
+    /* B-Mockup/100 */
+
+    color: #0A0B0A;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.content .container .contentPart2 img{
+    max-width: 125%;
+}
+
+.content .container .contentPart2 .cCategory .cCatList ul{
+    list-style: none;
+    display: block;
+    padding-left:0px;
+}
+
+.content .container .contentPart2 .cCategory .cCatList  li a{
+    color: #454545;
+    padding-bottom: 2px;
+    display: block;
+}
+
+.content .container .contentPart2 .cCategory .cCatList  li a:hover{
+    text-decoration: underline;
+}
+
+/*** PART 3 ***/
+.content .container .contentPart3 .part3Heading{
+    font-family: Quicksand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.content .container .contentPart3 .seeAll{
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    color: #2A2A2A;
+
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.content .container .contentPart3 .catalogueImage{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.content .container .contentPart3 .catalogueDate{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    margin-top: 10px;
+}
+
+/*** PART 4 ***/
+.content .container .contentPart4{
+    margin-top: 20px;
+}
+
+.content .container .contentPart4 img {
+    max-width: 80%;
+}
+
+.content .container .contentPart4 .part4Heading{
+    font-family: Quicksand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.content .container .contentPart4 .seeAll{
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    color: #2A2A2A;
+
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.content .container .contentPart4 .p4Item {
+    margin-top: 10px;
+}
+
+.content .container .contentPart4 .p4Item .productName {
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+.content .container .contentPart4 .p4Item .productPrice {
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #1D24AA;
+}
+
+/*** PART 5 ***/
+.content .contentPart5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content .container .contentPart5 img{
+    max-width: 88%;
+}
+
+
+/*** PART 6 ***/
+.content .container .contentPart6 img {
+    max-width: 80%;
+}
+
+.content .container .contentPart6 .part6Heading{
+    font-family: Quicksand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.content .container .contentPart6 .seeAll{
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+    color: #2A2A2A;
+
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.content .container .contentPart6 .p6Item {
+    margin-top: 10px;
+}
+
+.content .container .contentPart6 .p6Item .productName {
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+.content .container .contentPart6 .p6Item .productPrice {
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #1D24AA;
+}
 
 /*********** FOOTER ***************/
 
