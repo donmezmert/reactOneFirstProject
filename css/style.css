@@ -222,15 +222,12 @@ header .navbar-nav {
     width: 1096px;
 }
 
-.content .header .carousel .carousel-inner {
-    
-}
-.content .header .carousel .carousel-inner .textPart {
-    
+.content .header .carousel .slider {
+    background: url("/images/content/top/Vector.svg") no-repeat;
 }
 
 .content .header .carousel .carousel-inner .imagePart {
-    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .content .header .carousel .carouseltext {
@@ -242,6 +239,44 @@ header .navbar-nav {
     margin-left: 487px;
     margin-bottom: 80px;
 }
+
+.content .header .carousel .discover {
+    font-size: 14px;
+}
+
+.content .header .carousel .arrow {
+    padding-left: 3px;
+    padding-bottom: 1px;
+}
+
+.content .header .carousel .footerText {
+    font-size: 12px;
+}
+
+.content .header .row .navbar-brand {
+    background: url("/images/content/top/award.svg") no-repeat 16px;
+    padding-left: 58px !important;
+}
+
+.content .header .row .scrolltext .date {
+    background: url("/images/content/top/Ellipse\ 23.svg") no-repeat 15px;
+    padding-left: 35px;
+    font-size: 12px;
+    color: #1D24AA;
+}
+
+.content .header .row .scrolltext .top {
+    padding-left: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content .header .row .scrolltext .toptext {
+    color: #858585;
+    padding-left: 16px;
+    font-size: 14px;
+}
+
 .content .container .middle .middleContentCategory .middleContentTitle {
     font-size: 18px;
     margin: 0;
