@@ -222,6 +222,26 @@ header .navbar-nav {
     width: 1096px;
 }
 
+.content .header .carousel .carousel-inner {
+    
+}
+.content .header .carousel .carousel-inner .textPart {
+    
+}
+
+.content .header .carousel .carousel-inner .imagePart {
+    margin-bottom: 100px;
+}
+
+.content .header .carousel .carouseltext {
+    padding-top: 65px;
+    padding-left: 33px;
+}
+
+.content .header .carousel .cokokrem {
+    margin-left: 487px;
+    margin-bottom: 80px;
+}
 .content .container .middle .middleContentCategory .middleContentTitle {
     font-size: 18px;
     margin: 0;
@@ -303,11 +323,11 @@ header .navbar-nav {
     margin-bottom: 42px;
 }
 
-.slider .OurPicks {
+.slider .OurPicks, .discount {
     font-size: 28px;
 }
 
-.slider .seeAll {
+.slider .seeAll, .contentBottom .seeAll {
     text-decoration: underline;
     font-weight: bold;
     color: #0A0B0A;
@@ -359,6 +379,238 @@ header .navbar-nav {
     margin-left: 0;
     margin-right: 0;
 }
+
+.discountProductBox {
+    height: 274px;
+    width: 206.4px;
+    border: solid 1px #EAECEA;
+    display: inline-flexbox;
+}
+
+.discountBox {
+    background-color: #1D24AA;
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 92px;
+    height: 23px;
+    border-radius: 5px;
+    padding-top: 3px;
+    margin-left: 116.6px;
+    margin-top: 10px;
+}
+
+.content .contentBottom .contentBottomBody .productimage {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.productName {
+    font-size: 14px;
+    color: #1D201D;
+}
+
+.price {
+    font-size: 12px;
+    color: #1D24AA;
+}
+
+.content .contentBottom .contentBottomBody .product1 {
+    margin-right: 5px;
+}
+
+.content .contentBottom .contentBottomBody .product1 .productimage1 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product1.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product2 .productimage2 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product2.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product3 .productimage3 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product3.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product4 .productimage4 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product4.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product5 .productimage5 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product5.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product6 .discountBox {
+    background-color: #FDEEED;
+    color: black;
+}
+
+.content .contentBottom .contentBottomBody .product6 .productimage6 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product6.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product7 .productimage7 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product7.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product8 .productimage8 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product8.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product9 .productimage9 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product9.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .product10 .productimage10 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/product10.svg") no-repeat;
+    background-position: center;
+}
+
+.content .contentBottom .contentBottomBody .row1 footer {
+    max-height: 42px;
+}
+
+.content .contentBottom .contentBottomBody .row2 footer {
+    height: 42px;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox {
+    width: 344px;
+    height: 169px;
+    
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox1 {
+    position: relative;
+    background-color: #FFFED6;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox1 .text {
+    position: absolute;
+    color: #0A0B0A;
+    font-size: 28px;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox1 .seeAllinfoBox {
+    font-size: 14px;
+    text-decoration: underline;
+    padding-top: 33px;
+    color: #1D24AA;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox1 .footerInfoBox1image {
+    position: absolute;
+    padding-top: 14px;
+    padding-left: 201px;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox2 {
+    background-color: #FDEEED;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox2 .text {
+    font-size: 28px;
+    color: #0A0B0A;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox2 .seeAllinfoBox {
+    font-size: 14px;
+    text-decoration: underline;
+    padding-top: 33px;
+    color: #1D24AA;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox2 .footerInfoBox2image {
+    padding-top: 45px;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox3 {
+    position: relative;
+    background-color: #EEEFFC;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox3 .text {
+    color: #0A0B0A;
+    font-weight: 500;
+    padding-left: 16px;
+    position: absolute;
+    font-size: 28px;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox3 .seeAllinfoBox {
+    font-size: 14px;
+    text-decoration: underline;
+    padding-top: 33px;
+    color: #1D24AA;
+}
+
+.content .contentBottom .contentBottomfooter .footerTop .footerInfoBox3 .footerInfoBox3image {
+    position: absolute;
+    padding-left: 130px;
+    padding-top: 50px;
+}
+
+.content .contentBottom .contentBottomfooter .footerBottom .product11 .productimage11 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/footer/bottom/product11.svg") no-repeat;
+    background-position: top;
+}
+
+.content .contentBottom .contentBottomfooter .footerBottom .product12 .productimage12 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/footer/bottom/product12.svg") no-repeat;
+    background-position: top;
+}
+
+.content .contentBottom .contentBottomfooter .footerBottom .product13 .productimage13 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/footer/bottom/product13.svg") no-repeat;
+    background-position: top;
+}
+
+.content .contentBottom .contentBottomfooter .footerBottom .product14 .discountBox {
+    height: 23px;
+    width: 57px;
+    background-color: #1D24AA;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 140px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-top: 2px;
+}
+
+.content .contentBottom .contentBottomfooter .footerBottom .product14 .productimage14 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/footer/bottom/product14.svg") no-repeat;
+    background-position: top;
+}
+
+.content .contentBottom .contentBottomfooter .footerBottom .product15 .productimage15 {
+    text-indent: -9999px;
+    background: url("/images/content/bottom/footer/bottom/product15.svg") no-repeat;
+    background-position: top;
+}
+
 /*********** END CONTENT ***************/
 
 /*********** FOOTER ***************/
