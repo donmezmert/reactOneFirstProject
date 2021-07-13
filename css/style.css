@@ -215,7 +215,7 @@
     
     .content {
         margin: 0;
-        min-height: 3100px;
+        min-height: 3030px;
         height: auto;
     }
     
@@ -600,9 +600,57 @@
         margin-bottom: 57px;
     }
     
+    .content .lastItems {
+        font-size: 12px;
+        color: #E12219;
+        padding-left: 113px;
+        padding-top: 19px;
+    }
+    
+    .content .chicken {
+        background: url("../images/chicken.png");
+        width: 167px;
+        height: 167px;
+        margin-top: 28px;
+        margin-bottom: 51px;
+    }
+    
+    .content .coffee {
+        background: url("../images/coffee.png");
+        width: 167px;
+        height: 167px;
+        margin-top: 52px;
+        margin-bottom: 61px;
+    }
+    
+    .content .perwoll {
+        background: url("../images/perwoll.png");
+        width: 140px;
+        height: 140px;
+        margin-top: 76px;
+        margin-bottom: 62px;
+    }
+    
+    .content .ulker {
+        background: url("../images/ulker.png");
+        width: 167px;
+        height: 167px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .content .mixer {
+        background: url("../images/mixer.png");
+        width: 130px;
+        height: 209px;
+        margin-top: 44px;
+        margin-bottom: 21px;
+    }
+    
     .content .discount .firsat {
         width: 344px;
         height: 169px;
+        position: relative;
     }
     
     .content .discount .firsat:hover {
@@ -631,7 +679,15 @@
         font-weight: 600;
         text-decoration: underline;
         padding-left: 15px;
-        position: relative;
+    }
+    
+    .content .discount .seeAllButton2 a {
+        font-size: 14px;
+        color: #1D24AA;
+        font-weight: 600;
+        text-decoration: underline;
+        position: absolute;
+        margin-top: 20px;
     }
     
     .content .discount .firsatTitle2 {
@@ -657,6 +713,46 @@
         height: 112px;
         position: absolute;
         margin: 50px 0 9px 145px;
+    }
+    
+    .bestseller .duracell {
+        background: url("../images/duracell.png");
+        width: 169px;
+        height: 203px;
+        margin-top: 44px;
+        margin-bottom: 27px;
+    }
+    
+    .bestseller .avocado {
+        background: url("../images/avocado.png");
+        width: 186px;
+        height: 186px;
+        margin-top: 53px;
+        margin-bottom: 35px;
+    }
+    
+    .bestseller .tea {
+        background: url("../images/tea.png");
+        width: 154px;
+        height: 154px;
+        margin-top: 69px;
+        margin-bottom: 51px;
+    }
+    
+    .bestseller .trash {
+        background: url("../images/trashbag.png");
+        width: 167px;
+        height: 167px;
+        margin-top: 13px;
+        margin-bottom: 45px;
+    }
+    
+    .bestseller .usb {
+        background: url("../images/usb.png");
+        width: 167px;
+        height: 167px;
+        margin-top: 62px;
+        margin-bottom: 45px;
     }
     /*********** CONTENT END **************/
     /*********** FOOTER ***************/
