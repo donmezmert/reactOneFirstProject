@@ -393,7 +393,9 @@ header .navbar-nav {
 }
 
 .options,
-.chosen-for-you {
+.chosen-for-you,
+.discount-items-content,
+.top-seller-content {
     width: 1096px;
     margin: 0px auto 50px auto;
     padding: 0;
@@ -487,7 +489,9 @@ header .navbar-nav {
     background: url("../images/greyfruit.png") no-repeat;
 }
 
-.chosen-for-you {
+.chosen-for-you,
+.discount-content,
+.top-seller-content {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
@@ -524,6 +528,213 @@ header .navbar-nav {
 .chosen-for-you-img {
     width: 16%;
     padding: 0;
+}
+
+.discount-header {
+    font-family: Quicksand;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.discount-item {
+    height: 300px;
+    flex-basis: 19.9%;
+}
+
+.discount-items-content {
+    display: flex;
+}
+
+.discount-content {
+    width: 1096px;
+    margin: 0px auto 15px auto;
+    padding: 0;
+}
+
+.greyfruit-discount {
+    background-image: url(../images/greyfruit-discount.png);
+}
+
+.petit-beurre-discount {
+    background-image: url(../images/petit-beurre.png);
+}
+
+.coca-cola-light-discount {
+    background-image: url(../images/coca-cola-light.png);
+}
+
+.tadım-classic-discount {
+    background-image: url(../images/tadım-classic.png);
+}
+
+.yogurt-discount {
+    background-image: url(../images/yogurt.png);
+}
+
+.senpilic-discount {
+    background-image: url(../images/senpilic.png);
+}
+
+.turkish-coffee-discount {
+    background-image: url(../images/turkish-coffee.png);
+}
+
+.perwoll-discount {
+    background-image: url(../images/perwoll.png);
+}
+
+.ülker-choco-discount {
+    background-size: 180px;
+    background-image: url(../images/ülker-chocolatte\ 1.png);
+}
+
+.arzum-discount {
+    background-image: url(../images/arzum.png);
+}
+
+.duracell-discount {
+    background-image: url(../images/duracell.png);
+    background-size: 150px;
+}
+
+.avocado-discount {
+    background-image: url(../images/avocado.png);
+    background-size: 150px;
+}
+
+.dogus-tea-discount {
+    background-image: url(../images/dogus-tea.png);
+    background-size: 150px;
+}
+
+.trash-bag-discount {
+    background-image: url(../images/trash-bag.png);
+    background-size: 150px;
+}
+
+.charge-cable-discount {
+    background-image: url(../images/charge-cable.png);
+    background-size: 150px;
+}
+
+.discount-img {
+    position: relative;
+    background-repeat: no-repeat;
+    border: 1px solid #EAECEA;
+    box-sizing: border-box;
+    background-position: center center;
+    height: 270px;
+}
+
+.discount-item-name {
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1D201D;
+}
+
+.discount-item-price {
+    font-family: Quicksand;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1D24AA;
+}
+
+.discount-amount {
+    position: absolute;
+    padding: 5px;
+    right: 10px;
+    top: 10px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: right;
+    /* B-Mockup/5 */
+    color: #F4F5F4;
+    background: #1D24AA;
+    border-radius: 5px;
+}
+
+.price-down-text {
+    position: absolute;
+    padding: 5px;
+    top: 40px;
+    right: 10px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2EC4B6;
+    background: #EFFBFA;
+}
+
+.new-item {
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F5F5F5;
+    background: #1D24AA;
+    border-radius: 5px;
+    padding: 5px 18px;
+}
+
+.discount-container {
+    flex-basis: 32%;
+    height: 160px;
+}
+
+.unmissable-chances {
+    background-color: #FFFED6;
+    background-image: url(../images/perwoll2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 140px 140px;
+}
+
+.friday-special {
+    background: #FDEEED;
+    background-image: url(../images/cerez.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 226px 125px;
+}
+
+.pandemic-special {
+    background: #EEEFFC;
+    background-image: url(../images/pandemic-special-img.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 200px 115px;
+}
+
+.discount-text {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    color: #0A0B0A;
 }
 
 
