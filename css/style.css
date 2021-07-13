@@ -216,7 +216,133 @@ header .navbar-nav {
 
 /*********** END HEADER ***************/
 
-.content { margin:0; min-height: 500px; }
+/***********CONTENT STARTS************/
+
+.content { margin:0; min-height: 2000px; width:100%;}
+
+/**********CONTENT TOP******/
+.content .content-top {
+    color: #666666;
+    height: 527px;
+}
+
+.content-top .productPart {background: url(../images/contentImages/outerPlaceHolder.png) no-repeat center center;}
+
+/**********CONTENT TOP LEFT******/
+.content-top-left {background-color: #EFFBFA;}
+.content-top-left .productNamePart {color: #202020; font-size: 28px;}
+.content-top-left p {padding: 30px 0px; font-size:18px;}
+.content-top-left-button {width:220px; height:45px; border-color:#1D24AA;}
+.content-top-button {
+    background-color: #EFFBFA;
+    color:#1D24AA;
+    background: url("../images/icon/bi_arrow-right.png") no-repeat right;
+    margin-right: 60px;
+    border: 1px solid #1D24AA;
+    border-radius: 5px;
+}
+.content-top-left .datePart {color: #858585;size:12px;}
+.content .content-top-left .ellipses {height: 50px;}
+.content .content-top-left .smallEllipse {background: url("../images/contentImages/Ellipse-1.png") no-repeat center center;}
+.content .content-top-left .bigEllipse{background: url("../images/contentImages/Rectangle.png") no-repeat center center;}
+
+/**********CONTENT TOP RIGHT******/
+.content .content-top-right {background-color: #EFFBFA; margin-left:32px; width: 344px;}
+.content .content-top-right .announceTop {height: 50px; margin-top: 20px;}
+.content .content-top-right .announceTitle {font-size: 20px; color: #000000}
+.content .content-top-right .announceIcon {background: url("../images/contentImages/award.png") no-repeat top center;}
+.content .content-top-right .clickAll {text-decoration: underline; color:#141414; font-size: 12px;}
+.content .content-top-right h6 {color: #2A2A2A;}
+.content .content-top-right p {color:#858585;}
+.content .content-top-right .dateAtTop {height:15px; width: 310px;}
+.content .content-top-right .date{color:#1D24AA;}
+.content .content-top-right .bluePoint{background: url("../images/contentImages/Ellipse.png") no-repeat center center;}
+.content .content-top-right .line {border: 1px solid #FFFFFF; margin-bottom: 10px;}
+
+/**********CONTENT CENTER******/
+.content .content-center {height: 1170px;}
+
+
+.content .fCategory {font-family: 'Quicksand', sans-serif; font-size: 14px; }
+.content .fCategory .fCatTitle { margin: 10px 0 0 0; color: #0A0B0A; font-size: 18px;}
+.content .fCategory .fCatList { margin: 10px 0 0 0;}
+.content .fCategory .fCatList ul { list-style: none; padding-left:0px;}
+.content .fCategory .fCatList ul li a { color: #889688; font-size:14px; padding-bottom: 7px; display: block; }
+.content .fCategory .fCatList ul li a:hover { color: #1D24AA; text-decoration: underline; }
+
+/**********CONTENT CENTER TOP******/
+.content-center-top {height:664px;}
+.content .content-center .content-center-top .temizlikUrunleriIcon {background: url("../images/contentImages/temizlik-ürünleri.png") no-repeat left top;background-size: 45px 64.8px;}
+.content .content-center .content-center-top .sebzeMeyveIcon {background: url("../images/contentImages/sebze-meyve.png") no-repeat left top;background-size: 60px;}
+.content .content-center .content-center-top .sutSarkuteriIcon {background: url("../images/contentImages/sut-sarkuteri.png") no-repeat left top;background-size: 60px;}
+.content .content-center .content-center-top .gidaSekerlemeIcon {background: url("../images/contentImages/Gıda-Sekerleme.png") no-repeat left top;background-size: 60px;}
+.content .content-center .content-center-top .sogukSicakIcecekIcon {background: url("../images/contentImages/soguk-sıcak-icecek.png") no-repeat left top;background-size: 60px;}
+.content .content-center .content-center-top .etTavukBalikIcon {background: url("../images/contentImages/et-tavuk-balik.png") no-repeat left top;background-size: 60px;}
+.content .content-center .content-center-top .kagitKozmetikIcon {background: url("../images/contentImages/kagit-kozmetik.png") no-repeat left top;background-size: 60px;}
+.content .content-center .content-center-top .bebekOyuncakIcon {background: url("../images/contentImages/bebekoyuncak.png") no-repeat left top;background-size: 60px;}
+.content .content-center .content-center-top .tumunuGor {text-decoration:  underline;color: #0A0B0A;}
+
+/**********CONTENT CENTER BOTTOM******/
+.content-center-bottom {height: 420px;}
+
+.content .content-center-bottom .contentPartTitle{color: #000000;font-size: 28px;}
+
+/**********CONTENT BOTTOM******/
+.content .content-bottom {height: 1471px;}
+
+/**********CONTENT BOTTOM TOP******/
+.content-bottom-top {height: 803px;}
+.content .content-bottom-top .contentPartTitle {color: #000000;font-size: 28px;}
+
+.content .content-bottom-top .column1a, .column1b, .column1c, .column1d, .column1e, .column2a, .column2b, .column2c, .column2d, .column2e {
+    border: 1px solid #EAECEA;
+    height: 274px;
+    margin-right: 16px;
+}
+
+.content .content-bottom-top .column1a {background: url("../images/contentImages/etipetitbeurre.png") no-repeat center center;}
+.content .content-bottom-top .column1b {background: url("../images/contentImages/cocacola.png") no-repeat center center;}
+.content .content-bottom-top .column1c {background: url("../images/contentImages/tadim.png") no-repeat center center;}
+.content .content-bottom-top .column1d {background: url("../images/contentImages/greyfurt.png") no-repeat center center;}
+.content .content-bottom-top .column1e {background: url("../images/contentImages/pinaryogurt.png") no-repeat center center;}
+.content .content-bottom-top .column2a {background: url("../images/contentImages/tavuk.png") no-repeat center center;}
+.content .content-bottom-top .column2b {background: url("../images/contentImages/kahve.png") no-repeat center center;}
+.content .content-bottom-top .column2c { background: url("../images/contentImages/perwoll.png") no-repeat center center;}
+.content .content-bottom-top .column2d {background: url("../images/contentImages/UlkerGofret.png") no-repeat center center;}
+.content .content-bottom-top .column2e {background: url("../images/contentImages/arzum.png") no-repeat center center;}
+.content .content-bottom-top .productInfo {padding-left: 0px; width: 236px; padding-top: 6px;}
+.content .content-bottom-top .productInfo .productName { font-size:14px; color: #1D201D;}
+.content .content-bottom-top .productInfo .productPrice {color:#1D24AA; font-size:12px;}
+
+/*.content .content-bottom-top .discount {height:10px; width: 40px; margin-right: 10px; margin-top: 10px;}*/
+
+/**********CONTENT BOTTOM CENTER******/
+.content-bottom-center {height: 233px;}
+
+.content-bottom-center .onlyRow {height: 169px;}
+.content-bottom-center .onlyRow .columna, .columnb, .columnc {height: 169px; margin-right: 60px; margin-top:64px; width: 344px;}
+
+.content .content-bottom-center .onlyRow .columna {background: #FFFED6;}
+.content .content-bottom-center .onlyRow .columnb{background: #FDEEED;}
+.content .content-bottom-center .onlyRow .columnc{background: #EEEFFC;}
+
+.content .content-bottom-center .onlyRow .title {font-size: 28px; color: #0A0B0A; margin-bottom:33px; width:200px;}
+.content .content-bottom-center .onlyRow .seeAll {font-size: 14px; color: #1D24AA; text-decoration: underline;}
+.content .content-bottom-center .onlyRow .columna .columnab {background: url("../images/contentImages/perwoll.png") no-repeat center bottom; margin-bottom: -30px;}
+.content .content-bottom-center .onlyRow .columnb .columnbb {background: url("../images/contentImages/ruffles.png") no-repeat center bottom; margin-bottom: -30px;}
+.content .content-bottom-center .onlyRow .columnc .columncb {background: url("../images/contentImages/biryag.png") no-repeat center bottom; margin-bottom: -30px;}
+
+/**********CONTENT BOTTOM BOTTOM******/
+.content-bottom-bottom {height: 435px;margin-top: 64px;}
+
+.content .content-bottom-bottom .column1a {background: url("../images/contentImages/duracell.png") no-repeat center center;}
+.content .content-bottom-bottom .column1b {background: url("../images/contentImages/avokado.png") no-repeat center center;}
+.content .content-bottom-bottom .column1c {background: url("../images/contentImages/doguscay.png") no-repeat center center;}
+.content .content-bottom-bottom .column1d {background: url("../images/contentImages/koroplast-cop.png") no-repeat center center;}
+.content .content-bottom-bottom .column1e {background: url("../images/contentImages/hypergear-usb.png") no-repeat center center;}
+
+/**********CONTENT PART ENDS******/
+
 
 /*********** FOOTER ***************/
 
