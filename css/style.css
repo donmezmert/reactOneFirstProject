@@ -225,6 +225,208 @@ header .navbar-nav {
 
 }
 
+/*** PART 1 ***/
+.content .container .contentPart1{
+
+}
+
+/** p1 - carousel **/
+.content .container .contentPart1 .carousel{
+
+}
+
+.content .container .contentPart1 .vectorTail{
+    margin-bottom: 8px;
+}
+
+.content .container .contentPart1 .vectorHead{
+    margin-bottom: 5px;
+}
+
+.content .container .contentPart1 .carousel .textCar1{
+    align-content: flex-start;
+}
+
+.content .container .contentPart1 .carousel .productBrandCar1{
+    margin-bottom: 15px;
+    margin-left: -300px;
+}
+
+.content .container .contentPart1 .carousel .car1Heading{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+
+    color: #202020;
+
+    margin-left: -60px;
+    text-align: left;
+
+
+}
+
+.content .container .contentPart1 .carousel .car1SubHeading{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #666666;
+
+    margin-left: -60px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.content .container .contentPart1 .carousel .car1Btn{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    text-align: left;
+
+    color: #1D24AA;
+    margin-top: 20px;
+    margin-left: -60px;
+}
+
+.content .container .contentPart1 .carousel .car1BottomText{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Black/40 */
+
+    color: #858585;
+
+    text-align: left;
+    margin-top: 20px;
+    margin-left: -60px;
+}
+
+
+/** p1 - announcements **/
+
+.content .container .contentPart1 .announcementsPanel{
+    background: #EFFBFA;
+    padding: 15px 15px 15px 15px;
+    max-height: 390px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsHeader{
+
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsHeader .announcementsHeaderText{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsHeader .seeAll a{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-decoration-line: underline;
+
+    /* B-Mockup/100 */
+
+    color: #0A0B0A;
+    margin-bottom: 10px;
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsHeader img{
+    max-width: 15%;
+    margin-right: 10px;
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsContent {
+
+
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsContent .announcementItem{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsContent .announcementItem .announcementItemDate{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: flex-end;
+
+    /* Primary/100 */
+
+    color: #1D24AA;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsContent .announcementItem .announcementItemTitle{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+
+    /* Black/80 */
+
+    color: #2A2A2A;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .container .contentPart1 .announcementsPanel .announcementsContent .announcementItem .announcementItemText{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*** PART 2 ***/
 .content .container .contentPart2{
     margin-top: 10px;
