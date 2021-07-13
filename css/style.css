@@ -1,355 +1,794 @@
-.clearBoth {
-    clear: both;
-}
-
-a {
-    text-decoration: none;
-}
-
-body,
-html {
-    font-family: 'Quicksand', sans-serif;
-}
-
-
-/*********** HEADER ***************/
-
-header {
-    margin: 0;
-    background: url("../images/headerBg.png") repeat-x;
-    width: 100%;
-    height: 120px;
-}
-
-header .container {
-    width: 1096px;
-}
-
-.headerTop {
-    height: 64px;
-}
-
-.headerBottom {
-    height: 54px;
-}
-
-.secLogo a {
-    background: url('../images/secLogo.png') no-repeat;
-    padding-left: 58px;
-    padding-top: 14px;
-    height: 46px;
-    font-family: 'Quicksand', sans-serif;
-    color: #1D24AA;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 18px;
-    margin-top: 10px;
-    display: block;
-}
-
-.search {
-    margin: 5px 0 0 0;
-}
-
-button.search {
-    background: url("../images/search.png") no-repeat center;
-    text-indent: -9999px;
-    height: 40px;
-    width: 40px;
-    border: none;
-    position: relative;
-    z-index: 1000;
-}
-
-input.search {
-    padding-left: 50px;
-    margin-left: -50px;
-    width: 90%;
-    border: 1px solid #EDEDED;
-    border-radius: 5px;
-    height: 40px;
-    font-size: 14px;
-    color: #2A2A2A;
-}
-
-input.search:focus {
-    border-color: #1D24AA;
-    box-shadow: none;
-    outline: 0 none;
-}
-
-input.search:hover {
-    border-color: #ccc;
-}
-
-.headerIcon {
-    float: left;
-    text-indent: -9999px;
-    margin: 20px 0 0 30px;
-}
-
-.likeIcon a {
-    background: url("../images/likeIcon.png");
-    width: 24px;
-    height: 22px;
-    display: block;
-}
-
-.notificationIcon a {
-    background: url("../images/NotificationIcon.png");
-    width: 21px;
-    height: 24px;
-    display: block;
-}
-
-.basketIcon a {
-    background: url("../images/BasketIcon.png");
-    width: 20px;
-    height: 22px;
-    display: block;
-}
-
-.basketIcon a .basketCount {
-    text-indent: 0px;
-    background: #1D24AA;
-    border-radius: 20px;
-    height: 19px;
-    width: 19px;
-    position: absolute;
-    margin: -33px 0 0 14px;
-    color: #fff;
-    font-size: 11px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.likeIcon a:hover,
-.notificationIcon a:hover,
-.basketIcon a:hover {
-    opacity: 0.5;
-}
-
-.userManagement {
-    margin: 10px 0 0 0;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.userManagement .shortName {
-    background: #F1F0F5;
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    font-size: 14px;
-    color: #141414;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-}
-
-.userManagement .userInfo {
-    font-size: 14px;
-    color: #2A2A2A;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 15px;
-}
-
-.userManagement .userInfo span {
-    font-weight: normal;
-}
-
-header .nav-link {
-    color: #F5F5F5;
-    font-size: 14px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-header .nav-link .transactions {
-    background: url('../images/icon/menu/layout-dashboard.png') no-repeat 0 2px;
-    padding-left: 30px !important;
-}
-
-header .nav-link .productAndPrice {
-    background: url('../images/icon/menu/analytics-pie-1.png') no-repeat 0 2px;
-    padding-left: 30px !important;
-}
-
-header .nav-link .shop {
-    background: url('../images/icon/menu/shop.png') no-repeat 0 2px;
-    padding-left: 30px !important;
-}
-
-header .nav-link .refunds {
-    background: url('../images/icon/menu/shopping-basket-1.png') no-repeat 0 2px;
-    padding-left: 30px !important;
-}
-
-header .nav-link .announcements {
-    background: url('../images/icon/menu/auto-shopping-basket-1.png') no-repeat 0 2px;
-    padding-left: 30px !important;
-}
-
-header .nav-link .activites {
-    background: url('../images/icon/menu/settings-slider.png') no-repeat 0 2px;
-    padding-left: 30px !important;
-}
-
-header .nav-link .supportAndReport {
-    background: url('../images/icon/menu/poll-box.png') no-repeat 0 2px;
-    padding-left: 30px !important;
-}
-
-header .navbar-nav {
-    flex: 1;
-}
-
-.nav-link:focus,
-.nav-link:hover,
-.nav-link.active {
-    background: #2E36DC;
-    border-radius: 5px;
-    color: #F5F5F5;
-}
-
-
-/*********** END HEADER ***************/
-
-.content {
-    margin: 0;
-    min-height: 500px;
-}
-
-
-/*********** FOOTER ***************/
-
-footer {
-    margin: 0;
-    background: url("../images/footerBg.png") repeat-x;
-    width: 100%;
-    height: 608px;
-}
-
-footer .container {
-    width: 1096px;
-}
-
-footer .footerTop {
-    width: 100%;
-    height: 75px;
-}
-
-footer .footerTop .footerNotification {
-    background: url("../images/wavingHand.png") no-repeat;
-    font-family: 'Quicksand', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    padding-left: 30px;
-    color: #fff;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    margin-top: 24px;
-}
-
-footer .footerTop .footerButtonMain {
-    width: 189px;
-    height: 45px;
-    background: #FFFFFF;
-    border-radius: 5px;
-    margin-top: 13px;
-    padding: 12px 25px;
-}
-
-footer .footerTop .footerButtonMain .footerButton {
-    font-size: 14px;
-    color: #1D24AA;
-    background: url("../images/icon/bi_arrow-right.png") no-repeat right;
-    margin: 0;
-}
-
-span.bold {
-    font-weight: bold;
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-.displayFlex {
-    display: flex;
-}
-
-footer .footerContent {
-    height: 456px;
-    margin-top: 50px;
-}
-
-footer .footerContent .fCategory {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
-}
-
-footer .footerContent .fCategory .fCatTitle {
-    margin: 0;
-    text-transform: uppercase;
-    color: #1D24AA;
-}
-
-footer .footerContent .fCategory .fCatList {
-    margin: 10px 0 0;
-    width: 100%;
-}
-
-footer .footerContent .fCategory .fCatList ul {
-    list-style: none;
-    display: block;
-    padding-left: 0px;
-}
-
-footer .footerContent .fCategory .fCatList ul li a {
-    color: #454545;
-    padding-bottom: 7px;
-    display: block;
-}
-
-footer .footerContent .fCategory .fCatList ul li a:hover {
-    color: #1D24AA;
-    text-decoration: underline;
-}
-
-footer .footerBottom .container {
-    width: 1096px;
-}
-
-footer .footerBottom {
-    width: 100%;
-    margin: auto;
-    height: 60px;
-    padding-top: 20px;
-    background-color: #fff;
-}
-
-footer .footerBottom .footerLogo {
-    background: url("../images/secLogoFooter.png") no-repeat;
-    width: 34px;
-    height: 37px;
-    text-indent: -9999px;
-    display: block;
-    margin-top: 7px;
-}
-
-footer .footerBottom .footerCopyright {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 14px;
-    color: #000000;
-    margin-top: 14px;
-    text-align: right;
-}
-
-span.blue {
-    color: #1D24AA;
-}
-
-
-/*********** END FOOTER ***************/
+    .clearBoth {
+        clear: both;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    body,
+    html {
+        font-family: 'Quicksand', sans-serif;
+    }
+    /*********** HEADER ***************/
+    
+    header {
+        margin: 0;
+        background: url("../images/headerBg.png") repeat-x;
+        width: 100%;
+        height: 120px;
+    }
+    
+    header .container {
+        width: 1096px;
+    }
+    
+    .headerTop {
+        height: 64px;
+    }
+    
+    .headerBottom {
+        height: 54px;
+    }
+    
+    .secLogo a {
+        background: url('../images/secLogo.png') no-repeat;
+        padding-left: 58px;
+        padding-top: 14px;
+        height: 46px;
+        font-family: 'Quicksand', sans-serif;
+        color: #1D24AA;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 10px;
+        display: block;
+    }
+    
+    .search {
+        margin: 5px 0 0 0;
+    }
+    
+    button.search {
+        background: url("../images/search.png") no-repeat center;
+        text-indent: -9999px;
+        height: 40px;
+        width: 40px;
+        border: none;
+        position: relative;
+        z-index: 1000;
+    }
+    
+    input.search {
+        padding-left: 50px;
+        margin-left: -50px;
+        width: 90%;
+        border: 1px solid #EDEDED;
+        border-radius: 5px;
+        height: 40px;
+        font-size: 14px;
+        color: #2A2A2A;
+    }
+    
+    input.search:focus {
+        border-color: #1D24AA;
+        box-shadow: none;
+        outline: 0 none;
+    }
+    
+    input.search:hover {
+        border-color: #ccc;
+    }
+    
+    .headerIcon {
+        float: left;
+        text-indent: -9999px;
+        margin: 20px 0 0 30px;
+    }
+    
+    .likeIcon a {
+        background: url("../images/likeIcon.png");
+        width: 24px;
+        height: 22px;
+        display: block;
+    }
+    
+    .notificationIcon a {
+        background: url("../images/NotificationIcon.png");
+        width: 21px;
+        height: 24px;
+        display: block;
+    }
+    
+    .basketIcon a {
+        background: url("../images/BasketIcon.png");
+        width: 20px;
+        height: 22px;
+        display: block;
+    }
+    
+    .basketIcon a .basketCount {
+        text-indent: 0px;
+        background: #1D24AA;
+        border-radius: 20px;
+        height: 19px;
+        width: 19px;
+        position: absolute;
+        margin: -33px 0 0 14px;
+        color: #fff;
+        font-size: 11px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .likeIcon a:hover,
+    .notificationIcon a:hover,
+    .basketIcon a:hover {
+        opacity: 0.5;
+    }
+    
+    .userManagement {
+        margin: 10px 0 0 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .userManagement .shortName {
+        background: #F1F0F5;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #141414;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .userManagement .userInfo {
+        font-size: 14px;
+        color: #2A2A2A;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 15px;
+    }
+    
+    .userManagement .userInfo span {
+        font-weight: normal;
+    }
+    
+    header .nav-link {
+        color: #F5F5F5;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    header .nav-link .transactions {
+        background: url('../images/icon/menu/layout-dashboard.png') no-repeat 0 2px;
+        padding-left: 30px !important;
+    }
+    
+    header .nav-link .productAndPrice {
+        background: url('../images/icon/menu/analytics-pie-1.png') no-repeat 0 2px;
+        padding-left: 30px !important;
+    }
+    
+    header .nav-link .shop {
+        background: url('../images/icon/menu/shop.png') no-repeat 0 2px;
+        padding-left: 30px !important;
+    }
+    
+    header .nav-link .refunds {
+        background: url('../images/icon/menu/shopping-basket-1.png') no-repeat 0 2px;
+        padding-left: 30px !important;
+    }
+    
+    header .nav-link .announcements {
+        background: url('../images/icon/menu/auto-shopping-basket-1.png') no-repeat 0 2px;
+        padding-left: 30px !important;
+    }
+    
+    header .nav-link .activites {
+        background: url('../images/icon/menu/settings-slider.png') no-repeat 0 2px;
+        padding-left: 30px !important;
+    }
+    
+    header .nav-link .supportAndReport {
+        background: url('../images/icon/menu/poll-box.png') no-repeat 0 2px;
+        padding-left: 30px !important;
+    }
+    
+    header .navbar-nav {
+        flex: 1;
+    }
+    
+    .nav-link:focus,
+    .nav-link:hover,
+    .nav-link.active {
+        background: #2E36DC;
+        border-radius: 5px;
+        color: #F5F5F5;
+    }
+    /*********** END HEADER ***************/
+    /*********** CONTENT ***************/
+    
+    .content {
+        margin: 0;
+        min-height: 3100px;
+        height: auto;
+    }
+    
+    .content .container {
+        width: 1096px;
+    }
+    
+    .content .home {
+        height: auto;
+        width: 100%;
+    }
+    
+    .content .home .homePage {
+        float: left;
+        width: 720px;
+        height: 400px;
+    }
+    
+    .content .home .homePage2 {
+        float: left;
+    }
+    
+    .content .home .ExploreButton a {
+        color: #1D24AA;
+    }
+    
+    .content .home .homePage .UlkerProductImage {
+        float: left;
+        background: url("../images/UlkerProductImage.png");
+        width: 129px;
+        height: 200px;
+        margin-top: 30px;
+        display: block;
+    }
+    
+    .content .home .homePage .UlkerIcon {
+        background: url("../images/UlkerIcon.png");
+        width: 50px;
+        height: 16px;
+        display: block;
+    }
+    
+    .content .home .homePage .UlkerNews {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 13px;
+        width: 396px;
+    }
+    
+    .content .home .homePage .UlkerParagraph {
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 25px;
+        width: 326px;
+        color: #666666;
+    }
+    
+    .content .home .homePage .ExploreButtonMain {
+        width: 189px;
+        height: 45px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #1D24AA;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-bottom: 7px;
+    }
+    
+    .content .home .ExploreButtonText {
+        font-size: 14px;
+        color: #1D24AA;
+        font-weight: 500;
+        float: left;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+    
+    .content .home .homePage .ExploreButtonArrow {
+        float: right;
+        background: url("../images/icon/bi_arrow-right.png") no-repeat;
+        width: 1px;
+        height: 11px;
+        padding-right: 50px;
+        margin-top: 13px;
+    }
+    
+    .content .home .homePage .SmallNote {
+        font-weight: 400;
+        font-size: 12px;
+        color: #858585;
+        margin-top: 7px;
+    }
+    
+    .content .home .notifications {
+        float: right;
+        height: 400px;
+        width: 344px;
+    }
+    
+    .content .home .notifications .notificationIcon2 {
+        float: left;
+        background: url("../images/NotificationIcon2.png");
+        width: 34px;
+        align-items: center;
+        height: 34px;
+    }
+    
+    .content .home .notifications .notificationTitle {
+        float: left;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        color: #000000;
+        padding-left: 8px;
+        padding-top: 4px;
+    }
+    
+    .content .home .notifications .moreButton a {
+        float: right;
+        text-decoration: underline;
+        color: #141414;
+        font-size: 12px;
+        font-weight: 500;
+        padding-top: 8px;
+    }
+    
+    .content .home .notifications .announcementArea {
+        height: 270px;
+        overflow: auto;
+        width: 100%;
+    }
+    
+    .content .home .notifications .announcementDate {
+        font-size: 12px;
+        font-weight: 500;
+        color: #1D24AA;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+    
+    .content .home .notifications .announcementTitle {
+        font-size: 14px;
+        font-weight: 600;
+        color: #2A2A2A;
+    }
+    
+    .content .home .notifications .announcementContent {
+        font-size: 14px;
+        font-weight: 400;
+        color: #858585;
+        margin-top: 8px;
+    }
+    
+    .content .products {
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .content .products .cCategory {
+        font-family: 'Quicksand', sans-serif;
+        float: right;
+    }
+    
+    .content .products .cCategory .cCatTitle {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        color: #0A0B0A;
+    }
+    
+    .content .products .cCategory .cCatList {
+        margin: 8px 0 0;
+        width: 100%;
+    }
+    
+    .content .products .cCategory .cCatList ul {
+        list-style: none;
+        display: block;
+        padding-left: 0px;
+        font-size: 14px;
+    }
+    
+    .content .products .cCategory .cCatList ul li a {
+        color: #889688;
+        padding-bottom: 5px;
+        display: block;
+    }
+    
+    .content .products .cCategory .cCatList ul li a:hover {
+        color: #1D24AA;
+        text-decoration: underline;
+    }
+    
+    .content .products .cCategory .cButton a {
+        font-size: 14px;
+        font-weight: 500;
+        color: #0A0B0A;
+        padding-bottom: 50px;
+        display: block;
+        text-decoration: underline;
+    }
+    
+    .content .Icon {
+        padding-left: 5px;
+    }
+    
+    .CleaningIcon {
+        float: left;
+        background: url("../images/CleaningIcon.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    
+    .FruitsIcon {
+        float: left;
+        background: url("../images/FruitsIcon.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    
+    .MilkIcon {
+        float: left;
+        background: url("../images/MilkIcon.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    
+    .PastaIcon {
+        float: left;
+        background: url("../images/PastaIcon.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    
+    .DrinkIcon {
+        float: left;
+        background: url("../images/DrinkIcon.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    
+    .MeatIcon {
+        float: left;
+        background: url("../images/MeatIcon.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    
+    .PaperIcon {
+        float: left;
+        background: url("../images/PaperIcon.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    
+    .BabyIcon {
+        float: left;
+        background: url("../images/BabyIcon.png");
+        width: 80px;
+        height: 80px;
+        display: block;
+    }
+    
+    .content .title {
+        float: left;
+        font-size: 28px;
+        color: #000000;
+    }
+    
+    .content .sectionHeader {
+        width: 100%;
+    }
+    
+    .content .seeAll a {
+        float: right;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: underline;
+        color: #2A2A2A;
+    }
+    
+    .content .row {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .content .chosenForYou .chosenDate {
+        font-weight: 500;
+        font-size: 14px;
+        color: #000000;
+    }
+    
+    .content .chosenForYou .chosenImage {
+        margin-top: 42px;
+        margin-bottom: 13px;
+        background: url("../images/ilan.png");
+        width: 115px;
+        height: 161px;
+    }
+    
+    .content .discountBox {
+        font-weight: 500;
+        font-size: 12px;
+        background-color: #1D24AA;
+        color: #F4F5F4;
+        width: 79px;
+        height: 23px;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 2px;
+        margin-left: 117px;
+        margin-top: 26px;
+    }
+    
+    .content .discountTitle {
+        font-weight: 400;
+        font-size: 14px;
+        color: #1D201D;
+        margin-bottom: 7px;
+    }
+    
+    .content .discountPrice {
+        font-weight: 600;
+        font-size: 12px;
+        color: #1D24AA
+    }
+    
+    .content .petitBeurre {
+        background: url("../images/petitBeurre.png");
+        width: 167px;
+        height: 167px;
+        margin-top: 29px;
+        margin-bottom: 51px;
+    }
+    
+    .content .cola {
+        background: url("../images/cola.png");
+        width: 169px;
+        height: 167px;
+        margin-top: 29px;
+        margin-bottom: 51px;
+    }
+    
+    .content .tadim {
+        background: url("../images/tadim.png");
+        width: 143px;
+        height: 143px;
+        margin-top: 16px;
+        margin-bottom: 60px;
+    }
+    
+    .content .lowPriceText {
+        color: #2EC4B6;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 10px;
+        padding-left: 87px;
+    }
+    
+    .content .greyfruit {
+        background: url("../images/greyfruit.png");
+        width: 142px;
+        height: 142px;
+        margin-top: 95px;
+        margin-bottom: 60px;
+    }
+    
+    .content .yoghurt {
+        background: url("../images/yoghurt.png");
+        width: 156px;
+        height: 156px;
+        margin-top: 34px;
+        margin-bottom: 57px;
+    }
+    
+    .content .discount .firsat {
+        width: 344px;
+        height: 169px;
+    }
+    
+    .content .discount .firsat:hover {
+        background-color: #FFFED6;
+    }
+    
+    .content .discount .firsatTitle {
+        font-size: 28px;
+        width: 225px;
+        padding: 12px 0 15px 14px;
+        font-weight: 600;
+        float: left;
+    }
+    
+    .content .discount .firsatImage {
+        background: url("../images/perwoll2.png");
+        width: 100px;
+        height: 143px;
+        float: right;
+        margin-top: 14px;
+    }
+    
+    .content .discount .seeAllButton a {
+        font-size: 14px;
+        color: #1D24AA;
+        font-weight: 600;
+        text-decoration: underline;
+        padding-left: 15px;
+        position: relative;
+    }
+    
+    .content .discount .firsatTitle2 {
+        font-size: 28px;
+        width: 110px;
+        padding: 12px 0 15px 14px;
+        font-weight: 600;
+        float: left;
+    }
+    
+    .content .discount .firsatImageFriday {
+        background: url("../images/friday.png");
+        width: 196px;
+        height: 123px;
+        position: absolute;
+        margin: 50px 0 0 130px;
+        float: right;
+    }
+    
+    .content .discount .firsatImagePandemi {
+        background: url("../images/pandemi.png");
+        width: 165px;
+        height: 112px;
+        position: absolute;
+        margin: 50px 0 9px 145px;
+    }
+    /*********** CONTENT END **************/
+    /*********** FOOTER ***************/
+    
+    footer {
+        margin: 0;
+        background: url("../images/footerBg.png") repeat-x;
+        width: 100%;
+        height: 608px;
+    }
+    
+    footer .container {
+        width: 1096px;
+    }
+    
+    footer .footerTop {
+        width: 100%;
+        height: 75px;
+    }
+    
+    footer .footerTop .footerNotification {
+        background: url("../images/wavingHand.png") no-repeat;
+        font-family: 'Quicksand', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        padding-left: 30px;
+        color: #fff;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+    }
+    
+    footer .footerTop .footerButtonMain {
+        width: 189px;
+        height: 45px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        margin-top: 13px;
+        padding: 12px 25px;
+    }
+    
+    footer .footerTop .footerButtonMain .footerButton {
+        font-size: 14px;
+        color: #1D24AA;
+        background: url("../images/icon/bi_arrow-right.png") no-repeat right;
+        margin: 0;
+    }
+    
+    span.bold {
+        font-weight: bold;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    
+    span.bold2 {
+        font-weight: bold;
+    }
+    
+    .displayFlex {
+        display: flex;
+    }
+    
+    footer .footerContent {
+        height: 456px;
+        margin-top: 50px;
+    }
+    
+    footer .footerContent .fCategory {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 14px;
+    }
+    
+    footer .footerContent .fCategory .fCatTitle {
+        margin: 0;
+        text-transform: uppercase;
+        color: #1D24AA;
+    }
+    
+    footer .footerContent .fCategory .fCatList {
+        margin: 10px 0 0;
+        width: 100%;
+    }
+    
+    footer .footerContent .fCategory .fCatList ul {
+        list-style: none;
+        display: block;
+        padding-left: 0px;
+    }
+    
+    footer .footerContent .fCategory .fCatList ul li a {
+        color: #454545;
+        padding-bottom: 7px;
+        display: block;
+    }
+    
+    footer .footerContent .fCategory .fCatList ul li a:hover {
+        color: #1D24AA;
+        text-decoration: underline;
+    }
+    
+    footer .footerBottom .container {
+        width: 1096px;
+    }
+    
+    footer .footerBottom {
+        width: 100%;
+        margin: auto;
+        height: 60px;
+        padding-top: 20px;
+        background-color: #fff;
+    }
+    
+    footer .footerBottom .footerLogo {
+        background: url("../images/secLogoFooter.png") no-repeat;
+        width: 34px;
+        height: 37px;
+        text-indent: -9999px;
+        display: block;
+        margin-top: 7px;
+    }
+    
+    footer .footerBottom .footerCopyright {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 14px;
+        color: #000000;
+        margin-top: 14px;
+        text-align: right;
+    }
+    
+    span.blue {
+        color: #1D24AA;
+    }
+    /*********** END FOOTER ***************/
