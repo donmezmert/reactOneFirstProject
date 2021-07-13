@@ -216,7 +216,402 @@ header .navbar-nav {
 
 /*********** END HEADER ***************/
 
-.content { margin:0; min-height: 500px; }
+/**************Content****************/
+.content {
+    margin:0; 
+    min-height: 500px; 
+    width: 100%;
+}
+
+.mainDiv .content { 
+    margin: 0; 
+    min-height: 600px; 
+    width: 100%;  
+}  
+
+ .leftSide{
+    margin: 20px;
+    width: 750px ;
+    margin-right: 5px;
+}
+
+.leftSide img{
+    height: 400px !important;
+}
+
+.leftSide .ulkerIcon{
+    width: 49.39px;
+    height: 16px;
+    background: url("../images/image\ 24.png");
+    mix-blend-mode: darken;
+    margin: 20px;
+    margin-left: 5px;
+}
+
+.leftSide .text .ulker h2{
+    float: left;
+    text-align: left;
+    width: 396px;
+    height: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    color: #202020;
+}
+
+.leftSide .ulker p{
+    float: left;
+    text-align: left;
+    width: 326px;
+    height: 46px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #666666;
+    margin-top: 45px;
+    font-weight: lighter;
+ }
+ 
+
+.leftSide p span{
+    font-weight: 500;
+}
+
+.leftSide h2 span{
+    font-weight: bold;
+}
+
+.discover .btn{
+    margin-right: 450px;
+    margin-top: 10px;
+}
+
+
+.campaign{ 
+    width: 300px;
+    height: 10px;
+    font-family: 'Quicksand';
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.bigCircle{
+    width: 309px;
+    height: 309px;
+    background: url("../images/circle.png");
+    margin-left: 470px;
+    position:absolute;
+}
+
+.bigCircle .ulkerPackageImg{
+    width: 129px;
+    height: 200px;
+    background: url("../images/pack.png");
+    margin-left: 93px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.topContent .rightSide{
+    margin: 20px;
+    margin-left: 30px;
+    width: 350px;
+    height: 400px;
+    background-color: #EFFBFA;
+} 
+
+.leftSide  .carousel-caption{
+    left: 25px;
+    top: 25px;
+}
+
+.leftSide  .carousel-indicators{
+   margin-right: 570px;
+}
+
+.leftSide  .carousel-indicators [data-bs-target] {
+    width: 10px; 
+    height: 10px; 
+    cursor: pointer;
+    transition: opacity .6s ease;
+    border-radius: 50%; 
+    background-color: rgb(225, 225, 236) !important;
+}
+
+.leftSide  .carousel .carousel-indicators .active {
+    background-color: rgb(38, 38, 216) !important;
+    /* height: 10px;
+    width: 30px;
+    border-radius: 10px; */
+}
+
+.rightSide .tumLink{
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration-line: underline;
+    margin-top: 5px;
+}
+
+hr{
+    color: rgb(180, 191, 204);
+}
+
+.announcementArea{
+    height: 340px;
+    overflow: auto;
+}
+
+.announcementArea .announcementDate{
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D24AA;
+}
+
+.announcementArea .announcementTitle{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.announcementArea .announcementCont{
+    font-family:'Quicksand';
+    font-size: 14px;
+    line-height: 17px;
+    color: #858585;
+}
+
+.seeLink{
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-right: 90px !important;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A2A;
+}
+
+/******Middle Content part 2*********/
+
+.categories{
+    margin-top: 70px !important;
+}
+
+
+.options h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.options a{  
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color:#889688;
+}
+
+.options .tumLink{
+text-decoration-line: underline;
+color: #000;
+}
+
+/*********Middle content part 3******/
+
+.brochure{
+    width: 1280px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.brochureHeader h2{
+    margin-left: 45px;
+}
+
+.brochure img{
+    width: 115px;
+    height: 160px;
+}
+
+.brochure .card{
+    align-items: center;
+}
+
+.brochure .carousel-inner{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.carousel-indicators{
+    align-items: center;
+}
+ 
+.carousel-indicators [data-bs-target] {
+     width: 10px; 
+     height: 10px; 
+     cursor: pointer;
+     transition: opacity .6s ease;
+     border-radius: 50%; 
+     background-color: rgb(225, 225, 236) !important;
+}
+
+
+/*******Middle content part 4******/
+
+.discountHeader h2{
+    margin-left: 90px;
+}
+
+.card{
+    border: none;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin: 15px;
+}
+
+.card .imgGroup{
+    border: 1px solid #d8d5d5;
+    padding-right: 2px;
+    height: 274px;
+    width:200px;
+}
+.card .badge{
+    float: right;
+}
+
+.discountTag1{
+    background: #1D24AA;
+    border-radius: 5px;
+    color:#FFF;
+}
+
+.tagTwo{
+    top: -20px !important;
+    background: #EFFBFA;
+    border-radius: 5px;
+    color:#2EC4B6;
+}
+
+.discountTag2{
+    background: #FDEEED;
+    border-radius: 5px;
+    color:rgb(235, 8, 8);
+}
+
+.card .name{
+    width: 206px;
+    font-family: 'Quicksand';
+    font-size: 14px;
+}
+
+.price{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D24AA;
+    margin-top: 5px;
+}
+
+.imgGroup img{
+    max-width: 160px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.imgGroup .thirdImg{
+    height: 140px;
+    width:140px; 
+    margin-left: 30px; 
+    margin-bottom: 15px;
+}
+
+.imgGroup .lastImg{
+    width: 130px;
+    height: 209px; 
+    margin-left: 35px ;
+}
+
+
+/**********Middle part 5************/
+
+.group1 , .group2 , .group3{
+    width: 344px;
+    height: 169px;
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.group1{
+    background-color: #FFFED6;
+    background-image:url("../images/group1.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-position: 200px;
+}
+
+.group2{
+    background: #FDEEED;
+    background-image:url("../images/group2.png");
+    background-repeat: no-repeat;
+    background-position: 130px 40px;
+}
+
+.group3{
+    background: #EEEFFC;
+    background-image:url("../images/group3.png");
+    background-repeat: no-repeat;
+    background-position: 140px 45px;
+}
+
+.groupDiscount h4{
+    font-family: 'Quicksand';
+    font-weight: 580;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.groupDiscount h4:first-child{
+    margin-top: 10px;
+}
+
+
+.groupDiscount a{
+    margin: 10px;
+    margin-top: 30px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #1D24AA;
+}
+
+/******Middle content part 6********/
+.bestSellingHeader{
+    margin-top: 30px;
+}
+
+.bestSellingHeader h3{
+    margin-left: 90px;
+}
+
+.bestSelling{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/***************END CONTENT*********/
 
 /*********** FOOTER ***************/
 
