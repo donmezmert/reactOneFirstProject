@@ -281,6 +281,33 @@ header .navbar-nav {
     border-radius: 5px;
 }
 
+.carousel-item{
+    margin-left: 20px;
+}
+
+.carouselTitle{
+    margin-top:10px;
+}
+
+.carouselImage{
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner .btn-outline-primary {
+    color: #1D24AA;
+    border-color: #1D24AA;
+}
+
+
+.carousel-inner .btn-outline-primary:hover {
+    color: white;
+    background-color: #1D24AA;
+    border-color: white;
+}
+
+
+
 .content .container .contentTop .row .col2{
     max-width: 340px;
     width: 340px;
