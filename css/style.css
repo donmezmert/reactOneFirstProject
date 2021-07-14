@@ -1,5 +1,3 @@
-
-
 .clearBoth {
     clear: both;
 }
@@ -47,6 +45,7 @@ header .container {
     line-height: 18px;
     margin-top: 10px;
     display: block;
+    text-decoration: none;
 }
 
 .search {
@@ -218,24 +217,28 @@ header .navbar-nav {
 
 /*********** END HEADER ***************/
 
+
 /*********** CONTENT AREA ***************/
 
-.content { margin:0; min-height: 500px; }
+.content {
+    margin: 0;
+    min-height: 500px;
+}
 
 #content1 {
     width: 1096px;
 }
 
-#content1 .row{
+#content1 .row {
     height: 100%;
 }
 
-#content1 .col-7{
-    background: #EFFBFA ;
+#content1 .col-7 {
+    background: #EFFBFA;
     border-radius: 5px;
 }
 
-#productCarousel .carousel-item{
+#productCarousel .carousel-item {
     height: 350px;
 }
 
@@ -244,35 +247,34 @@ header .navbar-nav {
     bottom: -30px;
 }
 
-#productCarousel .carousel-indicators .active{
-
+#productCarousel .carousel-indicators .active {
     background: #1D24AA;
     height: 10px;
     width: 30px;
     border-radius: 10px;
-    
 }
-#productCarousel .carousel-indicators li{
+
+#productCarousel .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
     background: #FFF;
 }
 
-#productCarousel .carouselImage{
+#productCarousel .carouselImage {
     background: #FFF;
     border-radius: 100%;
-    height: 220px;
-    width: 220px;
-    margin: auto;
-}
-#productCarousel .carouselImage img{
-    height: 140px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     margin: auto;
 }
 
-#productCarousel .carouselButtonMain { 
+#productCarousel .carouselImage img {
+    height: auto;
+    width: auto;
+}
+
+#productCarousel .carouselButtonMain {
     width: 189px;
     height: 45px;
     background: transparent;
@@ -287,37 +289,33 @@ header .navbar-nav {
     color: #1D24AA;
     background: url("../images/icon/bi_arrow-right.png") no-repeat right;
     margin: 0;
+    text-decoration: none;
 }
 
-#productCarousel .note{
+#productCarousel .note {
     font-size: 12px;
     color: #858585;
 }
 
-.content .announcements{
+.content .announcements {
     background: #EFFBFA;
     border-radius: 5px;
     height: 398px;
     border-left: 30px solid #fff;
 }
 
-.content .announcements .title{
+.content .announcements .title {
     display: flex;
 }
 
-.content .announcements .title img{
-    width: 34px;
-    height: 34px;
-    order: 1;
-}
-
-.content .announcements .title h4{
+.content .announcements .title h4 {
     order: 2;
     margin-left: 5px;
     margin-top: 1.5px;
+    background: url("../images/icon/announcementIcon.png") no-repeat left;
 }
 
-.content .announcements .title a{
+.content .announcements .title a {
     order: 3;
     margin-left: auto;
     margin-top: 7px;
@@ -325,7 +323,7 @@ header .navbar-nav {
     font-size: 12px;
 }
 
-.content .announcements .announcementBody{
+.content .announcements .announcementBody {
     overflow: auto;
     height: 320px;
 }
@@ -335,23 +333,24 @@ header .navbar-nav {
     opacity: 1 !important;
 }
 
-.content .announcements .announcementBody .announcementDate{
+.content .announcements .announcementBody .announcementDate {
     color: #1D24AA;
     font-size: 12px;
     font-weight: 500;
 }
 
-.content .announcements .announcementBody .announcementTitle{
-    color:#2A2A2A;
+.content .announcements .announcementBody .announcementTitle {
+    color: #2A2A2A;
     font-size: 14px;
     font-weight: 600;
 }
 
-.content .announcements .announcementBody .announcementText{
+.content .announcements .announcementBody .announcementText {
     color: #858585;
     font-size: 14px;
     font-weight: 400;
 }
+
 
 /********CONTENT AREA 2********/
 
@@ -359,15 +358,15 @@ header .navbar-nav {
     width: 1096px;
 }
 
-#content2 .row{
+#content2 .row {
     height: 100%;
 }
 
-#content2 .category .col-8{
+#content2 .category .col-8 {
     padding: 10px 0 0 30px;
 }
 
-#content2 .category h4{
+#content2 .category h4 {
     color: #0A0B0A;
     font-size: 18px;
     font-weight: 500;
@@ -379,45 +378,45 @@ header .navbar-nav {
     list-style: none;
 }
 
-
-
-#content2 .category .seeAll{
+#content2 .category .seeAll {
     margin-top: 10px;
     color: #141414;
     font-size: 14px;
     text-decoration: underline;
 }
 
-#content2 .category li a{
+#content2 .category li a {
     color: #889688;
     font-size: 14px;
     font-weight: 500;
 }
 
+
 /********CONTENT AREA 3********/
 
-#content3 img{
-    height: 244.5px;
-    width: 234px;
+#content3 img {
+    height: auto;
+    width: auto;
 }
 
-#content3 a{
+#content3 a {
     color: #141414;
     text-decoration: underline;
     font-size: 14px;
 }
 
+
 /********CONTENT AREA 4********/
 
 #content4 a,
-#content6 a{
+#content6 a {
     color: #141414;
     text-decoration: underline;
     font-size: 14px;
 }
 
 #content4 .discountItem .itemBody,
-#content6 .discountItem .itemBody{
+#content6 .discountItem .itemBody {
     width: 200px;
     height: 270px;
     border: 1px solid #EAECEA;
@@ -425,25 +424,25 @@ header .navbar-nav {
 }
 
 #content4 .discountItem .itemImage,
-#content6 .discountItem .itemImage{
+#content6 .discountItem .itemImage {
     margin-top: 50px;
     display: flex;
 }
 
 #content4 .discountItem .itemImage img,
-#content6 .discountItem .itemImage img{
+#content6 .discountItem .itemImage img {
     margin: auto;
 }
 
 #content4 .itemRightTop,
-#content6 .itemRightTop{
+#content6 .itemRightTop {
     display: flex;
     flex-direction: column;
     height: 20px;
 }
 
 #content4 .discountAmount,
-#content6 .discountAmount{
+#content6 .discountAmount {
     color: #F4F5F4;
     background-color: #1D24AA;
     font-size: 12px;
@@ -456,7 +455,7 @@ header .navbar-nav {
 }
 
 #content4 .discountNotification,
-#content6 .discountNotification{
+#content6 .discountNotification {
     color: #2EC4B6;
     background-color: #EFFBFA;
     font-size: 12px;
@@ -469,7 +468,7 @@ header .navbar-nav {
 }
 
 #content4 .discountLeft,
-#content6 .discountLeft{
+#content6 .discountLeft {
     color: #E12219;
     background-color: #FDEEED;
     font-size: 12px;
@@ -482,25 +481,27 @@ header .navbar-nav {
 }
 
 #content4 .itemName,
-#content6 .itemName{
+#content6 .itemName {
     color: #1D201D;
     font-size: 14px;
     font-weight: 400;
 }
 
 #content4 .itemPrice,
-#content6 .itemPrice{
-    color:#1D24AA;
+#content6 .itemPrice {
+    color: #1D24AA;
     font-size: 12px;
     font-weight: 600;
 }
 
+
 /********CONTENT AREA 4********/
-#content5{
+
+#content5 {
     height: 200px;
 }
 
-#content5 .campaign{
+#content5 .campaign {
     height: 169px;
     width: 344px;
     border-radius: 8px;
@@ -511,28 +512,28 @@ header .navbar-nav {
     flex-direction: column;
 }
 
-#content5 #campaign1{
+#content5 #campaign1 {
     background-color: #FFFED6;
-    background-image: url("../images/icon/campaign/campaign1.png") ;
+    background-image: url("../images/icon/campaign/campaign1.png");
     background-repeat: no-repeat;
     background-position: 200px;
 }
 
-#content5 #campaign2{
+#content5 #campaign2 {
     background-color: #FDEEED;
-    background-image: url("../images/icon/campaign/campaign2.png") ;
+    background-image: url("../images/icon/campaign/campaign2.png");
     background-repeat: no-repeat;
     background-position: 130px 35px;
 }
 
-#content5 #campaign3{
+#content5 #campaign3 {
     background-color: #EEEFFC;
-    background-image: url("../images/icon/campaign/campaign3.png") ;
+    background-image: url("../images/icon/campaign/campaign3.png");
     background-repeat: no-repeat;
     background-position: 150px 45px;
 }
 
-#content5 .campaign a{
+#content5 .campaign a {
     font-size: 14px;
     font-weight: 500;
     color: #1D24AA;
@@ -540,30 +541,36 @@ header .navbar-nav {
 }
 
 
-
-
 /*********** END CONTENT AREA ***************/
+
 
 /*********** FOOTER ***************/
 
-footer { 
-    margin: 0;  
+footer {
+    margin: 0;
     background: url("../images/footerBg.png") repeat-x;
     width: 100%;
-    height: 608px; 
+    height: 608px;
 }
 
-footer .container { width: 1096px; }
-footer .footerTop { width: 100%; height: 75px; }
-footer .footerTop .footerNotification { 
+footer .container {
+    width: 1096px;
+}
+
+footer .footerTop {
+    width: 100%;
+    height: 75px;
+}
+
+footer .footerTop .footerNotification {
     background: url("../images/icon/hands.png") no-repeat;
     background-size: 32px;
-    background-position-y : 5px;
-    background-position-x : 15px;
+    background-position-y: 5px;
+    background-position-x: 15px;
     font-family: 'Quicksand', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 22px; 
+    font-size: 22px;
     padding-left: 60px;
     color: #fff;
     height: 45px;
@@ -571,7 +578,7 @@ footer .footerTop .footerNotification {
     margin-top: 12px;
 }
 
-footer .footerTop .footerButtonMain { 
+footer .footerTop .footerButtonMain {
     width: 189px;
     height: 45px;
     background: #FFFFFF;
@@ -587,32 +594,78 @@ footer .footerTop .footerButtonMain .footerButton {
     margin: 0;
 }
 
-span.bold { font-weight: bold; }
-.displayFlex { display: flex; }
-
-footer .footerContent { margin: 0; height: 477px; padding-top: 20px; }
-footer .footerContent .fCategory { margin: 0; font-family: 'Quicksand', sans-serif; font-size: 13px; }
-footer .footerContent .fCategory .fCatTitle { 
-    margin: 0;    
-    text-transform: uppercase;
-    color: #1D24AA; 
+span.bold {
+    font-weight: bold;
 }
 
-footer .footerContent .fCategory .fCatList { margin: 10px 0 0 0; }
-footer .footerContent .fCategory .fCatList ul { list-style: none; display: block; padding-left:0px; }
-footer .footerContent .fCategory .fCatList ul li a { color: #454545; padding-bottom: 7px; display: block; }
-footer .footerContent .fCategory .fCatList ul li a:hover { color: #1D24AA; text-decoration: underline;}
+.displayFlex {
+    display: flex;
+}
 
-footer .footerBottom { width: 100%; height: 60px; }
-footer .footerBottom .footerLogo { background: url("../images/secLogoFooter.png") no-repeat; width: 34px; height: 34px; text-indent: -9999px; display: block; margin-top: 7px; }
-footer .footerBottom .footerCopyright { 
+footer .footerContent {
+    margin: 0;
+    height: 477px;
+    padding-top: 20px;
+}
+
+footer .footerContent .fCategory {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+footer .footerContent .fCategory .fCatTitle {
+    margin: 0;
+    text-transform: uppercase;
+    color: #1D24AA;
+}
+
+footer .footerContent .fCategory .fCatList {
+    margin: 10px 0 0 0;
+}
+
+footer .footerContent .fCategory .fCatList ul {
+    list-style: none;
+    display: block;
+    padding-left: 0px;
+}
+
+footer .footerContent .fCategory .fCatList ul li a {
+    color: #454545;
+    padding-bottom: 7px;
+    display: block;
+}
+
+footer .footerContent .fCategory .fCatList ul li a:hover {
+    color: #1D24AA;
+    text-decoration: underline;
+}
+
+footer .footerBottom {
+    width: 100%;
+    height: 60px;
+}
+
+footer .footerBottom .footerLogo {
+    background: url("../images/secLogoFooter.png") no-repeat;
+    width: 34px;
+    height: 34px;
+    text-indent: -9999px;
+    display: block;
+    margin-top: 7px;
+}
+
+footer .footerBottom .footerCopyright {
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
-    color: #000000; 
+    color: #000000;
     margin-top: 14px;
     text-align: right;
 }
 
-span.blue { color: #1D24AA; }
+span.blue {
+    color: #1D24AA;
+}
+
 
 /*********** END FOOTER ***************/
