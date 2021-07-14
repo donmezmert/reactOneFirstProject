@@ -223,7 +223,7 @@ header .navbar-nav {
 }
 
 .content .header .carousel .slider {
-    background: url("/images/content/top/Vector.svg") no-repeat;
+    background: url("../images/content/top/Vector.svg") no-repeat;
 }
 
 .content .header .carousel .carousel-inner .imagePart {
@@ -254,12 +254,12 @@ header .navbar-nav {
 }
 
 .content .header .row .navbar-brand {
-    background: url("/images/content/top/award.svg") no-repeat 16px;
+    background: url("../images/content/top/award.svg") no-repeat 16px;
     padding-left: 58px !important;
 }
 
 .content .header .row .scrolltext .date {
-    background: url("/images/content/top/Ellipse\ 23.svg") no-repeat 15px;
+    background: url("../images/content/top/Ellipse\ 23.svg") no-repeat 15px;
     padding-left: 35px;
     font-size: 12px;
     color: #1D24AA;
@@ -323,35 +323,35 @@ header .navbar-nav {
 }
 
 .Temizlik {
-    background: url("/images/content/middle/Temizlik.svg") no-repeat center;
+    background: url("../images/content/middle/Temizlik.svg") no-repeat center;
 }
 
 .SebzeMeyve {
-    background: url("/images/content/middle/SebzeMeyve.svg") no-repeat center;
+    background: url("../images/content/middle/SebzeMeyve.svg") no-repeat center;
 }
 
 .Süt {
-    background: url("/images/content/middle/Süt.svg") no-repeat center;
+    background: url("../images/content/middle/Süt.svg") no-repeat center;
 }
 
 .Gıda {
-    background: url("/images/content/middle/Gıda.svg") no-repeat center;
+    background: url("../images/content/middle/Gıda.svg") no-repeat center;
 }
 
 .İçecek {
-    background: url("/images/content/middle/İçecek.svg") no-repeat center;
+    background: url("../images/content/middle/İçecek.svg") no-repeat center;
 }
 
 .Et {
-    background: url("/images/content/middle/Et.svg") no-repeat center;
+    background: url("../images/content/middle/Et.svg") no-repeat center;
 }
 
 .Kağıt {
-    background: url("/images/content/middle/Kağıt.svg") no-repeat center;
+    background: url("../images/content/middle/Kağıt.svg") no-repeat center;
 }
 
 .Bebek {
-    background: url("/images/content/middle/Bebek.svg") no-repeat center;
+    background: url("../images/content/middle/Bebek.svg") no-repeat center;
 }
 
 .sliderHeader {
@@ -455,31 +455,31 @@ header .navbar-nav {
 
 .content .contentBottom .contentBottomBody .product1 .productimage1 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product1.svg") no-repeat;
+    background: url("../images/content/bottom/product1.svg") no-repeat;
     background-position: center;
 }
 
 .content .contentBottom .contentBottomBody .product2 .productimage2 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product2.svg") no-repeat;
+    background: url("../images/content/bottom/product2.svg") no-repeat;
     background-position: center;
 }
 
 .content .contentBottom .contentBottomBody .product3 .productimage3 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product3.svg") no-repeat;
+    background: url("../images/content/bottom/product3.svg") no-repeat;
     background-position: center;
 }
 
 .content .contentBottom .contentBottomBody .product4 .productimage4 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product4.svg") no-repeat;
+    background: url("../images/content/bottom/product4.svg") no-repeat;
     background-position: center;
 }
 
 .content .contentBottom .contentBottomBody .product5 .productimage5 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product5.svg") no-repeat;
+    background: url("../images/content/bottom/product5.svg") no-repeat;
     background-position: center;
 }
 
@@ -490,31 +490,31 @@ header .navbar-nav {
 
 .content .contentBottom .contentBottomBody .product6 .productimage6 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product6.svg") no-repeat;
+    background: url("../images/content/bottom/product6.svg") no-repeat;
     background-position: center;
 }
 
 .content .contentBottom .contentBottomBody .product7 .productimage7 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product7.svg") no-repeat;
+    background: url("../images/content/bottom/product7.svg") no-repeat;
     background-position: center;
 }
 
 .content .contentBottom .contentBottomBody .product8 .productimage8 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product8.svg") no-repeat;
+    background: url("../images/content/bottom/product8.svg") no-repeat;
     background-position: center;
 }
 
 .content .contentBottom .contentBottomBody .product9 .productimage9 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product9.svg") no-repeat;
+    background: url("../images/content/bottom/product9.svg") no-repeat;
     background-position: center;
 }
 
 .content .contentBottom .contentBottomBody .product10 .productimage10 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/product10.svg") no-repeat;
+    background: url("../images/content/bottom/product10.svg") no-repeat;
     background-position: center;
 }
 
@@ -604,19 +604,19 @@ header .navbar-nav {
 
 .content .contentBottom .contentBottomfooter .footerBottom .product11 .productimage11 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/footer/bottom/product11.svg") no-repeat;
+    background: url("../images/content/bottom/footer/bottom/product11.svg") no-repeat;
     background-position: top;
 }
 
 .content .contentBottom .contentBottomfooter .footerBottom .product12 .productimage12 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/footer/bottom/product12.svg") no-repeat;
+    background: url("../images/content/bottom/footer/bottom/product12.svg") no-repeat;
     background-position: top;
 }
 
 .content .contentBottom .contentBottomfooter .footerBottom .product13 .productimage13 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/footer/bottom/product13.svg") no-repeat;
+    background: url("../images/content/bottom/footer/bottom/product13.svg") no-repeat;
     background-position: top;
 }
 
@@ -636,13 +636,13 @@ header .navbar-nav {
 
 .content .contentBottom .contentBottomfooter .footerBottom .product14 .productimage14 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/footer/bottom/product14.svg") no-repeat;
+    background: url("../images/content/bottom/footer/bottom/product14.svg") no-repeat;
     background-position: top;
 }
 
 .content .contentBottom .contentBottomfooter .footerBottom .product15 .productimage15 {
     text-indent: -9999px;
-    background: url("/images/content/bottom/footer/bottom/product15.svg") no-repeat;
+    background: url("../images/content/bottom/footer/bottom/product15.svg") no-repeat;
     background-position: top;
 }
 
