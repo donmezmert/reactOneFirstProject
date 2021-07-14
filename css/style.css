@@ -226,6 +226,26 @@ header .navbar-nav {
     height: 527px;
 }
 
+.carousel-indicators .active {
+    width:10px!important;
+    
+    background: url("../images/contentImages/Rectangle.png") no-repeat center center !important;
+    margin-right:0px!important;
+    margin-left:0px!important;
+    width: 30px !important;
+    border-radius: 5% !important;
+  }
+
+.carousel-indicators li {
+    width:10px!important;
+    height:10px!important;
+    margin-right:5px!important;
+    margin-left:5px!important;
+    border-radius:50%!important;
+    border:0!important;
+    
+  }
+
 .content-top .productPart {background: url(../images/contentImages/outerPlaceHolder.png) no-repeat center center;}
 
 /**********CONTENT TOP LEFT******/
