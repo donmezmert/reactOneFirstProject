@@ -216,18 +216,200 @@ header .navbar-nav {
 
 /*********** END HEADER ***************/
 
-.content { margin:0; min-height: 500px; }
+.content { margin:0; min-height: 500px; padding: 20px 0; }
 
-.content .banner { 
+.banner { 
     background: #EFFBFA;
     border-radius: 5px; 
     height: 400px;
     width: 100%;
 }
 
+.banner .productbg { 
+    background: #FFFFFF;
+    box-shadow: 10px 10px 14px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 259px;
+    width: 330px; 
+    height: 330px;
+    margin: 33px 25px 0 0;
+    text-align: center;
+    padding: 63px 0 0 0;
+}
 
 
+.banner .productbanner { 
+    margin: 0;
+    padding: 30px;
+}
 
+.banner .productbanner .plogo { margin: 35px 0 20px 0; }
+.banner .productbanner .ptitle { 
+                    font-family: 'Quicksand', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 28px;
+                    line-height: 35px;
+                    color: #202020;
+                    margin:15px 0;
+}
+
+.banner .productbanner .ptitle span { font-weight: 600; }
+
+.banner .productbanner .psubtitle { 
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 25px 0;
+    color: #666666;
+    font-weight: 500; 
+}
+
+.banner .productbanner .psubtitle span {
+    font-weight: 600;
+}
+
+.banner .productbanner .pbutton { 
+    width:180px; 
+    height: 45px; 
+    border: 1px solid #1D24AA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: url("../images/icon/bi_arrow-right.png") no-repeat 145px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 13px;
+
+    color: #1D24AA;
+}
+
+.banner .productbanner .pbutton:hover {
+    background: url("../images/icon/bi_arrow-right_white.png") no-repeat 145px #1D24AA;
+    color: #fff;   
+}
+
+.banner .productbanner .pdescription { 
+    margin: 15px 0 0 0;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: #858585; 
+}
+
+.announ { 
+    background: #EFFBFA;
+    border-radius: 5px;
+    height: 400px;
+    width: 344px;
+    padding: 15px 25px;
+}
+
+.announ .title {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    background: url("../images/icon/announcementIcon.png") no-repeat left;
+    padding: 4px 0 0 45px;
+    height: 34px;
+}
+
+.announ .seeAllButton a {
+    color: #141414;
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: underline;
+    display: block;
+    margin: 11px 0 0 0;
+}
+
+.announ .seeAllButton a:hover {
+    text-decoration: none;
+}
+
+.announ .aContent { margin: 25px 0 0 0; height: 300px; overflow: auto; }
+.announ .aContent .announList { margin: 0px 0 40px 0; }
+.announ .aContent .dateTitle { 
+    background: url("../images/icon/eclipseBlue.png") no-repeat left; 
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D24AA; 
+    padding: 0 0 0 20px;
+}
+
+.announ .aContent .aTitle { 
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2A2A2A;
+    margin: 14px 0;
+    text-align: justify;
+ }
+
+.announ .aContent .desc { 
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px; color: #858585; text-align: justify; }
+
+.divide { margin: 100px 0 0 0; }
+
+.categoryDivide { margin-bottom: 50px; }
+
+.categoryTitle { 
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0A0B0A;
+    margin-bottom:10px; 
+}
+
+.categoryList { margin:0; }
+.categoryList ul { list-style: none; display: block; padding-left: 0px; }
+.categoryList ul li a {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #889688;
+}
+
+.categoryButton a { 
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #0A0B0A;
+ }
+
+ .categoryButton a:hover {
+     text-decoration: none;
+ }
 
 
 /*********** FOOTER ***************/
