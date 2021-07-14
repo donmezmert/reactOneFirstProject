@@ -225,6 +225,13 @@ header .navbar-nav {
 
 }
 
+
+/* p1 - hovers */
+.content .container a:hover{
+    opacity: 0.60;
+}
+
+
 /*** PART 1 ***/
 .content .container .contentPart1{
 
